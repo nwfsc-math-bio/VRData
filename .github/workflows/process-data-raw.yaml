@@ -21,9 +21,10 @@ jobs:
 
       - name: Process data-raw
         run: |
-          Rscript -e 'a <- function(){1}'
-          Rscript -e 'a()'
-          Rscript -e 'process_data_raw()'
+          source("R/process_data_raw.R")
+          process_data_raw()
+        shell: Rscript {0}
+
 
       - name: Set up Git
         run: |
