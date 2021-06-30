@@ -8,4 +8,4 @@ It processes the csv file in `data-raw` folder into a `.rda` object in `data` an
 
 When the package is built, you can do ?Red-Fairy-River (say) to get the meta information.
 
-Note, you can run `process_data_raw()` locally, but the GitHub repo is set up with a GitHub Action to automatically run `process_data_raw()` whenever a push to `data-raw` happens.
+Note, you can run `process_data_raw()` locally, but the GitHub repo is set up with a GitHub Action to automatically run `process_data_raw()` whenever a push to `data-raw` happens. But I am not sure I have the workflow working yet. `process_data_raw()` works though.
