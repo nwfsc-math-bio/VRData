@@ -2,6 +2,8 @@
 #'
 #' Process's the Roxygen header on the csv files in data-raw into R files for each data set into
 #'  data folder and R folder
+#'
+#' @keywords internal
 #' @export
 process_data_raw <- function() {
   olddatafils <- list.files("data")
@@ -17,7 +19,13 @@ process_data_raw <- function() {
     headr <- thetext[isheader]
     dataname <- stringr::str_replace_all(stringr::str_sub(headr[1], 4), " ","-")
     footr <- paste0("#' @name ", dataname, "\n",
-                    "#' @docType data\n", "NULL\n")
+                    "#' @docType data\n",
+                    "#' @examples\n",
+                    "#' data('", dataname, "')\n",
+                    "#' library(ggplot2)\n",
+                    "#' ggplot(out, aes(x=BROOD_YEAR, y=SPAWNERS)) + geom_point(na.rm = TRUE) +\n",
+                    "#'   ggtitle('", dataname, "')\n",
+                    "NULL\n")
     cat(headr, sep="\n", footr, file=file.path("R", paste0(dataname, ".R")))
     out <- read.csv(filpath, skip=sum(isheader))
     save(out, file=file.path("data", paste0(dataname, ".rda")))
