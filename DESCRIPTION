@@ -9,6 +9,6 @@ Description: More about what it does (maybe more than one line)
 Imports: stringr
 License: What license is it under?
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
