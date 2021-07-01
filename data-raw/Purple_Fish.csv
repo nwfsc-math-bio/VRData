@@ -9,7 +9,8 @@
 #'   \item{FRACWILD}{Fracwild wild. This is assumed to be 1 for this population due to the lack of any nearby hatcheries.}
 #' }
 #' @author{Jenny John}
-#' @details Here are all the details.
+#' @details Here are all the details. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at sem massa. Phasellus ac nulla metus. Proin aliquet nisl libero, a varius urna mattis vitae. Fusce a sapien iaculis, aliquam mauris ac, maximus risus. Donec placerat leo a dolor accumsan laoreet. Vivamus cursus, mi id efficitur fringilla, massa enim semper lacus, posuere sagittis ante purus id nibh. Aenean at enim iaculis, elementum risus ut, tempus dui. Pellentesque vel tincidunt nisi, non suscipit turpis. Phasellus finibus non orci vel faucibus. Nullam placerat tellus et ipsum sagittis sollicitudin. Nullam accumsan, lorem et dictum suscipit, ante risus porta nisl, et volutpat mi mauris eleifend elit. Sed tristique finibus placerat. Integer at luctus dui, at imperdiet odio.
+#'
 BROOD_YEAR, SPAWNERS, FRACWILD
 1990, 100, 1
 1991, 200, 1
