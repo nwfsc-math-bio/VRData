@@ -15,7 +15,10 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v1
 
       - name: Install packages
-        run: Rscript -e 'install.packages("pkgdown")'
+        run: Rscript -e 'install.packages(c("pkgdown", "roxygen2"))'
+
+      - name: Update documentation
+        run: Rscript -e 'roxygen2::roxygenize()'
 
       - name: Build site
         run: Rscript -e 'pkgdown::build_site()'
@@ -25,7 +28,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
 
-      - name: Commit results
+      - name: Commit all changes
         run: |
           git add -A && git commit -m 'Build site' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
