@@ -15,8 +15,7 @@
 #' @examples
 #' data('Red-Fairy-River')
 #' library(ggplot2)
-#' ggplot(out, aes(x=BROOD_YEAR, y=SPAWNERS)) +
-#'       geom_point(na.rm = TRUE) +
-#'       ggtitle('Red-Fairy-River')
+#' ggplot(out, aes(x=BROOD_YEAR, y=SPAWNERS)) + geom_point(na.rm = TRUE) +
+#'   ggtitle('Red-Fairy-River')
 NULL
 
