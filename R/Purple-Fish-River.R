@@ -1,6 +1,6 @@
 #' Purple Fish River
 #'
-#' Redd counts from upper Blue Fish Creek.
+#' Redd counts from upper Purple Fish Creek.
 #'
 #' @format A csv file.
 #' \describe{
