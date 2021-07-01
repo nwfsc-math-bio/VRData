@@ -1,6 +1,6 @@
-#' Red Fairy River
+#' Red Fish River
 #'
-#' Redd counts taken at the weir below Green Fairy Creek.
+#' Redd counts taken at the weir below Green Fish Creek.
 #'
 #' @format A csv file.
 #' \describe{
@@ -10,12 +10,12 @@
 #' }
 #' @author{Jenny Johnson jenny@nooa.gov}
 #' @details Here are all the details.
-#' @name Red-Fairy-River
+#' @name Red-Fish-River
 #' @docType data
 #' @examples
-#' data('Red-Fairy-River')
+#' data('Red-Fish-River')
 #' library(ggplot2)
 #' ggplot(out, aes(x=BROOD_YEAR, y=SPAWNERS)) + geom_point(na.rm = TRUE) +
-#'   ggtitle('Red-Fairy-River')
+#'   ggtitle('Red-Fish-River')
 NULL
 
