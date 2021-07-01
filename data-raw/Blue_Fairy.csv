@@ -1,6 +1,6 @@
-#' Red Fairy River
+#' Blue Fairy River
 #'
-#' Redd counts taken at the weir below Green Fairy Creek.
+#' Redd counts from upper Blue Fairy Creek.
 #'
 #' @format A csv file.
 #' \describe{
@@ -10,13 +10,7 @@
 #' }
 #' @author{Jenny J.}
 #' @details Here are all the details.
-#' @name Red-Fairy-River
-#' @docType data
-#' @examples
-#' data('Red-Fairy-River')
-#' library(ggplot2)
-#' ggplot(out, aes(x=BROOD_YEAR, y=SPAWNERS)) +
-#'       geom_point(na.rm = TRUE) +
-#'       ggtitle('Red-Fairy-River')
-NULL
-
+BROOD_YEAR, SPAWNERS, FRACWILD
+1990, 100, 1
+1991, 200, 1
+1992, 1000, 1
