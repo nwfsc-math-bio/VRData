@@ -16,9 +16,6 @@ jobs:
       - name: Install packages
         run: Rscript -e 'install.packages("stringr")'
 
-      - name: Source function
-        run: Rscript -e 'source("R/process_data_raw.R")'
-
       - name: Process data-raw
         run: |
           source("R/process_data_raw.R")
