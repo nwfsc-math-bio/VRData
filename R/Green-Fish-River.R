@@ -1,6 +1,6 @@
-#' Blue Fairy River
+#' Green Fish River
 #'
-#' Redd counts from upper Blue Fairy Creek.
+#' Redd counts taken at the weir above Green and Red Fish Confluence.
 #'
 #' @format A csv file.
 #' \describe{
@@ -10,12 +10,12 @@
 #' }
 #' @author{Jenny J.}
 #' @details Here are all the details.
-#' @name Blue-Fairy-River
+#' @name Green-Fish-River
 #' @docType data
 #' @examples
-#' data('Blue-Fairy-River')
+#' data('Green-Fish-River')
 #' library(ggplot2)
 #' ggplot(out, aes(x=BROOD_YEAR, y=SPAWNERS)) + geom_point(na.rm = TRUE) +
-#'   ggtitle('Blue-Fairy-River')
+#'   ggtitle('Green-Fish-River')
 NULL
 
