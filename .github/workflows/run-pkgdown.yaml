@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - 'data-raw/**'
+      - 'man/**'
 name: update-pkgdown-site
 
 jobs:
