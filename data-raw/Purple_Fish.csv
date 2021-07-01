@@ -1,6 +1,6 @@
 #' Purple Fish River
 #'
-#' Redd counts from upper Blue Fish Creek.
+#' Redd counts from upper Purple Fish Creek.
 #'
 #' @format A csv file.
 #' \describe{
@@ -13,4 +13,7 @@
 BROOD_YEAR, SPAWNERS, FRACWILD
 1990, 100, 1
 1991, 200, 1
-1992, 500, 1
+1992, 1000, 1
+1993, 100, 1
+1994, 200, 0.5
+
