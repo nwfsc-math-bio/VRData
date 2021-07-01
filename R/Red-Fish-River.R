@@ -1,6 +1,6 @@
 #' Red Fish River
 #'
-#' Redd counts taken at the weir below Green Fish Creek.
+#' Redd counts taken at the weir below Green Fish Creek during August.
 #'
 #' @format A csv file.
 #' \describe{
