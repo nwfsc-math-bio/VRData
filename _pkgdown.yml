@@ -1,0 +1,29 @@
+template:
+  params:
+    bootswatch: cerulean
+
+navbar:
+  structure:
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - tutorials
+    - news
+    right: github
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    articles:
+      text: Data
+      href: articles/index.html
+
+articles:
+- title: Plots and Tables
+  contents:
+  - contains("-")
