@@ -8,7 +8,7 @@
 #'   \item{SPAWNERS}{Spawners estimated from the redd counts. See details.}
 #'   \item{FRACWILD}{Fracwild wild. This is assumed to be 1 for this population due to the lack of any nearby hatcheries.}
 #' }
-#' @author{Jenny J.}
+#' @author{Jenny John}
 #' @details Here are all the details.
 #' @name Green-Fish-River
 #' @docType data
