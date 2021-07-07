@@ -145,11 +145,28 @@
 
 <div id="readme" class="section level1">
 
-<p>This has a function called <code><a href="reference/process_data_raw.html">process_data_raw()</a></code>. When you type</p>
+<p><strong>See the <a href="https://nwfsc-math-bio.github.io/SRData/">WEBSITE</a> for the data information. This Readme is for the package and data maintainers.</strong></p>
+<div id="new-data" class="section level2">
+<h2 class="hasAnchor">
+<a href="#new-data" class="anchor"></a>New data</h2>
+<ul>
+<li>Add new csv files to the <code>data-raw</code> folder with the Roxygen2 headers.</li>
+<li>Push to GitHub and the data will the automaticall processed for the website.</li>
+</ul>
+</div>
+<div id="changing-the-man-files-and-vignettes" class="section level2">
+<h2 class="hasAnchor">
+<a href="#changing-the-man-files-and-vignettes" class="anchor"></a>Changing the man files and vignettes</h2>
+<p>The man files appear under the Reference tab and the vignettes appear under the Articles tab. The R and Rmd files for these are created by the function <code><a href="reference/process_data_raw.html">process_data_raw()</a></code>. When you type</p>
 <pre><code><a href="reference/process_data_raw.html">process_data_raw()</a></code></pre>
-<p>It processes the csv file in <code>data-raw</code> folder into a <code>.rda</code> object in <code>data</code>, a <code>.R</code> file, and a <code>.Rmd</code> vignette usingthe Roxygen header on the csv file.</p>
+<p>It processes the csv file in <code>data-raw</code> folder into a <code>.rda</code> object in <code>data</code>, a <code>.R</code> file, and a <code>.Rmd</code> vignette usingthe Roxygen header on the csv file. Change this file to change the look of the man or article files.</p>
 <p>When the package is built, you can do ?<data-name> to get the meta information.</data-name></p>
-<p>Note, you can run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code> locally, but the GitHub repo is set up with a GitHub Action to automatically run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code> whenever a push to the <code>data-raw</code> folder happens. I probably ought to set it up to do a pull-request instead of pushing right to master branch, but I am not sure how to do that. So that’s on the To-Do list.</p>
+</div>
+<div id="updating-the-webpage-locally" class="section level2">
+<h2 class="hasAnchor">
+<a href="#updating-the-webpage-locally" class="anchor"></a>Updating the webpage locally</h2>
+<p>Note, you can run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code> locally, but the GitHub repo is set up with a GitHub Action to automatically run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code> whenever a push to the <code>data-raw</code> folder happens.</p>
+</div>
 <div id="workflow" class="section level2">
 <h2 class="hasAnchor">
 <a href="#workflow" class="anchor"></a>Workflow</h2>
