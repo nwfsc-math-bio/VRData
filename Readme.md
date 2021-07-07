@@ -1,14 +1,26 @@
 # README
 
-This has a function called `process_data_raw()`. When you type
+**See the [WEBSITE](https://nwfsc-math-bio.github.io/SRData/) for the data information. This Readme is for the package and data maintainers.**
+
+## New data
+
+* Add new csv files to the `data-raw` folder with the Roxygen2 headers. 
+* Push to GitHub and the data will the automaticall processed for the website.
+
+## Changing the man files and vignettes
+
+The man files appear under the Reference tab and the vignettes appear under the Articles tab. The R and Rmd files for these are created by the function
+ `process_data_raw()`. When you type
 ```
 process_data_raw()
 ```
-It processes the csv file in `data-raw` folder into a `.rda` object in `data`, a `.R` file, and a `.Rmd` vignette usingthe Roxygen header on the csv file.
+It processes the csv file in `data-raw` folder into a `.rda` object in `data`, a `.R` file, and a `.Rmd` vignette usingthe Roxygen header on the csv file. Change this file to change the look of the man or article files.
 
 When the package is built, you can do ?<data-name> to get the meta information.
 
-Note, you can run `process_data_raw()` locally, but the GitHub repo is set up with a GitHub Action to automatically run `process_data_raw()` whenever a push to the `data-raw` folder happens. I probably ought to set it up to do a pull-request instead of pushing right to master branch, but I am not sure how to do that. So that's on the To-Do list.
+## Updating the webpage locally
+
+Note, you can run `process_data_raw()` locally, but the GitHub repo is set up with a GitHub Action to automatically run `process_data_raw()` whenever a push to the `data-raw` folder happens. 
 
 ## Workflow
 

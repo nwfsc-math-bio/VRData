@@ -1,7 +1,8 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
-data-raw
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^inst\extdata$
+^Readme.md$
