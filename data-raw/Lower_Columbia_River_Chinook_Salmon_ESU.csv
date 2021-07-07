@@ -1,0 +1,848 @@
+#' Lower Columbia River Chinook Salmon ESU
+#'
+#' Spawner counts and fraction wild data.
+#'
+#' @format A csv file.
+#' \describe{
+#'   \item{NMFS_POPID}{NWFSC id for the population.}
+#'   \item{ESU}{}
+#'   \item{SPECIES}{}
+#'   \item{RUN_TIMING}{}
+#'   \item{MAJOR_POPULATION_GROUP}{}
+#'   \item{COMMON_POPULATION_NAME}{}
+#'   \item{BROOD_YEAR}{The year that the count was made.}
+#'   \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
+#'   \item{FRACWILD}{Fraction wild. -99 means missing information.}
+#' }
+#' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
+#' January 28, 2016
+"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "BROOD_YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1964, 364, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1965, 75, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1966, 108, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1967, 100, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1968, 132, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1969, 86, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1970, 72, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1971, 933, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1972, 830, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1973, 242, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1974, 156, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1975, 296, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1976, 528, -99
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1977, 337, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1978, 243, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1979, 344, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1980, 180, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1981, 116, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1982, 146, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1983, 122, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1984, 683, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1985, 491, 0.95
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1986, 396, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1987, 386, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1988, 1890, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1989, 2549, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1990, 812, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1991, 340, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1992, 1247, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1993, 890, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1994, 1695, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1995, 1368, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1996, 2305, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1997, 689, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1998, 491, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 1999, 299, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2000, 290, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2001, 802, 0.73
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2002, 877, 0.97
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2003, 1106, 0.89
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2004, 1503, 0.91
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2005, 853, 0.6
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2006, 566, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2007, 251, 1
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2008, 424, 0.52
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2009, 783, 0.63
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2010, 639, 0.7
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2011, 566, 0.88
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2012, 413, 0.86
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2013, 2035, 0.69
+6, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Coweeman River", 2014, 890, 0.96
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1964, 3020, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1965, 2539, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1966, 2984, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1967, 3182, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1968, 3594, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1969, 2973, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1970, 3186, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1971, 3277, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1972, 2869, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1973, 3350, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1974, 3125, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1975, 5448, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1976, 2383, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1977, 3030, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1978, 5060, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1979, 2202, -99
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1980, 247, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1981, 514, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1982, 1352, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1983, 2627, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1984, 2036, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1985, 5919, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1986, 1064, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1987, 2741, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1988, 2411, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1989, 1093, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1990, 587, 0.42
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1991, 445, 0.09
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1992, 392, 1
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1993, 408, 0.78
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1994, 1004, 0.98
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1995, 316, 0.5
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1996, 547, 0.66
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1997, 2137, 0.11
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1998, 358, 0.25
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 1999, 957, 0.25
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2000, 146, 0.62
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2001, 2806, 0.82
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2002, 7893, 0
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2003, 7348, 0.65
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2004, 6880, 0.01
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2005, 2699, 0.05
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2006, 324, 1
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2007, 168, 1
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2008, 1320, 0.1
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2009, 1467, 0.18
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2010, 1318, 0.12
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2011, 1127, 0.05
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2012, 172, 0.26
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2013, 637, 0.29
+7, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Elochoman River", 2014, 869, 0.22
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1964, 100, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1965, 171, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1966, 144, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1967, 147, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1968, 347, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1969, 156, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1970, 390, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1971, 635, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1972, 688, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1973, 530, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1974, 717, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1975, 751, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1976, 1192, -99
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1977, 1590, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1978, 2685, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1979, 1206, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1980, 185, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1981, 246, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1982, 422, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1983, 927, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1984, 242, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1985, 812, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1986, 901, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1987, 1093, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1988, 1003, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1989, 805, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1990, 287, 0.65
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1991, 188, 0.94
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1992, 4, 1
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1993, 40, 1
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1994, 47, 1
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1995, 29, 1
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1996, 351, 0.48
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1997, 12, 0.64
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1998, 93, 0.41
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 1999, 303, 0.51
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2000, 89, 0.96
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2001, 241, 0.64
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2002, 78, 1
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2003, 373, 0.72
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2004, 726, 0.9
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2005, 122, 0.66
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2006, 383, 1
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2007, 96, 1
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2008, 95, 0.35
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2009, 555, 0.38
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2010, 159, 0.44
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2011, 405, 0.17
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2012, 208, 0.17
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2013, 2033, 0.09
+8, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Grays and Chinook Rivers", 2014, 729, 0.44
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1992, 16, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1993, 6, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1994, 25, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1995, 8, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1996, 13, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1997, 24, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1998, 34, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 1999, 16, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2000, 32, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2001, 29, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2002, 33, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2003, 57, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2004, 31, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2005, 42, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2006, 49, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2007, 45, -99
+9, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Hood River", 2008, 21, -99
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1992, 432, 0.079
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1993, 497, 0.08
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1994, 296, 0.095
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1995, 78, 0.231
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1996, 118, 0.754
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1997, 343, 0.198
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1998, 94, 0.819
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 1999, 111, 0.207
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2000, 215, 0.298
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2001, 1109, 0.041
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2002, 1125, 0.062
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2003, 456, 0.221
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2004, 407, 0.337
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2005, 779, 0.144
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2006, 1227, 0.243
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2007, 799, 0.178
+10, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "Hood River", 2008, 1302, 0.045
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1964, 4695, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1965, 5509, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1966, 2684, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1967, 3305, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1968, 2806, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1969, 2191, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1970, 2738, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1971, 3102, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1972, 3222, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1973, 6199, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1974, 12449, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1975, 17761, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1976, 7517, -99
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1977, 6484, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1978, 3637, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1979, 2704, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1980, 5675, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1981, 1840, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1982, 4570, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1983, 2681, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1984, 2955, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1985, 1055, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1986, 2227, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1987, 9632, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1988, 24279, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1989, 20413, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1990, 2054, 0.5
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1991, 5085, 0.54
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1992, 3593, 0.48
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1993, 1941, 0.89
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1994, 2020, 0.73
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1995, 3044, 0.69
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1996, 10630, 0.44
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1997, 3539, 0.4
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1998, 4318, 0.69
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 1999, 2617, 0.03
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2000, 1420, 0.19
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2001, 3613, 0.19
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2002, 18809, 0.01
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2003, 24710, 0.01
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2004, 6612, 0.1
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2005, 9168, 0.03
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2006, 10386, 0.01
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2007, 3296, 0.06
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2008, 3734, 0.04
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2009, 7546, 0.1
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2010, 7057, 0.12
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2011, 8869, 0.07
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2012, 8007, 0.07
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2013, 12061, 0.09
+11, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Kalama River", 2014, 11537, 0.09
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1980, 298, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1981, 721, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1982, 2712, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1983, 1009, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1984, 133, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1985, 0, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1986, 165, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1987, 471, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1988, 475, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1989, 572, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1990, 34, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1991, 32, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1992, 168, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1993, 348, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1994, 407, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1995, 376, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1996, 254, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1997, 39, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1998, 42, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 1999, 215, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2000, 33, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2001, 555, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2002, 886, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2003, 766, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2004, 352, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2005, 380, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2006, 292, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2007, 2144, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2008, 363, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2009, 26, 0.4
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2010, 0, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2011, 200, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2012, 28, -99
+12, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Kalama River", 2013, 158, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1964, 16857, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1965, 7927, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1966, 11627, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1967, 9711, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1968, 7160, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1969, 4986, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1970, 4130, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1971, 19926, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1972, 18488, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1973, 9120, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1974, 7549, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1975, 13859, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1976, 3371, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1977, 6930, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1978, 5363, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1979, 8023, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1980, 13839, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1981, 19297, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1982, 8370, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1983, 13540, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1984, 7132, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1985, 7491, -99
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1986, 10472, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1987, 12210, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1988, 11165, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1989, 20058, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1990, 15378, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1991, 8787, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1992, 5508, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1993, 6462, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1994, 8456, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1995, 9715, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1996, 13077, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1997, 8168, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1998, 5173, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 1999, 2417, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2000, 8741, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2001, 11274, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2002, 13293, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2003, 12912, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2004, 12928, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2005, 9775, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2006, 5066, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2007, 3708, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2008, 5485, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2009, 6283, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2010, 9294, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2011, 8205, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2012, 8143, 1
+13, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Late fall", "Cascade", "Lewis River", 2013, 15197, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1964, 632, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1965, 891, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1966, 583, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1967, 411, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1968, 249, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1969, 329, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1970, 657, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1971, 2142, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1972, 534, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1973, 210, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1974, 420, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1975, 581, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1976, 325, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1977, 568, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1978, 687, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1979, 716, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1980, 311, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1981, 397, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1982, 240, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1983, 305, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1984, 192, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1985, 540, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1986, 389, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1987, 135, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1988, 427, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1989, 591, 0.78
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1990, 342, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1991, 230, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1992, 202, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1993, 156, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1994, 395, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1995, 200, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1996, 334, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1997, 307, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1998, 104, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 1999, 217, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2000, 304, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2001, 526, 0.7
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2002, 1296, 0.77
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2003, 714, 0.98
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2004, 886, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2005, 598, 1
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2006, 427, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2007, 237, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2008, 379, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2009, 596, -99
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2010, 426, 0.887
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2011, 870, 0.951
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2012, 566, 0.959
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2013, 1540, 0.936
+14, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lewis River", 2014, 942, 0.909
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1964, 3312, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1965, 5707, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1966, 4782, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1967, 5487, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1968, 2303, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1969, 4260, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1970, 9706, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1971, 22758, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1972, 21027, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1973, 8390, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1974, 7566, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1975, 4766, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1976, 3726, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1977, 5837, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1978, 3192, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1979, 8253, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1980, 2418, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1981, 3991, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1982, 3024, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1983, 3654, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1984, 2577, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1985, 4300, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1986, 2229, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1987, 5930, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1988, 7700, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1989, 7220, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1990, 2698, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1991, 2567, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1992, 2683, 0.26
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1993, 2218, 0.06
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1994, 2512, 0.19
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1995, 2231, 0.13
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1996, 1602, 0.58
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1997, 2710, 0.72
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1998, 2108, 0.37
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 1999, 997, 0.16
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2000, 2363, 0.1
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2001, 4652, 0.44
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2002, 13514, 0.76
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2003, 10048, 0.88
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2004, 4466, 0.7
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2005, 2870, 0.17
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2006, 2944, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2007, 1847, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2008, 1828, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2009, 2602, -99
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2010, 4488, 0.706
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2011, 3685, 0.755
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2012, 2725, 0.714
+15, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Lower Cowlitz River", 2013, 4436, 0.81
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1980, 516, 0.49
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1981, 896, 0.48
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1982, 1825, 0.5
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1983, 3547, 0.51
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1984, 532, 0.52
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1985, 1596, 0.53
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1986, 539, 0.49
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1987, 6025, 0.59
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1988, 2850, 0.69
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1989, 2708, 0.69
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1990, 475, 0.63
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1991, 1889, 0.85
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1992, 796, 0.47
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1993, 798, 0.71
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1994, 3572, 0.4
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1995, 1321, 0.51
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1996, 494, 0.54
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1997, 595, 0.23
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1998, 353, 0.6
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 1999, 575, 0.69
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2000, 370, 0.58
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2001, 3847, 0.39
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2002, 2544, 0.05
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2003, 3792, 0.56
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2004, 4611, 0.02
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2005, 2066, 0.13
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2006, 622, 0.62
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2007, 335, 0.48
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2008, 735, 0.49
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2009, 390, 0.93
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2010, 2778, 0.07
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2011, 1678, 0.07
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2012, 180, 0.13
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2013, 1033, 0.2
+17, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Coastal", "Mill, Abernathy, and Germany Creeks", 2014, 656, 0.08
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1980, 992, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1981, 324, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1982, 986, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1983, 732, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1984, 1565, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1985, 512, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1986, 1875, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1987, 6850, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1988, 5267, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1989, 3483, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1990, 1345, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1991, 1607, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1992, 1254, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1993, 1518, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1994, 475, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1995, 270, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1996, 493, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1997, 410, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1998, 211, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 1999, 240, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2000, 439, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2001, 642, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2002, 483, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2003, 679, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2004, 494, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2005, 116, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2006, 847, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2007, 264, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2008, 25, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2009, 58, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2010, 157, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2011, 120, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2012, 318, 1
+18, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "North Fork Lewis River", 2013, 60, 1
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1981, 3156, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1982, 3655, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1983, 2575, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1984, 3323, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1985, 2087, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1986, 2845, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1987, 9160, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1988, 6958, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1989, 8557, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1990, 3516, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1991, 2939, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1992, 4185, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1993, 5733, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1994, 2420, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1995, 4382, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1996, 2119, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1997, 8443, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1998, 3251, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 1999, 1890, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2000, 363, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2001, 3510, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2002, 5463, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2003, 3993, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2004, 2524, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2005, 3998, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2006, 5359, 0.76
+20, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2007, 178, -99
+21, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Sandy River", 2013, 2489, -99
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1981, 1089, 0.343
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1982, 522, 0.646
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1983, 1837, 0.475
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1984, 1211, 0.475
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1985, 561, 0.476
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1986, 702, 0.363
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1987, 1400, 0.476
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1988, 1940, 0.475
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1989, 1376, 0.302
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1990, 1557, 0.374
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1991, 1888, 0.282
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1992, 4451, 0.282
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1993, 3429, 0.282
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1994, 2309, 0.283
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1995, 1503, 0.278
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1996, 2561, 0.272
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1997, 3301, 0.283
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1998, 2615, 0.268
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 1999, 2032, 0.286
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2000, 1986, 0.284
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2001, 2445, 0.404
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2002, 1262, 0.82
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2003, 1197, 0.88
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2004, 2698, 0.85
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2005, 1653, 0.85
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2006, 1349, 0.896
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2007, 1410, 0.925
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2008, 4965, 0.548
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2009, 1821, 0.47
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2010, 6076, 0.229
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2011, 3434, 0.335
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2012, 4024, 0.763
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2013, 2413, 0.907
+22, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Sandy River", 2014, 1658, 0.871
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1964, 2494, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1965, 1465, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1966, 1348, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1967, 1562, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1968, 2515, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1969, 2548, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1970, 4170, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1971, 5729, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1972, 6597, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1973, 1043, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1974, 1516, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1975, 703, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1976, 1694, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1977, 1054, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1978, 6743, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1979, 4557, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1980, 37, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1981, 163, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1982, 9, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1983, -99, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1984, -99, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1985, 9, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1986, 0, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1987, -99, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1988, -99, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1989, -99, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1990, 123, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1991, 156, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1992, 150, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1993, 184, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1994, 516, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1995, 405, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1996, 1376, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1997, 560, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1998, 1353, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 1999, 720, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2000, 879, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2001, 4971, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2002, 7896, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2003, 13943, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2004, 4711, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2005, 3303, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2006, 5752, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2007, 1149, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2008, 1725, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2009, 539, -99
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2010, 2139, 0.13
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2011, 1608, 0.21
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2012, 908, 0.24
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2013, 2283, 0.42
+25, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Toutle River", 2014, 745, 0.5
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 1996, 437, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 1997, 27, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 1998, 257, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 1999, 1, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2000, 1, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2001, 3646, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2002, 6113, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2003, 4165, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2004, 2145, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2005, 2901, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2006, 1782, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2007, 1325, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2008, 1845, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2009, 7491, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2010, 10142, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2011, 14182, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2012, 6143, -99
+27, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Upper Cowlitz River", 2013, 7366, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1980, 166, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1981, 959, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1982, 209, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1983, 70, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1984, 147, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1985, 156, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1986, 467, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1987, 71, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1988, 172, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1989, 563, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1990, 278, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1991, 149, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1992, 266, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1993, 214, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1994, 159, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1995, 282, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1996, 40, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1997, 462, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1998, 262, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 1999, 326, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2000, 468, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2001, 443, -99
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2002, 2365, 0.19
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2003, 11056, 0.06
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2004, 13017, 0.02
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2005, 6524, 0.02
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2006, 3774, 0.02
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2007, 1640, 0.04
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2008, 1046, 0.11
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2009, 2826, 0.04
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2010, 7424, 0.04
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2011, 2059, 0.09
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2012, 5610, 0.06
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2013, 3577, 0.11
+28, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Cascade", "Upper Cowlitz River", 2014, 2915, 0.08
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1964, 774, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1965, 83, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1966, 862, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1967, 228, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1968, 254, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1969, 29, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1970, 51, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1971, 1801, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1972, 1190, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1973, 472, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1974, 481, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1975, 556, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1976, 549, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1977, 922, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1978, 1322, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1979, 884, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1980, 355, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1981, 197, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1982, 361, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1983, 442, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1984, 126, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1985, 168, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1986, 403, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1987, 776, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1988, 1206, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1989, 112, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1990, 11, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1991, 52, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1992, 54, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1993, 0, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1994, 11, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1995, 4, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1996, 166, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1997, 148, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1998, 202, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 1999, 126, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2000, 12, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2001, 407, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2002, 365, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2003, 1499, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2004, 754, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2005, 452, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2006, 235, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2007, 263, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2008, 181, 0
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2009, 343, -99
+29, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "Upper Gorge Tributaries", 2011, 1815, 0.32
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1977, 1652, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1978, 593, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1979, 2388, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1980, 3437, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1981, 1841, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1982, 330, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1983, 2677, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1984, 1217, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1985, 1983, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1986, 1589, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1987, 3578, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1988, 3135, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1989, 4408, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1990, 2062, 0.46
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1991, 3494, 0.47
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1992, 2164, 0.76
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1993, 3836, 0.52
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1994, 3625, 0.7
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1995, 2969, 0.39
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1996, 2821, 0.17
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1997, 4529, 0.12
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1998, 2971, 0.24
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 1999, 3105, 0.68
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2000, 2088, 0.7
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2001, 3836, 0.43
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2002, 5725, 0.47
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2003, 3440, 0.39
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2004, 10404, 0.25
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2005, 2671, 0.41
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2006, 2600, 0.14
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2007, 1528, 0.87
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2008, 2491, 0.93
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2009, 2741, 0.3
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2010, 6087, 0.14
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2011, 4725, 0.18
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2012, 1913, 0.29
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2013, 7185, 0.42
+30, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Cascade", "Washougal River", 2014, 2038, 0.67
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1965, 914, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1966, 2865, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1967, 1212, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1968, 575, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1969, 2767, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1970, 634, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1971, 712, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1972, 864, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1973, 874, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1974, 869, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1975, 1798, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1976, 1881, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1977, 216, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1978, 796, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1979, 636, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1980, 1539, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1981, 793, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1982, 1562, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1983, 250, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1984, 369, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1985, 152, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1986, 97, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1987, 161, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1988, 366, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1989, 205, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1990, 124, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1991, 67, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1992, 132, 1
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1993, 105, 0.97
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1994, 283, 0.97
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1995, 222, 0.97
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1996, 32, 0.97
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1997, 124, 0.8
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1998, 223, 0.83
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 1999, 401, 0.66
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2000, 147, 0.51
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2001, 1668, 0.34
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2002, 1787, 0.38
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2003, 11480, 0.19
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2004, 8691, 0.19
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2005, 1448, 0.18
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2006, 755, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2007, 898, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2008, 770, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2009, 964, -99
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2010, 1505, 0.73
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2011, 379, 0.88
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2012, 755, 0.93
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2013, 1232, 0.67
+31, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Fall-run", "Gorge", "White Salmon River", 2014, 1704, 0.8
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1976, 2063, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1977, 231, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1978, 1063, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1979, 662, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1980, 1598, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1981, 839, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1982, 1579, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1983, 280, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1984, 393, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1985, 153, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1986, 116, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1987, 161, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1988, 382, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1989, 243, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1990, 145, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1991, 75, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1992, 1078, 1
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1993, 108, 0.97
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1994, 288, 0.97
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1995, 253, 0.97
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1996, 32, 0.97
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1997, 124, 0.8
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1998, 242, 0.83
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 1999, 401, 0.66
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2000, 167, 0.51
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2001, 2072, 0.34
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2002, 1859, 0.38
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2003, 11898, 0.19
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2004, 8850, 0.19
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2005, 1504, 0.18
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2006, 796, -99
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2007, 1014, -99
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2008, 775, -99
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2009, 1342, -99
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2013, 88, 0.17
+32, "Lower Columbia River Chinook Salmon ESU", "Chinook", "Spring-run", "Gorge", "White Salmon River", 2014, 216, 0.05

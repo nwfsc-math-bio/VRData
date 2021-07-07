@@ -3,7 +3,6 @@
 #' Process's the Roxygen header on the csv files in data-raw into R files for each data set into
 #'  data folder and R folder
 #'
-#' @keywords internal
 #' @export
 process_data_raw <- function() {
 
@@ -32,8 +31,10 @@ process_data_raw <- function() {
                     "#' @examples\n",
                     "#' data('", dataname, "')\n",
                     "#' library(ggplot2)\n",
-                    "#' ggplot(out, aes(x=BROOD_YEAR, y=SPAWNERS)) + geom_point(na.rm = TRUE) +\n",
-                    "#'   ggtitle('", dataname, "')\n",
+                    "#' out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] <- NA\n",
+                    "#' ggplot(out, aes(x=BROOD_YEAR, y=NUMBER_OF_SPAWNERS)) + geom_point(na.rm = TRUE) +\n",
+                    "#'   ggtitle('", dataname, "') +\n",
+                    "#'   facet_wrap(~COMMON_POPULATION_NAME)\n",
                     "NULL\n")
     cat(headr, sep="\n", footr, file=file.path("R", paste0(dataname, ".R")))
 
@@ -50,22 +51,35 @@ vignette: >
 # To load data
 
 ```{r}
-library(testdata)
+library(SRData)
 data('", dataname, "')
+```
+
+# Spawners plot
+
+```{r, echo = FALSE}
+out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS == -99] <- NA
+ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$NUMBER_OF_SPAWNERS)) +
+   ggplot2::geom_point(na.rm = TRUE) +
+   ggplot2::ggtitle('Spawner Counts') +
+   ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
+```
+
+# Fraction wild plot
+
+```{r, echo = FALSE}
+out$FRACWILD[out$FRACWILD == -99] <- NA
+ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$FRACWILD)) +
+   ggplot2::geom_point(na.rm = TRUE) +
+   ggplot2::ggtitle('Fraction Wild') +
+   ggplot2::ylim(0,1) +
+   ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
 ```
 
 # Raw data table
 
 ```{r, echo=FALSE}
 knitr::kable(out)
-```
-
-# Spawners plot
-
-```{r, echo = FALSE}
-ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$SPAWNERS)) +
-   ggplot2::geom_point(na.rm = TRUE) +
-   ggplot2::ggtitle('Spawner Counts')
 ```
 
 ")

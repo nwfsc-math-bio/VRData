@@ -1,0 +1,108 @@
+#' Hood Canal Summer-run Chum Salmon ESU
+#'
+#' Spawner counts and fraction wild data.
+#'
+#' @format A csv file.
+#' \describe{
+#'   \item{NMFS_POPID}{NWFSC id for the population.}
+#'   \item{ESU}{}
+#'   \item{SPECIES}{}
+#'   \item{RUN_TIMING}{}
+#'   \item{MAJOR_POPULATION_GROUP}{}
+#'   \item{COMMON_POPULATION_NAME}{}
+#'   \item{BROOD_YEAR}{The year that the count was made.}
+#'   \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
+#'   \item{FRACWILD}{Fraction wild. -99 means missing information.}
+#' }
+#' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
+#' January 28, 2016
+"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "BROOD_YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1968, 32838, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1969, 15073, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1970, 12645, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1971, 17412, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1972, 30079, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1973, 18107, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1974, 12281, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1975, 18248, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1976, 27715, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1977, 10711, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1978, 19709, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1979, 6554, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1980, 3777, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1981, 2374, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1982, 2623, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1983, 899, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1984, 1414, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1985, 1109, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1986, 2552, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1987, 757, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1988, 2967, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1989, 598, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1990, 429, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1991, 747, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1992, 1945, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1993, 707, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1994, 2044, 1
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1995, 8971, 0.830199427
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1996, 19707, 0.872864446
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1997, 8412, 0.695705697
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1998, 3404, 0.634083218
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 1999, 3884, 0.586829699
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2000, 7987, 0.67407689
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2001, 11491, 0.599184839
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2002, 10818, 0.601081002
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2003, 35173, 0.770414365
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2004, 69565, 0.863820482
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2005, 15311, 0.720571594
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2006, 26418, 0.801540179
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2007, 10539, 0.873167185
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2008, 15112, 0.881854738
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2009, 7236, 0.891459102
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2010, 12533, 0.915090683
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2011, 6914, 0.939351818
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2012, 29855, 0.889704721
+126, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Hood Canal", 2013, 22618, 0.896435276
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1971, 1281, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1972, 1362, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1973, 1648, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1974, 1768, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1975, 1448, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1976, 1494, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1977, 1644, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1978, 3080, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1979, 761, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1980, 5109, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1981, 884, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1982, 2751, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1983, 1139, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1984, 1579, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1985, 232, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1986, 1087, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1987, 1991, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1988, 3690, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1989, 388, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1990, 341, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1991, 309, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1992, 1008, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1993, 521, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1994, 154, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1995, 786, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1996, 975, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1997, 852, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1998, 1148, 1
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 1999, 502, 0.260629251
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2000, 801, 0.487894701
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2001, 3733, 0.358737974
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2002, 6791, 0.607693866
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2003, 6752, 0.619695943
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2004, 9280, 0.600700561
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2005, 9619, 0.622449208
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2006, 8181, 0.8163827
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2007, 3219, 0.925904689
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2008, 3449, 0.861367841
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2009, 5029, 0.589937743
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2010, 9179, 0.648869384
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2011, 5675, 0.715423789
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2012, 6304, 0.78919099
+127, "Hood Canal Summer-run Chum Salmon ESU", "Chum", "Summer-run", "Hood Canal", "Strait of Juan de Fuca", 2013, 14727, 0.817649376

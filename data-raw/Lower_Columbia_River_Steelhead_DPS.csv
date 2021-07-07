@@ -1,0 +1,489 @@
+#' Lower Columbia River Steelhead DPS
+#'
+#' Spawner counts and fraction wild data.
+#'
+#' @format A csv file.
+#' \describe{
+#'   \item{NMFS_POPID}{NWFSC id for the population.}
+#'   \item{ESU}{}
+#'   \item{SPECIES}{}
+#'   \item{RUN_TIMING}{}
+#'   \item{MAJOR_POPULATION_GROUP}{}
+#'   \item{COMMON_POPULATION_NAME}{}
+#'   \item{BROOD_YEAR}{The year that the count was made.}
+#'   \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
+#'   \item{FRACWILD}{Fraction wild. -99 means missing information.}
+#' }
+#' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
+#' January 28, 2016
+"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "BROOD_YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1974, 1069, 0.96
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1975, 2432, 0.94
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1976, 1883, 0.87
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1977, 2433, 0.76
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1978, 3166, 0.54
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1979, 2408, 0.63
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1980, 3290, 0.82
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1981, 4297, 0.67
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1982, 2304, 0.8
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1983, 1751, 0.94
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1984, 1973, 0.8
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1985, 1952, 0.84
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1986, 2282, 0.83
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1987, 2100, 0.86
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1988, 3378, 0.84
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1989, 1993, 0.77
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1990, 2369, 0.64
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1991, 1334, 0.58
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1992, 3452, 0.69
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1993, 2230, 0.86
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1994, 2064, 0.94
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1995, 1886, 0.8
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1996, 376, 0.71
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1997, 896, 0.54
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1998, 859, 0.55
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 1999, 388, 0.76
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2000, 879, 0.85
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2001, 2048, 0.73
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2002, 3330, 0.7
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2003, 2574, 0.8
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2004, 6509, 0.8
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2005, 1959, 0.8
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2006, 1001, 0.71
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2007, 1043, 0.6
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2008, 1239, 0.64
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2009, 635, -99
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2010, 2175, -99
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2011, 1242, -99
+226, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Willamette - Cascade", "Clackamas River", 2013, 1558, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1987, 889, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1988, 1088, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1989, 392, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1990, 522, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1993, 438, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1994, 362, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1997, 108, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1998, 486, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 1999, 198, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2000, 530, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2001, 384, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2002, 298, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2003, 460, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2004, 722, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2005, 370, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2006, 372, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2007, 384, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2008, 722, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2009, 602, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2010, 528, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2011, 408, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2012, 256, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2013, 622, -99
+227, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Coweeman River", 2014, 496, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 1996, 215, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 1997, 197, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 1998, 141, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 1999, 139, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2000, 229, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2001, 271, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2002, 440, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2003, 910, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2004, 425, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2005, 673, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2006, 560, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2007, 412, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2008, 365, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2009, 800, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2010, 600, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2011, 1036, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2012, 1084, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2013, 1059, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2014, 617, -99
+228, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "East Fork Lewis River", 2015, 843, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1986, 282, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1987, 192, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1988, 258, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1989, 140, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1990, 102, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1991, 72, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1992, 88, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1993, 90, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1994, 78, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1995, 53, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1997, 238, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1998, 376, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 1999, 442, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2001, 377, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2002, 292, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2003, 532, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2004, 1298, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2005, 246, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2006, 458, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2007, 448, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2008, 548, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2009, 688, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2010, 336, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2011, 308, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2012, 272, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2013, 488, -99
+229, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "East Fork Lewis River", 2014, 414, -99
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1992, 2221, 0.22
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1993, 2211, 0.22
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1994, 1348, 0.18
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1995, 1840, 0.12
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1996, 650, 0.2
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1997, 1486, 0.12
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1998, 513, 0.13
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 1999, 102, 0.96
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2000, 149, 0.99
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2001, 181, 0.99
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2002, 538, 0.77
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2003, 1043, 0.52
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2004, 387, 0.47
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2005, 323, 0.47
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2006, 306, 0.56
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2007, 343, 0.49
+230, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Hood River", 2008, 248, 0.48
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1991, 1017, 0.67
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1992, 902, 0.685
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1993, 355, 0.972
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1994, 305, 0.984
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1995, 166, 0.97
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1996, 371, 0.566
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1997, 490, 0.486
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1998, 344, 0.529
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 1999, 442, 0.577
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2000, 1089, 0.794
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2001, 1533, 0.572
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2002, 1633, 0.582
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2003, 1066, 0.614
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2004, 1077, 0.471
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2005, 519, 0.526
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2006, 641, 0.534
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2007, 787, 0.537
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2008, 375, 0.704
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2009, 347, 0.49
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2010, 1131, 0.502
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2011, 664, 0.408
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2012, 1506, 0.434
+231, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Hood River", 2013, 689, 0.453
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1977, 400, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1978, 1015, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1979, 484, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1980, 718, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1981, 2926, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1982, 1385, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1983, 869, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1984, 247, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1985, 461, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1986, 473, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1987, 748, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1988, 950, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1989, 684, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1990, 745, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1991, 704, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1992, 1075, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1993, 2283, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1994, 1041, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1995, 1302, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1996, 614, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1997, 602, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1998, 182, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 1999, 220, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2000, 140, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2001, 286, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2002, 454, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2003, 817, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2004, 549, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2005, 435, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2006, 387, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2007, 361, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2008, 237, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2009, 308, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2010, 370, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2011, 534, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2012, 646, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2013, 734, -99
+232, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Kalama River", 2014, 400, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1977, 860, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1978, 771, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1979, 413, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1980, 1139, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1981, 2388, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1982, 966, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1983, 591, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1984, 1048, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1985, 702, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1986, 1021, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1987, 1091, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1988, 1199, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1989, 556, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1990, 396, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1991, 1065, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1992, 2193, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1993, 937, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1994, 806, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1995, 1144, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1996, 806, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1997, 507, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1998, 472, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 1999, 544, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2000, 921, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2001, 1042, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2002, 1495, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2003, 1815, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2004, 2400, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2005, 1982, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2006, 1733, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2007, 1011, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2008, 742, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2009, 1044, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2010, 961, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2011, 622, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2012, 1061, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2013, 811, -99
+233, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Kalama River", 2014, 948, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1985, 775, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1987, 402, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1988, 310, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1989, 146, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1990, 122, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1991, 216, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1992, 366, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1993, 249, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1994, 218, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1995, 349, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1996, 359, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1997, 315, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1998, 267, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 1999, 205, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2000, 362, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2001, 377, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2002, 508, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2003, 848, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2004, 505, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2005, 388, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2006, 892, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2007, 565, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2008, 650, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2009, 699, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2010, 508, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2011, 416, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2012, 473, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2013, 553, -99
+238, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "North Fork Toutle River", 2014, 587, -99
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1974, 2311, 0.2601
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1975, 2951, 0.2609
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1976, 2683, 0.2382
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1977, 1705, 0.2598
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1978, 4071, 0.228
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1979, 2000, 0.242
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1980, 3015, 0.207
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1981, 4078, 0.3139
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1982, 2600, 0.235
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1983, 2449, 0.2209
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1984, 2232, 0.3199
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1985, 2787, 0.211
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1986, 2752, 0.2271
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1987, 3675, 0.225
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1988, 3440, 0.2061
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1989, 2993, 0.2082
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1990, 3065, 0.2049
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1991, 1995, 0.8792
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1992, 2916, 0.8789
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1993, 1636, 0.879
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1994, 1567, 0.8787
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1995, 1680, 0.8792
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1996, 1287, 0.8788
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1997, 1426, 0.8787
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1998, 883, 0.8788
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 1999, 816, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2000, 741, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2001, 902, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2002, 1031, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2003, 671, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2004, 871, 0.998
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2005, 626, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2006, 645, 0.997
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2007, 845, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2008, -99, -99
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2009, -99, -99
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2010, 2096, 0.715
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2011, 527, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2012, 357, 1
+240, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Sandy River", 2013, 3747, 0.936
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1981, 51, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1982, 86, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1984, 836, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1985, 1807, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1986, 1595, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1987, 1650, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1988, 2222, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1989, 1371, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1990, 752, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1991, 904, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1992, 1290, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1993, 1242, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1994, 632, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1995, 396, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1996, 150, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1997, 388, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1998, 374, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 1999, 562, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2000, 490, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2001, 348, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2002, 640, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2003, 1510, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2004, 1212, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2005, 520, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2006, 656, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2007, 548, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2008, 412, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2009, 498, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2010, 274, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2011, 210, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2012, 378, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2013, 972, -99
+241, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "South Fork Toutle River", 2014, 708, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 1999, 399, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2000, 797, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2001, 1015, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2002, 1855, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2003, 695, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2004, 846, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2005, 555, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2006, 299, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2007, 141, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2008, 142, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2009, 1419, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2010, 179, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2011, 209, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2012, 284, -99
+242, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Tilton River", 2013, 445, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 1997, 54, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 1998, 66, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 1999, 157, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2000, 412, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2001, 729, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2002, 2787, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2003, 2532, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2004, 1397, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2005, 691, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2006, 999, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2007, 1253, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2008, 1089, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2009, 3556, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2010, 622, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2011, 646, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2012, 580, -99
+243, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Upper Cowlitz River", 2013, 343, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2000, 20, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2001, 53, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2002, 51, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2003, 27, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2004, 28, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2005, 22, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2006, 23, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2007, 13, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2008, 7, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2009, 20, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2010, 30, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2011, 17, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2012, 21, -99
+244, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Gorge", "Upper Gorge Tributaries", 2013, 18, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1953, 500, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1954, 582, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1955, 107, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1956, 153, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1957, 260, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1958, 290, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1959, 260, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1960, 143, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1961, 131, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1962, 255, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1963, 182, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1964, 113, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1965, 184, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1966, 195, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1967, 270, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1968, 160, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1969, 110, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1970, 200, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1971, 252, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1973, 158, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1974, 60, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1986, 154, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1987, 419, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1988, 447, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1989, 260, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1990, 306, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1991, 333, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1992, 196, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1993, 170, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1994, 152, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1995, 154, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1996, 103, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1997, 148, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1998, 120, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 1999, 135, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2000, 140, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2001, 184, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2002, 404, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2003, 607, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2005, 608, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2006, 636, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2007, 681, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2008, 755, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2009, 433, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2010, 787, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2012, 842, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2014, 544, -99
+245, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Cascade", "Washougal River", 2015, 783, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1991, 114, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1992, 142, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1993, 118, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1994, 158, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1995, 206, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1997, 92, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1998, 195, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 1999, 294, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2001, 216, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2002, 286, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2003, 764, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2004, 1114, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2005, 320, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2006, 524, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2007, 632, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2008, 732, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2009, 418, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2010, 232, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2011, 204, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2012, 306, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2013, 678, -99
+246, "Lower Columbia River Steelhead DPS", "Steelhead", "Winter-run", "Cascade", "Washougal River", 2014, 388, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1989, 1016, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1990, 561, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1991, 596, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1992, 535, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1993, 677, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1994, 468, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1995, 543, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1996, 466, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1997, 734, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1998, 320, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 1999, 323, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2000, 207, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2001, 454, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2002, 679, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2003, 1094, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2004, 857, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2005, 586, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2006, 628, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2007, 734, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2008, 611, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2009, 577, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2010, 751, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2011, 1465, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2012, 796, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2013, 740, -99
+247, "Lower Columbia River Steelhead DPS", "Steelhead", "Summer-run", "Gorge", "Wind River", 2014, 272, -99

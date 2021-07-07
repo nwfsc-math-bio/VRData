@@ -1,0 +1,110 @@
+#' Snake River Basin Steelhead DPS
+#'
+#' Spawner counts and fraction wild data.
+#'
+#' @format A csv file.
+#' \describe{
+#'   \item{NMFS_POPID}{NWFSC id for the population.}
+#'   \item{ESU}{}
+#'   \item{SPECIES}{}
+#'   \item{RUN_TIMING}{}
+#'   \item{MAJOR_POPULATION_GROUP}{}
+#'   \item{COMMON_POPULATION_NAME}{}
+#'   \item{BROOD_YEAR}{The year that the count was made.}
+#'   \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
+#'   \item{FRACWILD}{Fraction wild. -99 means missing information.}
+#' }
+#' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
+#' January 28, 2016
+"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "BROOD_YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1967, 5422, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1968, 1988, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1969, 3343, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1970, 1401, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1971, 2304, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1972, 2304, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1973, 4473, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1974, 723, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1975, 768, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1976, 316, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1977, 1762, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1978, 1581, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1979, 90, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1980, 3072, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1981, 542, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1982, 858, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1983, 1672, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1984, 633, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1985, 6461, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1986, 3253, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1987, 2530, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1988, 2801, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1989, 949, 0.742
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1990, 1536, 0.851
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1991, 542, 0.631
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1992, 2395, 0.838
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1993, 1175, 0.795
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1994, 1627, 0.855
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1995, 1310, 0.879
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1996, 1717, 0.764
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1997, 2440, 0.798
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1998, 2756, 0.859
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 1999, 1265, 0.705
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2000, 1084, 0.763
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2001, 1898, 0.885
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2002, 1581, 0.92
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2003, 1581, 0.996
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2004, 678, 0.992
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2005, 1310, 0.986
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2006, 949, 0.992
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2007, 618, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2008, 2096, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2009, 3148, 1
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2010, 2875, 0.951
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2011, 3274, 0.995
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2012, 3260, 0.998
+306, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Grande Ronde River Upper Mainstem", 2013, 1553, 0.992
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1970, 2758, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1971, 1359, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1972, 1746, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1973, 932, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1974, 987, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1975, 378, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1976, 302, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1977, 592, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1978, 442, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1979, 92, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1980, 763, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1981, 1414, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1982, 867, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1983, 718, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1984, 934, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1985, 6476, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1986, 5376, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1987, 4374, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1988, 6354, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1989, 5292, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1990, 3394, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1991, 659, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1992, 1172, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1993, 3228, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1994, 1820, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1995, 574, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1996, 1084, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1997, 1251, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1998, 3171, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 1999, 2133, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2000, 2020, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2001, 2596, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2002, 4752, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2003, 2381, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2004, 1756, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2005, 1832, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2006, 1428, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2007, 1212, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2008, 2322, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2009, 3598, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2010, 1831, 1
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2011, 1709, 0.972
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2012, 1912, 0.962
+310, "Snake River Basin Steelhead DPS", "Steelhead", "Summer-run", "Grande Ronde River", "Joseph Creek", 2013, 1701, 0.978

@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-testdata.Rproj
+
+*.Rproj
 
 inst/doc

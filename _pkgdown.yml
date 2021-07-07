@@ -1,7 +1,3 @@
-template:
-  params:
-    bootswatch: cerulean
-
 navbar:
   structure:
     left:
@@ -9,7 +5,7 @@ navbar:
     - intro
     - reference
     - articles
-    - tutorials
+    - documents
     - news
     right: github
   components:
@@ -22,8 +18,17 @@ navbar:
     articles:
       text: Data
       href: articles/index.html
+    documents:
+      text: Reports
+      href: SRDocs.html
 
 articles:
 - title: Plots and Tables
   contents:
   - contains("-")
+
+news:
+  releases:
+  - text: "Version 1.0 2015 SR"
+    href: https://github.com/nwfsc-math-bio/SRData/releases/tag/v1.0
+

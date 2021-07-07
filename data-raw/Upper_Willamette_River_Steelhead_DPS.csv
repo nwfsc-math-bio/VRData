@@ -1,0 +1,147 @@
+#' Upper Willamette River Steelhead DPS
+#'
+#' Spawner counts and fraction wild data.
+#'
+#' @format A csv file.
+#' \describe{
+#'   \item{NMFS_POPID}{NWFSC id for the population.}
+#'   \item{ESU}{}
+#'   \item{SPECIES}{}
+#'   \item{RUN_TIMING}{}
+#'   \item{MAJOR_POPULATION_GROUP}{}
+#'   \item{COMMON_POPULATION_NAME}{}
+#'   \item{BROOD_YEAR}{The year that the count was made.}
+#'   \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
+#'   \item{FRACWILD}{Fraction wild. -99 means missing information.}
+#' }
+#' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
+#' January 28, 2016
+"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "BROOD_YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1980, 281, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1981, 193, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1982, 470, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1983, 379, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1984, 407, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1985, 555, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1986, 459, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1987, 481, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1988, 439, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1989, 183, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1990, 321, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1991, 309, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1992, 119, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1993, 39, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1994, 161, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1995, 109, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1996, 195, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1997, 253, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1998, 358, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 1999, 264, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2000, 225, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2001, 446, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2002, 351, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2003, 458, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2004, 684, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2005, 140, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2006, 257, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2007, 245, 1
+332, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Calapooia River", 2008, 236, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1980, 3232, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1981, 2642, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1982, 2321, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1983, 1590, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1984, 2244, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1985, 3129, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1986, 2944, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1987, 2487, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1988, 2757, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1989, 2206, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1990, 1879, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1991, 1398, 0.7
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1992, 1898, 0.89
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1993, 577, 0.89
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1994, 2321, 0.89
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1995, 898, 0.89
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1996, 398, 0.89
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1997, 590, 0.89
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1998, 1411, 0.89
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 1999, 1090, 0.99
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2000, 1898, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2001, 1654, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2002, 2476, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2003, 1707, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2004, 1987, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2005, 1388, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2006, 1433, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2007, 1341, 1
+333, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "Molalla River", 2008, 1273, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1980, 4741, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1981, 4108, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1982, 3701, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1983, 4185, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1984, 4188, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1985, 6966, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1986, 4618, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1987, 4523, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1988, 2444, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1989, 4725, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1990, 3488, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1991, 3443, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1992, 2484, 0.85
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1993, 2754, 0.84
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1994, 2619, 0.87
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1995, 1755, 0.89
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1996, 2452, 0.89
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1997, -99, -99
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1998, 1410, 0.7
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 1999, 1111, 0.73
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2000, 1431, 0.88
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2001, 3641, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2002, 2694, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2003, 1261, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2004, 3147, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2005, 1677, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2006, -99, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2007, -99, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2008, -99, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2009, -99, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2010, 1164, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2011, 1418, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2012, 1894, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2013, 727, 1
+334, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "North Santiam River", 2014, 1072, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1980, 2964, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1981, 2374, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1982, 2222, 0.96
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1983, 1816, 0.96
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1984, 3537, 0.79
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1985, 4032, 0.89
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1986, 3147, 0.9
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1987, 2636, 0.93
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1988, 3185, 0.94
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1989, 1695, 0.96
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1990, 1982, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1991, 2319, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1992, 2269, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1993, 1290, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1994, 2045, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1995, 1569, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1996, 1211, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1997, 979, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1998, 1043, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 1999, 1748, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2000, 1608, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2001, 3268, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2002, 2282, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2003, 2033, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2004, 3546, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2005, 1519, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2006, 1805, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2007, 1535, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2008, 1534, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2009, 192, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2010, 426, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2011, 315, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2012, 327, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2013, 286, 1
+335, "Upper Willamette River Steelhead DPS", "Steelhead", "Winter-run", "Willamette", "South Santiam River", 2014, 215, 1

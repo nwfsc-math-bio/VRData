@@ -1,0 +1,248 @@
+#' Lower Columbia River Coho Salmon ESU
+#'
+#' Spawner counts and fraction wild data.
+#'
+#' @format A csv file.
+#' \describe{
+#'   \item{NMFS_POPID}{NWFSC id for the population.}
+#'   \item{ESU}{}
+#'   \item{SPECIES}{}
+#'   \item{RUN_TIMING}{}
+#'   \item{MAJOR_POPULATION_GROUP}{}
+#'   \item{COMMON_POPULATION_NAME}{}
+#'   \item{BROOD_YEAR}{The year that the count was made.}
+#'   \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
+#'   \item{FRACWILD}{Fraction wild. -99 means missing information.}
+#' }
+#' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
+#' January 28, 2016
+"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "BROOD_YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2002, 964, 0.102
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2003, 726, 0.599
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2004, 377, 0.297
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2005, 343, 0.638
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2006, 225, -99
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2007, 428, 0.495
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2008, 426, 0.845
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2009, 1728, 0.458
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2010, 401, 0.696
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2011, 333, 0.48
+128, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Big Creek", 2012, 521, 0.785
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1957, 598, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1958, 522, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1959, 1330, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1960, 2185, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1961, 2189, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1962, 3119, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1963, 1879, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1964, 2476, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1965, 3937, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1966, 777, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1967, 1498, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1968, 4696, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1969, 1854, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1970, 2751, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1971, 4095, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1972, 1094, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1973, 740, -99
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1974, 1931, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1975, 2428, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1976, 2593, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1977, 1920, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1978, 1678, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1979, 2451, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1980, 6840, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1981, 2507, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1982, 5471, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1983, 3426, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1984, 1464, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1985, 6793, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1986, 9163, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1987, 2886, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1988, 3561, 0.64
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1989, 4721, 0.64
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1990, 1516, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1991, 6692, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1992, 7449, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1993, 360, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1994, 6178, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1995, 4365, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1996, 184, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1997, 2901, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1998, 491, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 1999, 234, 0.65
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2000, 5608, 0.61
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2001, 7880, 0.56
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2002, 4561, 0.434
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2003, 2801, 0.895
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2004, 3411, 0.843
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2005, 1805, 0.721
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2006, 14335, 0.242
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2007, 4190, 0.861
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2008, 3104, 0.546
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2009, 10960, 0.728
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2010, 4040, 0.435
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2011, 2498, 0.902
+130, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2012, 1755, 0.9
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2002, 229, 0.454
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2003, 563, 1
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2004, 398, 1
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2005, 501, 0.986
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2006, 467, 0.901
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2007, 1126, 0.518
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2008, 995, 1
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2009, 1256, 0.852
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2010, 1774, 0.907
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2011, 1553, 0.97
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2012, 688, 0.9
+131, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Clatskanie River", 2013, 702, 0.631
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2002, 405, 0.835
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2003, -99, 1
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2004, -99, 1
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2005, 1775, 0.148
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2006, 764, 0.296
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2007, 387, 0.326
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2008, 414, 0.539
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2009, 660, 0.709
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2010, 985, 0.934
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2011, 471, 0.459
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2012, 220, 0.436
+138, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Lower Gorge Tributaries", 2013, 161, 0.944
+141, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "North Fork Lewis River", 2005, 8, -99
+141, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "North Fork Lewis River", 2010, 3914, -99
+141, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "North Fork Lewis River", 2012, 337, -99
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2002, 370, 0.397
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2003, -99, -99
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2004, -99, -99
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2005, 2305, 0.548
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2006, 715, 0.522
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2007, 308, 0.552
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2008, 97, 0.711
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2009, 65, 1
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2010, 1521, 0.147
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2011, 743, 0.312
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2012, 759, 0.223
+143, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Oregon Upper Gorge Tributaries and Hood River", 2013, 1599, 0.556
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1957, 264, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1958, 330, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1959, 68, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1960, 1670, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1961, 1733, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1962, 1458, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1963, 2199, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1964, 1126, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1965, 1018, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1966, 229, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1967, 669, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1968, 1281, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1969, 716, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1970, -99, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1971, -99, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1972, -99, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1973, -99, -99
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1974, 548, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1975, 619, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1976, 642, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1977, 91, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1978, 407, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1979, 367, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1980, 2122, 0.43
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1981, 994, 0.65
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1982, 1648, 0.44
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1983, 745, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1984, 1568, 0.49
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1985, 2063, 0.71
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1986, 2558, 0.61
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1987, 1204, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1988, 1507, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1989, 2182, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1990, 376, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1991, 1491, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1992, 790, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1993, 193, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1994, 601, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1995, 697, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1996, 180, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1997, 116, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1998, 261, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 1999, 162, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2000, 730, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2001, 1176, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2002, 897, 0.426
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2003, 1348, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2004, 1340, 0.905
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2005, 856, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2006, -99, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2007, 753, 0.912
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2008, 1277, 1
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2009, 1667, 0.896
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2010, 1029, 0.876
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2011, 3813, 0.916
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2012, 1198, 0.972
+145, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Sandy River", 2013, 756, 0.882
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2002, 502, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2003, 373, 0.901
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2004, 822, 0.918
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2005, 348, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2006, 758, 0.949
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2007, 375, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2008, 292, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2009, 778, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2010, 1960, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2011, 298, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2012, 210, 1
+146, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Scappoose Creek", 2013, 979, 1
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 1996, 1810, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 1997, 3633, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 1998, 3191, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 1999, 6773, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2000, 8985, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2001, 27170, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2002, 18379, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2003, 7348, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2004, 12958, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2005, 8591, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2006, 2366, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2007, 2411, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2008, 2806, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2009, 4382, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2010, 4624, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2011, 8216, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2012, 6222, -99
+148, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Tilton River", 2013, 8365, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 1996, 1638, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 1997, 4036, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 1998, 8268, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 1999, 27010, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2000, 32619, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2001, 39862, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2002, 62537, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2003, 28683, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2004, 33359, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2005, 28091, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2006, 31060, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2007, 9455, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2008, 18554, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2009, 21913, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2010, 21608, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2011, 15049, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2012, 4015, -99
+149, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Cascade", "Upper Cowlitz River", 2013, 7974, -99
+150, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Washington Upper Gorge Tributaries and White Salmon River", 2007, 152, -99
+150, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Washington Upper Gorge Tributaries and White Salmon River", 2008, 86, -99
+150, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Washington Upper Gorge Tributaries and White Salmon River", 2009, 71, -99
+150, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Washington Upper Gorge Tributaries and White Salmon River", 2010, 35, -99
+150, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Washington Upper Gorge Tributaries and White Salmon River", 2011, 111, -99
+150, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Washington Upper Gorge Tributaries and White Salmon River", 2012, 96, -99
+150, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Gorge", "Washington Upper Gorge Tributaries and White Salmon River", 2013, 106, -99
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2002, 2917, 0.141
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2003, 827, 0.137
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2004, 1035, 0.144
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2005, 321, 0.246
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2006, 468, 0.158
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2007, 35, 0.6
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2008, 105, 0.781
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2009, 328, 0.079
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2010, 174, 0.391
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2011, 476, 0.338
+152, "Lower Columbia River Coho Salmon ESU", "Coho", "-99", "Coastal", "Youngs Bay", 2012, 241, 0.535

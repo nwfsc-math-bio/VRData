@@ -6,14 +6,21 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>README • testdata</title>
+<title>README • SRData</title>
 
+<!-- favicons -->
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png" />
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/cerulean/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous" />
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
 
@@ -38,8 +45,11 @@
 
 
 
+  <link href="extra.css" rel="stylesheet">
+  
 
 <meta property="og:title" content="README" />
+<meta property="og:image" content="/logo.png" />
 
 
 
@@ -70,8 +80,8 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">testdata</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <a class="navbar-link" href="index.html">SRData</a>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0</span>
       </span>
     </div>
 
@@ -89,9 +99,34 @@
 <li>
   <a href="articles/index.html">Data</a>
 </li>
+<li>
+  <a href="SRDocs.html">Reports</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    News
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Releases</li>
+    <li>
+      <a href="https://github.com/nwfsc-math-bio/SRData/releases/tag/v1.0">Version 1.0 2015 SR</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="news/index.html">Changelog</a>
+    </li>
+  </ul>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/nwfsc-math-bio/SRData/">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
       
     </div><!--/.nav-collapse -->
@@ -112,9 +147,26 @@
 
 <p>This has a function called <code><a href="reference/process_data_raw.html">process_data_raw()</a></code>. When you type</p>
 <pre><code><a href="reference/process_data_raw.html">process_data_raw()</a></code></pre>
-<p>It processes the csv file in <code>data-raw</code> folder into a <code>.rda</code> object in <code>data</code> and a <code>.R</code> file with the Roxygen header on the csv file.</p>
-<p>When the package is built, you can do ?Red-Fairy-River (say) to get the meta information.</p>
+<p>It processes the csv file in <code>data-raw</code> folder into a <code>.rda</code> object in <code>data</code>, a <code>.R</code> file, and a <code>.Rmd</code> vignette usingthe Roxygen header on the csv file.</p>
+<p>When the package is built, you can do ?<data-name> to get the meta information.</data-name></p>
 <p>Note, you can run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code> locally, but the GitHub repo is set up with a GitHub Action to automatically run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code> whenever a push to the <code>data-raw</code> folder happens. I probably ought to set it up to do a pull-request instead of pushing right to master branch, but I am not sure how to do that. So that’s on the To-Do list.</p>
+<div id="workflow" class="section level2">
+<h2 class="hasAnchor">
+<a href="#workflow" class="anchor"></a>Workflow</h2>
+<ul>
+<li>Add csv file to data-raw</li>
+<li>Run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code>
+</li>
+<li>Build the documentation, then build package</li>
+<li>Run <code><a href="https://pkgdown.r-lib.org/reference/build_site.html">pkgdown::build_site()</a></code>
+</li>
+</ul>
+<pre><code><a href="https://nwfsc-math-bio.github.io/SRData">library(SRData)
+process_data_raw()
+devtools::document(roclets = c('rd', 'collate', 'namespace'))
+system("R CMD INSTALL --no-multiarch --with-keep.source SRData")
+pkgdown::build_site()</a></code></pre>
+</div>
 </div>
 
   </div>
@@ -131,7 +183,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by The package maintainer.</p>
+  <p>Developed by Holmes Elizabeth.</p>
 </div>
 
 <div class="pkgdown">
