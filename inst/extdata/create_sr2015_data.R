@@ -7,6 +7,7 @@ required <- c("NMFS_POPID",
 )
 df <- read.csv("inst/extdata/Copy of SPS_Master_Oracle2013_2014_StatusReview_JH_01282016.csv")
 df <- df[,required]
+df <- dplyr::rename(df, YEAR = BROOD_YEAR)
 
 for(esu in unique(df$ESU)){
   dat <- subset(df, ESU==esu)

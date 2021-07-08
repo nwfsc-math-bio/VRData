@@ -18,7 +18,7 @@ data('Middle-Columbia-River-Steelhead-DPS')
 
 ```{r, echo = FALSE}
 out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS == -99] <- NA
-ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$NUMBER_OF_SPAWNERS)) +
+ggplot2::ggplot(out, ggplot2::aes(x=.data$YEAR, y=.data$NUMBER_OF_SPAWNERS)) +
    ggplot2::geom_point(na.rm = TRUE) +
    ggplot2::ggtitle('Spawner Counts') +
    ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
@@ -28,7 +28,7 @@ ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$NUMBER_OF_SPAWNERS
 
 ```{r, echo = FALSE}
 out$FRACWILD[out$FRACWILD == -99] <- NA
-ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$FRACWILD)) +
+ggplot2::ggplot(out, ggplot2::aes(x=.data$YEAR, y=.data$FRACWILD)) +
    ggplot2::geom_point(na.rm = TRUE) +
    ggplot2::ggtitle('Fraction Wild') +
    ggplot2::ylim(0,1) +

@@ -20,7 +20,7 @@ navbar:
       href: articles/index.html
     documents:
       text: Documents
-      href: SRDocs.html
+      href: VRDocs.html
 
 articles:
 - title: Chinook
@@ -35,6 +35,9 @@ articles:
 - title: Steelhead
   contents:
   - contains("Steelhead")
+- title: Sockeye
+  contents:
+  - contains("Sockeye")
   
 reference:
 - title: Chinook
@@ -49,6 +52,9 @@ reference:
 - title: Steelhead
   contents:
   - contains("Steelhead")
+- title: Sockeye
+  contents:
+  - contains("Sockeye")
 
 
 news:

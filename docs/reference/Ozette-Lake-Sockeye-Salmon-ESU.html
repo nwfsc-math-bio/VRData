@@ -101,7 +101,7 @@
   <a href="../articles/index.html">Data Reports</a>
 </li>
 <li>
-  <a href="../SRDocs.html">Documents</a>
+  <a href="../VRDocs.html">Documents</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -156,27 +156,40 @@
 
     <p>A csv file.</p><dl>
 <dt>NMFS_POPID</dt><dd><p>NWFSC id for the population.</p></dd>
-<dt>ESU</dt><dd><p></p></dd>
-<dt>SPECIES</dt><dd><p></p></dd>
-<dt>RUN_TIMING</dt><dd><p></p></dd>
-<dt>MAJOR_POPULATION_GROUP</dt><dd><p></p></dd>
-<dt>COMMON_POPULATION_NAME</dt><dd><p></p></dd>
-<dt>BROOD_YEAR</dt><dd><p>The year that the count was made.</p></dd>
+<dt>ESU</dt><dd><p>ESU or DPS name.</p></dd>
+<dt>SPECIES</dt><dd><p>Species name.</p></dd>
+<dt>RUN_TIMING</dt><dd><p>Run timing (fall, winter, spring, etc). If missing, see the ESU/DPS name or may not be applicable for the species.</p></dd>
+<dt>MAJOR_POPULATION_GROUP</dt><dd><p>Major population group within the ESU or DPS.</p></dd>
+<dt>COMMON_POPULATION_NAME</dt><dd><p>Population name.</p></dd>
+<dt>YEAR</dt><dd><p>The year that the count was made.</p></dd>
 <dt>NUMBER_OF_SPAWNERS</dt><dd><p>Spawners count. -99 means missing count.</p></dd>
 <dt>FRACWILD</dt><dd><p>Fraction wild. -99 means missing information.</p></dd>
 
 </dl>
 
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    
+
+
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <p>Downloaded from the SPS Master Oracle 2013-2014 Database on
 January 28, 2016</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    
+
+
+    <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
+
+    <p>Monica Diaz (NOAA/NWFSC)</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'Ozette-Lake-Sockeye-Salmon-ESU'</span><span class='op'>)</span>
 <span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://ggplot2.tidyverse.org'>ggplot2</a></span><span class='op'>)</span>
 <span class='va'>out</span><span class='op'>$</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>[</span><span class='va'>out</span><span class='op'>$</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>==</span><span class='op'>-</span><span class='fl'>99</span><span class='op'>]</span> <span class='op'>&lt;-</span> <span class='cn'>NA</span>
-<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>out</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>BROOD_YEAR</span>, y<span class='op'>=</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span> <span class='op'>+</span>
+<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>out</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>YEAR</span>, y<span class='op'>=</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>ggtitle</a></span><span class='op'>(</span><span class='st'>'Ozette-Lake-Sockeye-Salmon-ESU'</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/facet_wrap.html'>facet_wrap</a></span><span class='op'>(</span><span class='op'>~</span><span class='va'>COMMON_POPULATION_NAME</span><span class='op'>)</span>
 </div><div class='img'><img src='Ozette-Lake-Sockeye-Salmon-ESU-1.png' alt='' width='700' height='433' /></div></pre>

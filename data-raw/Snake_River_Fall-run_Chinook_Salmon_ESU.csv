@@ -1,22 +1,17 @@
 #' Snake River Fall-run Chinook Salmon ESU
 #'
-#' Spawner counts and fraction wild data.
+#' @description Spawner counts and fraction wild data.
 #'
-#' @format A csv file.
-#' \describe{
-#'   \item{NMFS_POPID}{NWFSC id for the population.}
-#'   \item{ESU}{}
-#'   \item{SPECIES}{}
-#'   \item{RUN_TIMING}{}
-#'   \item{MAJOR_POPULATION_GROUP}{}
-#'   \item{COMMON_POPULATION_NAME}{}
-#'   \item{BROOD_YEAR}{The year that the count was made.}
-#'   \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
-#'   \item{FRACWILD}{Fraction wild. -99 means missing information.}
-#' }
 #' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
 #' January 28, 2016
-"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "BROOD_YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
+#' 
+#' @source 
+#' 
+#' @references
+#' 
+#' @author Monica Diaz (NOAA/NWFSC)
+#' 
+"NMFS_POPID", "ESU", "SPECIES", "RUN_TIMING", "MAJOR_POPULATION_GROUP", "COMMON_POPULATION_NAME", "YEAR", "NUMBER_OF_SPAWNERS", "FRACWILD"
 56, "Snake River Fall-run Chinook Salmon ESU", "Chinook", "Fall-run", "Snake River", "Snake River Lower Mainstem", 1975, 1000, 1
 56, "Snake River Fall-run Chinook Salmon ESU", "Chinook", "Fall-run", "Snake River", "Snake River Lower Mainstem", 1976, 470, 1
 56, "Snake River Fall-run Chinook Salmon ESU", "Chinook", "Fall-run", "Snake River", "Snake River Lower Mainstem", 1977, 600, 1

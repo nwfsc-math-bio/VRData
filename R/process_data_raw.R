@@ -22,7 +22,8 @@ process_data_raw <- function() {
     filpath <- file.path("data-raw", fil)
     thetext <- readLines(filpath)
     isheader <- stringr::str_sub(thetext, 1, 2) == "#'"
-
+    thecols <- read.csv(text=thetext[max(which(isheader))+1])
+    thecols <- colnames(thecols)
     # Create the R file for the data file
     headr <- thetext[isheader]
     dataname <- stringr::str_replace_all(stringr::str_sub(headr[1], 4), " ","-")
@@ -32,11 +33,11 @@ process_data_raw <- function() {
                     "#' data('", dataname, "')\n",
                     "#' library(ggplot2)\n",
                     "#' out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] <- NA\n",
-                    "#' ggplot(out, aes(x=BROOD_YEAR, y=NUMBER_OF_SPAWNERS)) + geom_point(na.rm = TRUE) +\n",
+                    "#' ggplot(out, aes(x=YEAR, y=NUMBER_OF_SPAWNERS)) + geom_point(na.rm = TRUE) +\n",
                     "#'   ggtitle('", dataname, "') +\n",
                     "#'   facet_wrap(~COMMON_POPULATION_NAME)\n",
                     "NULL\n")
-    cat(headr, sep="\n", footr, file=file.path("R", paste0(dataname, ".R")))
+    cat(headr, describe_text(thecols), sep="\n", footr, file=file.path("R", paste0(dataname, ".R")))
 
     # Create the vignette file
     headr <- c("---
@@ -59,7 +60,7 @@ data('", dataname, "')
 
 ```{r, echo = FALSE}
 out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS == -99] <- NA
-ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$NUMBER_OF_SPAWNERS)) +
+ggplot2::ggplot(out, ggplot2::aes(x=.data$YEAR, y=.data$NUMBER_OF_SPAWNERS)) +
    ggplot2::geom_point(na.rm = TRUE) +
    ggplot2::ggtitle('Spawner Counts') +
    ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
@@ -69,7 +70,7 @@ ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$NUMBER_OF_SPAWNERS
 
 ```{r, echo = FALSE}
 out$FRACWILD[out$FRACWILD == -99] <- NA
-ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$FRACWILD)) +
+ggplot2::ggplot(out, ggplot2::aes(x=.data$YEAR, y=.data$FRACWILD)) +
    ggplot2::geom_point(na.rm = TRUE) +
    ggplot2::ggtitle('Fraction Wild') +
    ggplot2::ylim(0,1) +
