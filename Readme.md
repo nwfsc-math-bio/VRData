@@ -1,11 +1,11 @@
 # README
 
-**See the [WEBSITE](https://nwfsc-math-bio.github.io/SRData/) for the data information. This Readme is for the package and data maintainers.**
+**See the [WEBSITE](https://nwfsc-math-bio.github.io/VRData/) for the data information. This Readme is for the package and data maintainers.**
 
 ## New data
 
 * Add new csv files to the `data-raw` folder with the Roxygen2 headers. 
-* Push to GitHub and the data will the automaticall processed for the website.
+* Push to GitHub and the data will the automatically processed for the website.
 
 ## Changing the man files and vignettes
 
@@ -14,7 +14,7 @@ The man files appear under the Reference tab and the vignettes appear under the 
 ```
 process_data_raw()
 ```
-It processes the csv file in `data-raw` folder into a `.rda` object in `data`, a `.R` file, and a `.Rmd` vignette usingthe Roxygen header on the csv file. Change this file to change the look of the man or article files.
+It processes the csv file in `data-raw` folder into a `.rda` object in `data`, a `.R` file, and a `.Rmd` vignette using the Roxygen header on the csv file. Change this file to change the look of the man or article files.
 
 When the package is built, you can do ?<data-name> to get the meta information.
 
@@ -30,10 +30,10 @@ Note, you can run `process_data_raw()` locally, but the GitHub repo is set up wi
 * Run `pkgdown::build_site()`
 
 ```
-library(SRData)
+library(VRData)
 process_data_raw()
 devtools::document(roclets = c('rd', 'collate', 'namespace'))
-system("R CMD INSTALL --no-multiarch --with-keep.source SRData")
+system("R CMD INSTALL --no-multiarch --with-keep.source VRData")
 pkgdown::build_site()
 ```
 

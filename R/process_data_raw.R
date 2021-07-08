@@ -51,7 +51,7 @@ vignette: >
 # To load data
 
 ```{r}
-library(SRData)
+library(VRData)
 data('", dataname, "')
 ```
 

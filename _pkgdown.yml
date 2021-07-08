@@ -29,6 +29,6 @@ articles:
 
 news:
   releases:
-  - text: "Version 1.0 2015 SR"
-    href: https://github.com/nwfsc-math-bio/SRData/releases/tag/v1.0
+  - text: "Version 1.0 2015 VR"
+    href: https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0
 

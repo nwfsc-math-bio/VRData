@@ -10,7 +10,7 @@ vignette: >
 # To load data
 
 ```{r}
-library(SRData)
+library(VRData)
 data('Upper-Columbia-River-Steelhead-DPS')
 ```
 
