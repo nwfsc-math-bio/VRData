@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>README • SRData</title>
+<title>README • VRData</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -80,7 +80,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">SRData</a>
+        <a class="navbar-link" href="index.html">VRData</a>
         <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0</span>
       </span>
     </div>
@@ -111,7 +111,7 @@
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-header">Releases</li>
     <li>
-      <a href="https://github.com/nwfsc-math-bio/SRData/releases/tag/v1.0">Version 1.0 2015 SR</a>
+      <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0">Version 1.0 2015 VR</a>
     </li>
     <li class="divider"></li>
     <li>
@@ -122,7 +122,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/nwfsc-math-bio/SRData/">
+  <a href="https://github.com/nwfsc-math-bio/VRData/">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -145,13 +145,13 @@
 
 <div id="readme" class="section level1">
 
-<p><strong>See the <a href="https://nwfsc-math-bio.github.io/SRData/">WEBSITE</a> for the data information. This Readme is for the package and data maintainers.</strong></p>
+<p><strong>See the <a href="https://nwfsc-math-bio.github.io/VRData/">WEBSITE</a> for the data information. This Readme is for the package and data maintainers.</strong></p>
 <div id="new-data" class="section level2">
 <h2 class="hasAnchor">
 <a href="#new-data" class="anchor"></a>New data</h2>
 <ul>
 <li>Add new csv files to the <code>data-raw</code> folder with the Roxygen2 headers.</li>
-<li>Push to GitHub and the data will the automaticall processed for the website.</li>
+<li>Push to GitHub and the data will the automatically processed for the website.</li>
 </ul>
 </div>
 <div id="changing-the-man-files-and-vignettes" class="section level2">
@@ -159,7 +159,7 @@
 <a href="#changing-the-man-files-and-vignettes" class="anchor"></a>Changing the man files and vignettes</h2>
 <p>The man files appear under the Reference tab and the vignettes appear under the Articles tab. The R and Rmd files for these are created by the function <code><a href="reference/process_data_raw.html">process_data_raw()</a></code>. When you type</p>
 <pre><code><a href="reference/process_data_raw.html">process_data_raw()</a></code></pre>
-<p>It processes the csv file in <code>data-raw</code> folder into a <code>.rda</code> object in <code>data</code>, a <code>.R</code> file, and a <code>.Rmd</code> vignette usingthe Roxygen header on the csv file. Change this file to change the look of the man or article files.</p>
+<p>It processes the csv file in <code>data-raw</code> folder into a <code>.rda</code> object in <code>data</code>, a <code>.R</code> file, and a <code>.Rmd</code> vignette using the Roxygen header on the csv file. Change this file to change the look of the man or article files.</p>
 <p>When the package is built, you can do ?<data-name> to get the meta information.</data-name></p>
 </div>
 <div id="updating-the-webpage-locally" class="section level2">
@@ -178,10 +178,10 @@
 <li>Run <code><a href="https://pkgdown.r-lib.org/reference/build_site.html">pkgdown::build_site()</a></code>
 </li>
 </ul>
-<pre><code><a href="https://nwfsc-math-bio.github.io/SRData">library(SRData)
+<pre><code><a href="https://nwfsc-math-bio.github.io/VRData">library(VRData)
 process_data_raw()
 devtools::document(roclets = c('rd', 'collate', 'namespace'))
-system("R CMD INSTALL --no-multiarch --with-keep.source SRData")
+system("R CMD INSTALL --no-multiarch --with-keep.source VRData")
 pkgdown::build_site()</a></code></pre>
 </div>
 </div>
