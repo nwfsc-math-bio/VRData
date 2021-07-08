@@ -13,19 +13,43 @@ navbar:
       icon: fas fa-home fa-lg
       href: index.html
     reference:
-      text: Reference
+      text: Data Info
       href: reference/index.html
     articles:
-      text: Data
+      text: Data Reports
       href: articles/index.html
     documents:
-      text: Reports
+      text: Documents
       href: SRDocs.html
 
 articles:
-- title: Plots and Tables
+- title: Chinook
   contents:
-  - contains("-")
+  - contains("Chinook")
+- title: Coho
+  contents:
+  - contains("Coho")
+- title: Chum
+  contents:
+  - contains("Chum")
+- title: Steelhead
+  contents:
+  - contains("Steelhead")
+  
+reference:
+- title: Chinook
+  contents:
+  - contains("Chinook")
+- title: Coho
+  contents:
+  - contains("Coho")
+- title: Chum
+  contents:
+  - contains("Chum")
+- title: Steelhead
+  contents:
+  - contains("Steelhead")
+
 
 news:
   releases:
