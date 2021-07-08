@@ -1,4 +1,4 @@
-pandoc: 2.11.2
+pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
@@ -19,5 +19,5 @@ articles:
   Upper-Columbia-River-Steelhead-DPS: Upper-Columbia-River-Steelhead-DPS.html
   Upper-Willamette-River-Chinook-Salmon-ESU: Upper-Willamette-River-Chinook-Salmon-ESU.html
   Upper-Willamette-River-Steelhead-DPS: Upper-Willamette-River-Steelhead-DPS.html
-last_built: 2021-07-08T16:59Z
+last_built: 2021-07-07T18:07Z
 
