@@ -1,6 +1,6 @@
 #' @title Columbia River Chum Salmon ESU
 #'
-#' @description Spawner counts and fraction wild data.
+#' @description Spawner counts and fraction wild data. More information.
 #'
 #' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
 #' January 28, 2016
@@ -64,4 +64,3 @@
 124, "Columbia River Chum Salmon ESU", "Chum", "-99", "Cascade", "Washougal River", 2011, 4801, -99
 124, "Columbia River Chum Salmon ESU", "Chum", "-99", "Cascade", "Washougal River", 2012, 2498, -99
 124, "Columbia River Chum Salmon ESU", "Chum", "-99", "Cascade", "Washougal River", 2013, 1364, -99
-130, "Columbia River Chum Salmon ESU", "Coho", "-99", "Willamette - Cascade", "Clackamas River", 2013, 3252, 0.985
