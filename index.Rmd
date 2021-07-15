@@ -1,0 +1,36 @@
+---
+title: Index
+output: 
+  md_document:
+    variant: gfm
+---
+
+<!-- index.md is generated from Index.Rmd. Please edit that file -->
+
+# VRData <img src="man/figures/logo.png" align="right" style="padding: 10px"/>
+
+This is a data package for the PNW spawner and fraction wild data used in the 5-year NWFSC PNW Salmonid Viability Reports.
+
+## Installation
+
+To install, install the **devtools** package (if needed) and then use:
+```
+library(devtools)
+devtools::install_github("nwfsc-math-bio/VRData")
+```
+
+****
+
+```{r add-disclaimer, echo=FALSE, results='asis'}
+url <- "https://raw.githubusercontent.com/nmfs-fish-tools/Resources/master/Disclaimer.md"
+childtext <- readLines(url)
+cat(childtext, sep="\n")
+```
+
+****
+
+```{r footer, echo=FALSE, results='asis'}
+url <- "https://raw.githubusercontent.com/nmfs-fish-tools/Resources/master/footer.md" 
+childtext <- readLines(url)
+cat(childtext, sep="\n")
+```
