@@ -18,6 +18,7 @@ jobs:
 
       - name: Process data-raw
         run: |
+          source("R/describe_text.R")
           source("R/process_data_raw.R")
           process_data_raw()
         shell: Rscript {0}

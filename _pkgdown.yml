@@ -23,6 +23,9 @@ navbar:
       href: VRDocs.html
 
 articles:
+- title: Package internal data
+  contents:
+  - contains("vrdata_")
 - title: Chinook
   contents:
   - contains("Chinook")
