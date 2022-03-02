@@ -5,7 +5,11 @@
 ## New data
 
 * Add new csv files to the `data-raw` folder with the Roxygen2 headers. 
-* Push to GitHub and the data will the automatically processed for the website.
+* Push to GitHub and the data will be automatically processed for the website via a GitHub Action.
+
+# The GitHub Action
+
+The following will be run automatically.
 
 ## Changing the man files and vignettes
 
@@ -22,7 +26,7 @@ When the package is built, you can do ?<data-name> to get the meta information.
 
 Note, you can run `process_data_raw()` locally, but the GitHub repo is set up with a GitHub Action to automatically run `process_data_raw()` whenever a push to the `data-raw` folder happens. 
 
-## Workflow
+## Manual workflow
 
 * Add csv file to data-raw
 * Run `process_data_raw()`
