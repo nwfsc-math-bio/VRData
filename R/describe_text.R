@@ -24,7 +24,10 @@ key <- matrix(c(
 "FRACTION_WILD", "Decimal between 0 and 1. Fraction wild or natural. -99 means missing information.",
 "CITATION", "Data citation.",
 "SOURCE", "Data source.",
-"CONTRIBUTOR", "Data contributor."),ncol=2, byrow = TRUE)
+"METHOD", "Method for the spawner count. Survey refers to a spawning ground survey of some type. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count.",
+"CONTRIBUTOR", "Data contributor.",
+"SERIES", "For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population."
+),ncol=2, byrow = TRUE)
 
 thetext <- c("#' \n#' @format A csv file.\n#' \\describe{")
 

@@ -2,8 +2,12 @@ pandoc: 2.11.2
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
-  Salmon chum (Columbia River ESU): Salmon chum (Columbia River ESU).html
-  Salmon chum (Hood Canal summer-run ESU): Salmon chum (Hood Canal summer-run ESU).html
-  Steelhead (Middle Columbia River DPS): Steelhead (Middle Columbia River DPS).html
-last_built: 2022-03-04T04:17Z
+  Salmon chum (Columbia River ESU)-CRchum2020: Salmon chum (Columbia River ESU)-CRchum2020.html
+  Salmon chum (Hood Canal summer-run ESU)-HCChumSR2020: Salmon chum (Hood Canal summer-run
+    ESU)-HCChumSR2020.html
+  Salmon coho (Oregon Coast ESU): Salmon coho (Oregon Coast ESU).html
+  Steelhead (Middle Columbia River DPS)-ICMC2021: Steelhead (Middle Columbia River
+    DPS)-ICMC2021.html
+  Steelhead (Puget Sound DPS): Steelhead (Puget Sound DPS).html
+last_built: 2022-03-04T19:39Z
 

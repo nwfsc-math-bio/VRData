@@ -1,9 +1,11 @@
-#' Steelhead (Middle Columbia River DPS)
+#' Steelhead (Middle Columbia River DPS)-ICMC2021
 #' 
 
 #' 
 #' @format A csv file.
 #' \describe{
+#' \item{Series}{For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.}
+#' \item{Method}{Method for the spawner count. Survey refers to a spawning ground survey of some type. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count.}
 #' \item{Citation}{Data citation.}
 #' \item{Contributor}{Data contributor.}
 #' \item{NMFS_POPID}{NWFSC id for the population.}
@@ -43,7 +45,7 @@
 #' @references
  #' Salmon Population Summaries (SPS) Database: \url{https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps}
 #' 
-
+#' Original source: Citations with the format CAXMMDDYYYY indicate that the data are from the Coordinated Assessments Partnership (CAP) database and were downloaded on on MM-DD-YYYY. \url{https://www.streamnet.org/home/data-maps/fish-hlis/}.
 #' * Klickitat River: CAX05262020
 #' * Fifteenmile Creek: CAX05262020
 #' * Deschutes River Westside: CAX05262020
@@ -66,21 +68,24 @@
 #' * Walla Walla River: CAX05262020
 #' * Touchet River: CAX05262020
 #' 
-#' @name Steelhead (Middle Columbia River DPS)
+#' @name Steelhead (Middle Columbia River DPS)-ICMC2021
 #' @docType data
 #' @examples
-#' data('Steelhead (Middle Columbia River DPS)')
+#' data('Steelhead (Middle Columbia River DPS)-ICMC2021')
 #' library(ggplot2)
 #' out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] <- NA
-#' ggplot(out, aes(x=BROOD_YEAR, y=NUMBER_OF_SPAWNERS)) + geom_point(na.rm = TRUE) +
-#'   ggtitle('Steelhead (Middle Columbia River DPS)') +
-#'   facet_wrap(~COMMON_POPULATION_NAME)
+#' ggplot(out, aes(x=BROOD_YEAR, y=NUMBER_OF_SPAWNERS)) + 
+#'   geom_point(na.rm = TRUE) +
+#'   ggtitle('Steelhead (Middle Columbia River DPS)-ICMC2021') +
+#'   facet_wrap(~COMMON_POPULATION_NAME) +
+#'   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1), strip.text.x = element_text(size = 6))
 #' 
 #' out$FRACWILD[out$FRACWILD == -99] <- NA
 #' ggplot(out, aes(x=BROOD_YEAR, y=FRACWILD)) +
-#'  geom_point(na.rm = TRUE) +
-#'  ggtitle('Fraction Wild') +
-#'  ylim(0,1) +
-#'  facet_wrap(~COMMON_POPULATION_NAME)
+#'   geom_point(na.rm = TRUE) +
+#'   ggtitle('Fraction Wild') +
+#'   ylim(0,1) +
+#'   facet_wrap(~COMMON_POPULATION_NAME) +
+#'   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1), strip.text.x = element_text(size = 6))
 NULL
 

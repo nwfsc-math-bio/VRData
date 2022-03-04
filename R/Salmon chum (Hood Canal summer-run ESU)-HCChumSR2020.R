@@ -1,9 +1,11 @@
-#' Salmon chum (Hood Canal summer-run ESU)
+#' Salmon chum (Hood Canal summer-run ESU)-HCChumSR2020
 #' 
 
 #' 
 #' @format A csv file.
 #' \describe{
+#' \item{Series}{For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.}
+#' \item{Method}{Method for the spawner count. Survey refers to a spawning ground survey of some type. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count.}
 #' \item{Citation}{Data citation.}
 #' \item{Contributor}{Data contributor.}
 #' \item{NMFS_POPID}{NWFSC id for the population.}
@@ -17,7 +19,7 @@
 #' \item{FRACWILD}{Decimal between 0 and 1. Fraction wild or natural. -99 means missing information.}
 #' }
 #' 
-#' @description Spawner and fraction wild data. Species: Summer Chum. 
+#' @description Spawner and fraction wild data. Species: Summer Chum. Method: NA
 #' 
 #' 
 #' @source WDFW, Point No Point Treaty Council
@@ -25,23 +27,26 @@
 #' @references
  #' Salmon Population Summaries (SPS) Database: \url{https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps}
 #' 
-
+#' Original source: 
 #' 
-#' @name Salmon chum (Hood Canal summer-run ESU)
+#' @name Salmon chum (Hood Canal summer-run ESU)-HCChumSR2020
 #' @docType data
 #' @examples
-#' data('Salmon chum (Hood Canal summer-run ESU)')
+#' data('Salmon chum (Hood Canal summer-run ESU)-HCChumSR2020')
 #' library(ggplot2)
 #' out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] <- NA
-#' ggplot(out, aes(x=YEAR, y=NUMBER_OF_SPAWNERS)) + geom_point(na.rm = TRUE) +
-#'   ggtitle('Salmon chum (Hood Canal summer-run ESU)') +
-#'   facet_wrap(~COMMON_POPULATION_NAME)
+#' ggplot(out, aes(x=YEAR, y=NUMBER_OF_SPAWNERS)) + 
+#'   geom_point(na.rm = TRUE) +
+#'   ggtitle('Salmon chum (Hood Canal summer-run ESU)-HCChumSR2020') +
+#'   facet_wrap(~COMMON_POPULATION_NAME) +
+#'   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
 #' 
 #' out$FRACWILD[out$FRACWILD == -99] <- NA
 #' ggplot(out, aes(x=YEAR, y=FRACWILD)) +
-#'  geom_point(na.rm = TRUE) +
-#'  ggtitle('Fraction Wild') +
-#'  ylim(0,1) +
-#'  facet_wrap(~COMMON_POPULATION_NAME)
+#'   geom_point(na.rm = TRUE) +
+#'   ggtitle('Fraction Wild') +
+#'   ylim(0,1) +
+#'   facet_wrap(~COMMON_POPULATION_NAME) +
+#'   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
 NULL
 
