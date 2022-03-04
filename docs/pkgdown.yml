@@ -2,12 +2,37 @@ pandoc: 2.11.2
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
+  Salmon Chinook (Lower Columbia River ESU)-LCchinook2020: Salmon Chinook (Lower Columbia
+    River ESU)-LCchinook2020.html
+  Salmon Chinook (Puget Sound DPS): Salmon Chinook (Puget Sound DPS).html
+  Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookModel: Salmon Chinook
+    (Snake River spring-summer-run ESU)-ICSRSSchinookModel.html
+  Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurveySBT2020: Salmon
+    Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurveySBT2020.html
+  Salmon Chinook (Upper Columbia River spring-run ESU)-ICUCchinook2020: Salmon Chinook
+    (Upper Columbia River spring-run ESU)-ICUCchinook2020.html
+  Salmon Chinook (Upper Willamette River ESU)-UWchinook2020: Salmon Chinook (Upper
+    Willamette River ESU)-UWchinook2020.html
   Salmon chum (Columbia River ESU)-CRchum2020: Salmon chum (Columbia River ESU)-CRchum2020.html
   Salmon chum (Hood Canal summer-run ESU)-HCChumSR2020: Salmon chum (Hood Canal summer-run
     ESU)-HCChumSR2020.html
+  Salmon coho (Lower Columbia River ESU)-LCcoho2020: Salmon coho (Lower Columbia River
+    ESU)-LCcoho2020.html
   Salmon coho (Oregon Coast ESU): Salmon coho (Oregon Coast ESU).html
+  Salmon sockeye (Ozette Lake ESU): Salmon sockeye (Ozette Lake ESU).html
+  Steelhead (Lower Columbia River DPS)-LCsthd2020: Steelhead (Lower Columbia River
+    DPS)-LCsthd2020.html
   Steelhead (Middle Columbia River DPS)-ICMC2021: Steelhead (Middle Columbia River
     DPS)-ICMC2021.html
   Steelhead (Puget Sound DPS): Steelhead (Puget Sound DPS).html
-last_built: 2022-03-04T19:39Z
+  Steelhead (Snake River Basin DPS)-ICSRsthdGSI: Steelhead (Snake River Basin DPS)-ICSRsthdGSI.html
+  Steelhead (Snake River Basin DPS)-ICSRsthdModel: Steelhead (Snake River Basin DPS)-ICSRsthdModel.html
+  Steelhead (Snake River Basin DPS)-ICSRsthdSurvey: Steelhead (Snake River Basin DPS)-ICSRsthdSurvey.html
+  Steelhead (Upper Columbia River DPS)-ICUCsthdModel: Steelhead (Upper Columbia River
+    DPS)-ICUCsthdModel.html
+  Steelhead (Upper Columbia River DPS)-ICUCsthdSurvey2020: Steelhead (Upper Columbia
+    River DPS)-ICUCsthdSurvey2020.html
+  Steelhead (Upper Willamette River DPS)-UWsthd2020: Steelhead (Upper Willamette River
+    DPS)-UWsthd2020.html
+last_built: 2022-03-04T20:02Z
 

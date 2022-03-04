@@ -16,7 +16,7 @@ process_data_raw <- function() {
   if(length(oldRfils)!=0) file.remove(file.path("R", oldRfils))
 
   # Go through each data file
-  fils <- list.files("data-raw")
+  fils <- list.files("data-raw", pattern = "[.]csv")
   for(fil in fils){
     filpath <- file.path("data-raw", fil)
     if(file.info(filpath)$isdir) next
@@ -44,6 +44,7 @@ process_data_raw <- function() {
     # Create parts needed for the R file Roxygen2 header
     # dataname <- stringr::str_replace_all(stringr::str_sub(headr[1], 4), " ","-")
     dataname <- paste0(stringr::str_replace_all(ESU, ",", ""), series, collapse = "-")
+    dataname <- stringr::str_replace_all(dataname, "/", "-")
     yearname <- ifelse(any(colnames(datar)=="brood_year"), "BROOD_YEAR", "YEAR")
     headr <- c(paste0("#' ", dataname, "\n#' \n"), headr)
     footr <- paste0("#' @name ", dataname, "\n",
