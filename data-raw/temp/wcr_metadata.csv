@@ -1,0 +1,303 @@
+﻿"OBJECT
+ID",DPS,DPS_ID,"WCR
+POP_ID","TRT
+POP_ID","NWFSC
+POP_ID",POPULATION,GROUP,TYPE,STATUS,RUN_TIMING
+3,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaCLK,,4,Clackamas River,Cascade fall,Independent,Extant,fall
+5,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaCOW,,6,Coweeman River,Cascade fall,Independent,Extant,fall
+10,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaKAL,,11,Kalama River,Cascade fall,Independent,Extant,fall
+12,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaLEW,,14,Lewis River,Cascade fall,Independent,Extant,fall
+14,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaLCZ,,15,Lower Cowlitz River,Cascade fall,Independent,Extant,fall
+18,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaSAL,,19,Salmon Creek,Cascade fall,Independent,Extant,fall
+19,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaSDY,,21,Sandy River,Cascade fall,Independent,Extant,fall
+24,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaTOU,,25,Toutle River,Cascade fall,Independent,Extant,fall
+26,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaUCW,,27,Upper Cowlitz River,Cascade fall,Independent,Extant,fall
+29,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaWSH,,30,Washougal River,Cascade fall,Independent,Extant,fall
+13,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRlfLEW,,13,Lewis River,Cascade late fall,Independent,Extant,late fall
+20,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRlfSDY,,20,Sandy River,Cascade late fall,Independent,Extant,late fall
+2,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspCSP,,3,Cispus River,Cascade spring,Independent,Extant,spring
+11,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspKAL,,12,Kalama River,Cascade spring,Independent,Extant,spring
+17,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspNFL,,18,North Fork Lewis River,Cascade spring,Independent,Extant,spring
+21,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspSDY,,22,Sandy River,Cascade spring,Independent,Extant,spring
+23,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspTIL,,24,Tilton River,Cascade spring,Independent,Extant,spring
+25,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspTOU,,26,Toutle River,Cascade spring,Independent,Extant,spring
+27,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspUCW,,28,Upper Cowlitz River,Cascade spring,Independent,Extant,spring
+1,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaBIG,,1,Big Creek,Coast fall,Independent,Extant,fall
+4,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaCLT,,5,Clatskanie River,Coast fall,Independent,Extant,fall
+6,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaELO,,7,Elochoman River,Coast fall,Independent,Extant,fall
+7,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaGRC,,8,Grays and Chinook Rivers,Coast fall,Independent,Extant,fall
+8,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaHOO,,9,Hood River,Gorge fall,Independent,Extant,fall
+15,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaLGT,,16,Lower Gorge Tributaries,Gorge fall,Independent,Extant,fall
+16,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaMIL,,17,"Mill, Abernathy, and Germany Creeks",Coast fall,Independent,Extant,fall
+22,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaSCP,,23,Scappoose Creek,Coast fall,Independent,Extant,fall
+28,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaUGT,,29,Upper Gorge Tributaries,Gorge fall,Independent,Extant,fall
+30,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaWSR,,31,White Salmon River,Gorge fall,Independent,Extant,fall
+32,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRfaYNG,,33,Youngs Bay,Coast fall,Independent,Extant,fall
+9,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspHOO,,10,Hood River,Gorge spring,Independent,Extant,spring
+31,"Salmon, Chinook (Lower Columbia River ESU)",CKLCR,CKLCRspWSR,,32,White Salmon River,Gorge spring,Independent,Extant,spring
+34,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaCDR,14,35,Cedar River,Central/South Sound,Independent,Extant,fall
+37,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaGRN,15,38,Green River,Central/South Sound,Independent,Extant,fall
+41,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaNSQ,18,43,Nisqually River,Central/South Sound,Independent,Extant,fall
+44,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaPUY,17,45,Puyallup River,Central/South Sound,Independent,Extant,fall
+45,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaSAM,13,46,Sammamish River,Central/South Sound,Independent,Extant,fall
+54,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGspWHT,16,55,White River,Central/South Sound,Independent,Extant,spring
+40,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaMHC,20,42,Mid-Hood Canal,Hood Canal,Independent,Extant,fall
+46,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaSKO,19,47,Skokomish River,Hood Canal,Independent,Extant,fall
+42,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGspNSK,1,41,North Fork Nooksack River,Strait of Georgia,Independent,Extant,spring
+49,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGspSFN,2,50,South Fork Nooksack River,Strait of Georgia,Independent,Extant,spring
+35,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGsuDNG,21,36,Dungeness River,Strait of Juan de Fuca,Independent,Extant,summer
+36,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaELW,22,37,Elwha River,Strait of Juan de Fuca,Independent,Extant,fall
+33,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGspCSC,5,34,Cascade River,Whidbey Basin,Independent,Extant,spring
+38,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGsuLSA,6,39,Lower Sauk River,Whidbey Basin,Independent,Extant,summer
+39,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaLSK,3,40,Lower Skagit River,Whidbey Basin,Independent,Extant,fall
+43,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGsuNSG,9,44,North Fork Stillaguamish River,Whidbey Basin,Independent,Extant,summer
+47,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGsuSKY,11,48,Skykomish River,Whidbey Basin,Independent,Extant,summer
+48,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaSNQ,12,49,Snoqualmie River,Whidbey Basin,Independent,Extant,fall
+50,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGfaSMS,10,51,South Fork Stillaguamish River,Whidbey Basin,Independent,Extant,fall
+51,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGspSUI,8,52,Suiattle River,Whidbey Basin,Independent,Extant,spring
+52,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGspUSA,7,53,Upper Sauk River,Whidbey Basin,Independent,Extant,spring
+53,"Salmon, Chinook (Puget Sound ESU)",CKPUG,CKPUGsuUSK,4,54,Upper Skagit River,Whidbey Basin,Independent,Extant,summer
+57,"Salmon, Chinook (Snake River fall-run ESU)",CKSRF,CKSRFfaSRL,SNMAI,56,Snake River Lower Mainstem,,Independent,Extant,fall
+315,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspCTH,GRCAT,62,Catherine Creek,Grande Ronde/Imnaha,Independent,Extant,spring
+319,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspGRU,GRUMA,66,Grande Ronde River Upper Mainstem,Grande Ronde/Imnaha,Independent,Extant,spring
+320,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssIMN,IRMAI,67,Imnaha River Mainstem,Grande Ronde/Imnaha,Independent,Extant,spring/summer
+335,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspMNM,GRMIN,82,Minam River,Grande Ronde/Imnaha,Independent,Extant,spring
+329,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspWLW,GRLOS,76,Wallowa/Lostine Rivers,Grande Ronde/Imnaha,Independent,Extant,spring
+351,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspWNH,GRWEN,98,Wenaha River,Grande Ronde/Imnaha,Independent,Extant,spring
+346,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspTUC,SNTUC,93,Tucannon River,Lower Snake,Independent,Extant,spring
+311,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspBVC,MFBEA,58,Bear Valley Creek,Middle Fork Salmon,Independent,Extant,spring
+312,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssBGK,MFBIG,59,Big Creek,Middle Fork Salmon,Independent,Extant,spring/summer
+314,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssCMS,MFCAM,61,Camas Creek,Middle Fork Salmon,Independent,Extant,spring/summer
+316,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspCHB,SRCHA,63,Chamberlain Creek,Middle Fork Salmon,Independent,Extant,spring
+328,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssLOO,MFLOO,75,Loon Creek,Middle Fork Salmon,Independent,Extant,spring/summer
+331,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspMRS,MFMAR,78,Marsh Creek,Middle Fork Salmon,Independent,Extant,spring
+334,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssMSL,MFLMA,81,Middle Fork Salmon River Lower Mainstem,Middle Fork Salmon,Independent,Extant,spring/summer
+333,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspMSU,MFUMA,80,Middle Fork Salmon River Upper Mainstem,Middle Fork Salmon,Independent,Extant,spring
+345,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspSPH,MFSUL,92,Sulphur Creek,Middle Fork Salmon,Independent,Extant,spring
+318,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSsuESF,SFEFS,65,East Fork South Fork Salmon River,South Fork Salmon,Independent,Extant,summer
+324,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssLSR,SRLSR,71,Little Salmon River,South Fork Salmon,Independent,Extant,spring/summer
+343,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSsuSEC,SFSEC,90,Secesh River,South Fork Salmon,Independent,Extant,summer
+344,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSsuSFS,SFMAI,91,South Fork Salmon River,South Fork Salmon,Independent,Extant,summer
+317,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssEFS,SREFS,64,East Fork Salmon River,Upper Salmon,Independent,Extant,spring/summer
+323,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspLEM,SRLEM,70,Lemhi River,Upper Salmon,Independent,Extant,spring
+337,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspNFS,SRNFS,84,North Fork Salmon River,Upper Salmon,Independent,Extant,spring
+338,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSsuPAH,SRPAH,85,Pahsimeroi River,Upper Salmon,Independent,Extant,summer
+341,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssSLM,SRLMA,88,Salmon River Lower Mainstem,Upper Salmon,Independent,Extant,spring/summer
+342,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspSUM,SRUMA,89,Salmon River Upper Mainstem,Upper Salmon,Independent,Extant,spring
+350,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSssVAL,SRVAL,97,Valley Creek,Upper Salmon,Independent,Extant,spring/summer
+352,"Salmon, Chinook (Snake River spring/summer-run ESU)",CKSRS,CKSRSspYNK,SRYFS,99,Yankee Fork,Upper Salmon,Independent,Extant,spring
+175,"Salmon, Chinook (Upper Columbia River spring-run ESU)",CKUCS,CKUCSspENT,UCENT,100,Entiat River,Wenatchee/Methow,Independent,Extant,spring
+176,"Salmon, Chinook (Upper Columbia River spring-run ESU)",CKUCS,CKUCSspMET,UCMET,101,Methow River,Wenatchee/Methow,Independent,Extant,spring
+177,"Salmon, Chinook (Upper Columbia River spring-run ESU)",CKUCS,CKUCSspWEN,UCWEN,102,Wenatchee River,Wenatchee/Methow,Independent,Extant,spring
+58,"Salmon, Chinook (Upper Willamette River ESU)",CKUWR,CKUWRspCLP,,103,Calapooia River,,Independent,Extant,spring
+59,"Salmon, Chinook (Upper Willamette River ESU)",CKUWR,CKUWRspCLK,,104,Clackamas River,,Independent,Extant,spring
+60,"Salmon, Chinook (Upper Willamette River ESU)",CKUWR,CKUWRspMCK,,105,McKenzie River,,Independent,Extant,spring
+61,"Salmon, Chinook (Upper Willamette River ESU)",CKUWR,CKUWRspMFW,,106,Middle Fork Willamette River,,Independent,Extant,spring
+62,"Salmon, Chinook (Upper Willamette River ESU)",CKUWR,CKUWRspMOL,,107,Molalla River,,Independent,Extant,spring
+63,"Salmon, Chinook (Upper Willamette River ESU)",CKUWR,CKUWRspNST,,108,North Santiam River,,Independent,Extant,spring
+64,"Salmon, Chinook (Upper Willamette River ESU)",CKUWR,CKUWRspSST,,109,South Santiam River,,Independent,Extant,spring
+66,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaCLK,,111,Clackamas River,Cascade,Independent,Extant,fall
+68,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaCWZ,,113,Cowlitz River,Cascade,Independent,Extant,fall
+69,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLsuCWZ,,338,Cowlitz River,Cascade,Independent,Extant,summer
+72,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaKAL,,116,Kalama River,Cascade,Independent,Extant,fall
+73,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaLEW,,117,Lewis River,Cascade,Independent,Extant,fall
+76,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaSAL,,120,Salmon Creek,Cascade,Independent,Extant,fall
+77,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaSDY,,121,Sandy River,Cascade,Independent,Extant,fall
+80,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaWSH,,124,Washougal River,Cascade,Independent,Extant,fall
+65,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaBIG,,110,Big Creek,Coast,Independent,Extant,fall
+67,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaCLT,,112,Clatskanie River,Coast,Independent,Extant,fall
+70,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaELO,,114,Elochoman River,Coast,Independent,Extant,fall
+71,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaGRC,,115,Grays and Chinook Rivers,Coast,Independent,Extant,fall
+75,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaMIL,,119,"Mill, Abernathy, and Germany Creeks",Coast,Independent,Extant,fall
+78,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaSCP,,122,Scappoose Creek,Coast,Independent,Extant,fall
+81,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaYNG,,125,Youngs Bay,Coast,Independent,Extant,fall
+74,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaLGT,,118,Lower Gorge Tributaries,Gorge,Independent,Extant,fall
+79,"Salmon, chum (Columbia River ESU)",CMCOL,CMCOLfaUGT,,123,Upper Gorge Tributaries,Gorge,Independent,Extant,fall
+82,"Salmon, chum (Hood Canal summer-run ESU)",CMHCS,CMHCSsuHCL,,126,Hood Canal,,Independent,Extant,summer
+83,"Salmon, chum (Hood Canal summer-run ESU)",CMHCS,CMHCSsuSJF,,127,Strait of Juan de Fuca,,Independent,Extant,summer
+85,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelCSP,,129,Cispus River,Cascade,Independent,Extant,early and late
+86,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelCLK,,130,Clackamas River,Cascade,Independent,Extant,early and late
+88,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltCOW,,132,Coweeman River,Cascade,Independent,Extant,late
+89,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelEFL,,133,East Fork Lewis River,Cascade,Independent,Extant,early and late
+92,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltKAL,,136,Kalama River,Cascade,Independent,Extant,late
+93,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltLCZ,,137,Lower Cowlitz River,Cascade,Independent,Extant,late
+96,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelNFL,,141,North Fork Lewis River,Cascade,Independent,Extant,early and late
+97,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelNFT,,142,North Fork Toutle River,Cascade,Independent,Extant,early and late
+98,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltSAL,,144,Salmon Creek,Cascade,Independent,Extant,late
+99,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelSDY,,145,Sandy River,Cascade,Independent,Extant,early and late
+101,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelSFT,,147,South Fork Toutle River,Cascade,Independent,Extant,early and late
+102,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelTIL,,148,Tilton River,Cascade,Independent,Extant,early and late
+103,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRelUCW,,149,Upper Cowlitz River,Cascade,Independent,Extant,early and late
+106,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltWSH,,151,Washougal River,Cascade,Independent,Extant,late
+84,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltBIG,,128,Big Creek,Coast,Independent,Extant,late
+87,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltCLT,,131,Clatskanie River,Coast,Independent,Extant,late
+90,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltELO,,134,Elochoman River,Coast,Independent,Extant,late
+91,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltGRC,,135,Grays and Chinook Rivers,Coast,Independent,Extant,late
+95,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltMIL,,140,"Mill, Abernathy, and Germany Creeks",Coast,Independent,Extant,late
+100,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltSCP,,146,Scappoose Creek,Coast,Independent,Extant,late
+107,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltYNG,,152,Youngs Bay,Coast,Independent,Extant,late
+94,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltLGT,,138,Lower Gorge Tributaries,Gorge,Independent,Extant,late
+104,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRerHOO,,143,Oregon Upper Gorge Tributaries and Hood River,Gorge,Independent,Extant,early
+105,"Salmon, coho (Lower Columbia River ESU)",COLCR,COLCRltUGW,,150,Washington Upper Gorge Tributaries and White Salmon River,Gorge,Independent,Extant,late
+240,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSLT,,190,Siltcoos Lake,Lakes,Potentially Independent,Extant,fall
+246,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSML,,196,Sutton Lake/Mercer Lake,Lakes,Dependent,Extant,fall
+247,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaTAH,,197,Tahkenitch Lake,Lakes,Potentially Independent,Extant,fall
+249,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaTEN,,199,Tenmile Lake,Lakes,Potentially Independent,Extant,fall
+203,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaALS,,153,Alsea River,Mid-Coast,Functionally Independent,Extant,fall
+205,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaBEA,,155,Beaver Creek,Mid-Coast,Potentially Independent,Extant,fall
+206,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaBER,,156,Berry Creek,Mid-Coast,Dependent,Extant,fall
+207,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaBGA,,157,Big (near Alsea) Creek,Mid-Coast,Dependent,Extant,fall
+208,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaBGS,,158,Big (near Siuslaw) Creek,Mid-Coast,Dependent,Extant,fall
+209,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaBGY,,159,Big (near Yaquina) Creek,Mid-Coast,Dependent,Extant,fall
+210,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaBOB,,160,Bob Creek,Mid-Coast,Dependent,Extant,fall
+211,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaCAP,,161,Cape Creek,Mid-Coast,Dependent,Extant,fall
+212,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaCHI,,162,China Creek,Mid-Coast,Dependent,Extant,fall
+213,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaCOA,,163,Coal Creek,Mid-Coast,Dependent,Extant,fall
+216,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaCUM,,166,Cummins Creek,Mid-Coast,Dependent,Extant,fall
+217,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaDEP,,167,Depoe Bay Creek,Mid-Coast,Dependent,Extant,fall
+218,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaDEV,,168,Devils Lake,Mid-Coast,Dependent,Extant,fall
+221,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaFOG,,171,Fogarty Creek,Mid-Coast,Dependent,Extant,fall
+225,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaMOK,,175,Moolack Creek,Mid-Coast,Dependent,Extant,fall
+232,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaRCC,,182,Rock Creek,Mid-Coast,Dependent,Extant,fall
+233,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaRKY,,183,Rocky Creek,Mid-Coast,Dependent,Extant,fall
+235,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSMN,,185,Salmon River,Mid-Coast,Potentially Independent,Extant,fall
+237,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSCH,,187,Schoolhouse Creek,Mid-Coast,Dependent,Extant,fall
+239,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSIL,,189,Siletz River,Mid-Coast,Functionally Independent,Extant,fall
+241,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSIU,,191,Siuslaw River,Mid-Coast,Functionally Independent,Extant,fall
+244,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSPN,,194,Spencer Creek,Mid-Coast,Dependent,Extant,fall
+248,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaTEC,,198,Tenmile Creek,Mid-Coast,Dependent,Extant,fall
+250,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaTHE,,200,Thiel Creek,Mid-Coast,Dependent,Extant,fall
+254,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaVIN,,204,Vingie Creek,Mid-Coast,Dependent,Extant,fall
+255,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaWAD,,205,Wade Creek,Mid-Coast,Dependent,Extant,fall
+257,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaYAC,,207,Yachats River,Mid-Coast,Dependent,Extant,fall
+258,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaYAQ,,208,Yaquina River,Mid-Coast,Functionally Independent,Extant,fall
+214,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaCOS,,164,Coos River,Mid-South Coast,Functionally Independent,Extant,fall
+215,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaCOQ,,165,Coquille River,Mid-South Coast,Functionally Independent,Extant,fall
+220,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaFLO,,170,Floras Creek/New River,Mid-South Coast,Potentially Independent,Extant,fall
+222,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaJOH,,172,Johnson Creek,Mid-South Coast,Dependent,Extant,fall
+242,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSIX,,192,Sixes River,Mid-South Coast,Potentially Independent,Extant,fall
+251,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaTHR,,201,Threemile Creek,Mid-South Coast,Dependent,Extant,fall
+253,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaTWO,,203,Twomile Creek,Mid-South Coast,Dependent,Extant,fall
+204,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaARC,,154,Arch Cape Creek,North Coast,Dependent,Extant,fall
+219,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaECO,,169,Ecola Creek,North Coast,Dependent,Extant,fall
+226,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaNEC,,176,Necanicum River,North Coast,Potentially Independent,Extant,fall
+227,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaNEH,,177,Nehalem River,North Coast,Functionally Independent,Extant,fall
+228,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaNES,,178,Neskowin Creek,North Coast,Dependent,Extant,fall
+229,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaNSC,,179,Nestucca River,North Coast,Functionally Independent,Extant,fall
+230,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaNET,,180,Netarts Bay,North Coast,Dependent,Extant,fall
+234,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaROV,,184,Rover Creek,North Coast,Dependent,Extant,fall
+236,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSAN,,186,Sand Creek,North Coast,Dependent,Extant,fall
+238,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSHS,,188,Short Sand Creek,North Coast,Dependent,Extant,fall
+245,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSPR,,195,Spring Creek,North Coast,Dependent,Extant,fall
+252,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaTMK,,202,Tillamook Bay,North Coast,Functionally Independent,Extant,fall
+256,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaWAT,,206,Watseco Creek,North Coast,Dependent,Extant,fall
+223,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaLUM,,173,Lower Umpqua River,Umpqua,Functionally Independent,Extant,fall
+224,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaMUM,,174,Middle Umpqua River,Umpqua,Functionally Independent,Extant,fall
+231,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaNUM,,181,North Umpqua River,Umpqua,Functionally Independent,Extant,fall
+243,"Salmon, coho (Oregon Coast ESU)",COORC,COORCfaSMQ,,193,South Umpqua River,Umpqua,Functionally Independent,Extant,fall
+108,"Salmon, sockeye (Ozette Lake ESU)",SOOZT,SOOZTsuOZL,,214,Ozette Lake,,Independent,Extant,summer
+112,"Salmon, sockeye (Snake River ESU)",SOSNR,SOSNRsuRED,SRRED,220,Redfish Lake,,Independent,Extant,summer
+118,Steelhead (Lower Columbia River DPS),STLCR,STLCRsuEFL,,228,East Fork Lewis River,Cascade summer,Independent,Extant,summer
+122,Steelhead (Lower Columbia River DPS),STLCR,STLCRsuKAL,,232,Kalama River,Cascade summer,Independent,Extant,summer
+126,Steelhead (Lower Columbia River DPS),STLCR,STLCRsuNFL,,236,North Fork Lewis River,Cascade summer,Independent,Extant,summer
+135,Steelhead (Lower Columbia River DPS),STLCR,STLCRsuWSH,,245,Washougal River,Cascade summer,Independent,Extant,summer
+115,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiCSP,,225,Cispus River,Cascade winter,Independent,Extant,winter
+116,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiCLK,,226,Clackamas River,Cascade winter,Independent,Extant,winter
+117,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiCOW,,227,Coweeman River,Cascade winter,Independent,Extant,winter
+119,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiEFL,,229,East Fork Lewis River,Cascade winter,Independent,Extant,winter
+123,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiKAL,,233,Kalama River,Cascade winter,Independent,Extant,winter
+124,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiLCZ,,234,Lower Cowlitz River,Cascade winter,Independent,Extant,winter
+127,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiNFL,,237,North Fork Lewis River,Cascade winter,Independent,Extant,winter
+128,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiNFT,,238,North Fork Toutle River,Cascade winter,Independent,Extant,winter
+129,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiSAL,,239,Salmon Creek,Cascade winter,Independent,Extant,winter
+130,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiSDY,,240,Sandy River,Cascade winter,Independent,Extant,winter
+131,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiSFT,,241,South Fork Toutle River,Cascade winter,Independent,Extant,winter
+132,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiTIL,,242,Tilton River,Cascade winter,Independent,Extant,winter
+133,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiUCW,,243,Upper Cowlitz River,Cascade winter,Independent,Extant,winter
+136,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiWSH,,246,Washougal River,Cascade winter,Independent,Extant,winter
+120,Steelhead (Lower Columbia River DPS),STLCR,STLCRsuHOO,,230,Hood River,Gorge summer,Independent,Extant,summer
+137,Steelhead (Lower Columbia River DPS),STLCR,STLCRsuWND,,247,Wind River,Gorge summer,Independent,Extant,summer
+121,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiHOO,,231,Hood River,Gorge winter,Independent,Extant,winter
+125,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiLGT,,235,Lower Gorge Tributaries,Gorge winter,Independent,Extant,winter
+134,Steelhead (Lower Columbia River DPS),STLCR,STLCRwiUGT,,244,Upper Gorge Tributaries,Gorge winter,Independent,Extant,winter
+184,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuDRE,DREST-s,249,Deschutes River Eastside,Cascades Eastern Slope Tributaries,Independent,Extant,summer
+185,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuDRW,DRWST-s,250,Deschutes River Westside,Cascades Eastern Slope Tributaries,Independent,Extant,summer
+186,Steelhead (Middle Columbia River DPS),STMCR,STMCRwiFIF,MCFIF-s,251,Fifteenmile Creek,Cascades Eastern Slope Tributaries,Independent,Extant,winter
+189,Steelhead (Middle Columbia River DPS),STMCR,STMCRswKLT,MCKLI-s,254,Klickitat River,Cascades Eastern Slope Tributaries,Independent,Extant,summer and winter
+193,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuRCK,MCROC-s,258,Rock Creek,Cascades Eastern Slope Tributaries,Independent,Extant,summer
+187,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuJDL,JDLMT-s,252,John Day River Lower Mainstem Tributaries,John Day,Independent,Extant,summer
+188,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuJDU,JDUMA-s,253,John Day River Upper Mainstem,John Day,Independent,Extant,summer
+190,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuMJD,JDMFJ-s,255,Middle Fork John Day River,John Day,Independent,Extant,summer
+192,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuNJD,JDNFJ-s,257,North Fork John Day River,John Day,Independent,Extant,summer
+195,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuSJD,JDSFJ-s,260,South Fork John Day River,John Day,Independent,Extant,summer
+197,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuTOC,WWTOU-s,262,Touchet River,Walla Walla and Umatilla,Independent,Extant,summer
+198,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuUMA,MCUMA-s,263,Umatilla River,Walla Walla and Umatilla,Independent,Extant,summer
+199,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuWAL,WWMAI-s,264,Walla Walla River,Walla Walla and Umatilla,Independent,Extant,summer
+191,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuNCH,YRNAC-s,256,Naches River,Yakima,Independent,Extant,summer
+194,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuSAT,YRSAT-s,259,Satus Creek,Yakima,Independent,Extant,summer
+196,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuTOP,YRTOP-s,261,Toppenish Creek,Yakima,Independent,Extant,summer
+202,Steelhead (Middle Columbia River DPS),STMCR,STMCRsuYAK,YRUMA-s,267,Yakima River Upper Mainstem,Yakima,Independent,Extant,summer
+140,Steelhead (Puget Sound DPS),STPUG,STPUGwiCDR,cedar,270,Cedar River,Central and South Puget Sound,Independent,Extant,winter
+145,Steelhead (Puget Sound DPS),STPUG,STPUGwiEKP,ekits,275,East Kitsap Peninsula Tributaries,Central and South Puget Sound,Independent,Extant,winter
+147,Steelhead (Puget Sound DPS),STPUG,STPUGwiGRN,green,277,Green River,Central and South Puget Sound,Independent,Extant,winter
+148,Steelhead (Puget Sound DPS),STPUG,STPUGwiNSQ,nisqw,278,Nisqually River,Central and South Puget Sound,Independent,Extant,winter
+152,Steelhead (Puget Sound DPS),STPUG,STPUGwiNLW,lkwas,282,North Lake Washington and Lake Sammamish,Central and South Puget Sound,Independent,Extant,winter
+154,Steelhead (Puget Sound DPS),STPUG,STPUGwiPUY,puyal,284,Puyallup River/Carbon River,Central and South Puget Sound,Independent,Extant,winter
+164,Steelhead (Puget Sound DPS),STPUG,STPUGwiSSD,sosnd,294,South Puget Sound Tributaries,Central and South Puget Sound,Independent,Extant,winter
+169,Steelhead (Puget Sound DPS),STPUG,STPUGwiWHT,white,299,White River,Central and South Puget Sound,Independent,Extant,winter
+143,Steelhead (Puget Sound DPS),STPUG,STPUGswDNG,dungw,273,Dungeness River,Hood Canal and Strait of Juan de Fuca,Independent,Extant,summer and winter
+144,Steelhead (Puget Sound DPS),STPUG,STPUGwiEHC,ehood,274,East Hood Canal Tributaries,Hood Canal and Strait of Juan de Fuca,Independent,Extant,winter
+146,Steelhead (Puget Sound DPS),STPUG,STPUGwiELW,elwaw,276,Elwha River,Hood Canal and Strait of Juan de Fuca,Independent,Extant,winter
+157,Steelhead (Puget Sound DPS),STPUG,STPUGwiSDT,dibay,287,Sequim/Discovery Bays Tributaries,Hood Canal and Strait of Juan de Fuca,Independent,Extant,winter
+159,Steelhead (Puget Sound DPS),STPUG,STPUGwiSKO,skokw,289,Skokomish River,Hood Canal and Strait of Juan de Fuca,Independent,Extant,winter
+163,Steelhead (Puget Sound DPS),STPUG,STPUGwiSHC,shood,293,South Hood Canal Tributaries,Hood Canal and Strait of Juan de Fuca,Independent,Extant,winter
+166,Steelhead (Puget Sound DPS),STPUG,STPUGwiSJF,sjfin,295,Strait of Juan de Fuca Tributaries,Hood Canal and Strait of Juan de Fuca,Independent,Extant,winter
+168,Steelhead (Puget Sound DPS),STPUG,STPUGwiWHC,whood,298,West Hood Canal Tributaries,Hood Canal and Strait of Juan de Fuca,Independent,Extant,winter
+138,Steelhead (Puget Sound DPS),STPUG,STPUGswBKR,baker,268,Baker River,Northern Cascades,Independent,Extant,summer and winter
+139,Steelhead (Puget Sound DPS),STPUG,STPUGsuCAN,canys,269,Canyon Creek,Northern Cascades,Independent,Extant,summer
+141,Steelhead (Puget Sound DPS),STPUG,STPUGsuDER,deers,271,Deer Creek,Northern Cascades,Independent,Extant,summer
+142,Steelhead (Puget Sound DPS),STPUG,STPUGwiDHT,bndwa,272,Drayton Harbor Tributaries,Northern Cascades,Independent,Extant,winter
+149,Steelhead (Puget Sound DPS),STPUG,STPUGwiNKC,nooka,279,Nookachamps Creek,Northern Cascades,Independent,Extant,winter
+150,Steelhead (Puget Sound DPS),STPUG,STPUGwiNKS,nookw,280,Nooksack River,Northern Cascades,Independent,Extant,winter
+151,Steelhead (Puget Sound DPS),STPUG,STPUGsuNSY,nfsky,281,North Fork Skykomish River,Northern Cascades,Independent,Extant,summer
+153,Steelhead (Puget Sound DPS),STPUG,STPUGwiPLC,pilch,283,Pilchuck River,Northern Cascades,Independent,Extant,winter
+155,Steelhead (Puget Sound DPS),STPUG,STPUGwiSBT,samib,285,Samish River and Bellingham Bay Tributaries,Northern Cascades,Independent,Extant,winter
+156,Steelhead (Puget Sound DPS),STPUG,STPUGswSAK,saukw,286,Sauk River,Northern Cascades,Independent,Extant,summer and winter
+158,Steelhead (Puget Sound DPS),STPUG,STPUGswSKG,skams,288,Skagit River,Northern Cascades,Independent,Extant,summer and winter
+160,Steelhead (Puget Sound DPS),STPUG,STPUGwiSKY,snosk,290,Snohomish/Skykomish Rivers,Northern Cascades,Independent,Extant,winter
+161,Steelhead (Puget Sound DPS),STPUG,STPUGwiSNQ,snoqu,291,Snoqualmie River,Northern Cascades,Independent,Extant,winter
+162,Steelhead (Puget Sound DPS),STPUG,STPUGsuSFN,nooks,292,South Fork Nooksack River,Northern Cascades,Independent,Extant,summer
+165,Steelhead (Puget Sound DPS),STPUG,STPUGwiSTL,still,296,Stillaguamish River,Northern Cascades,Independent,Extant,winter
+167,Steelhead (Puget Sound DPS),STPUG,STPUGsuTLT,tolts,297,Tolt River,Northern Cascades,Independent,Extant,summer
+273,Steelhead (Snake River Basin DPS),STSNR,STSNRsuCWL,CRLMA-s,303,Clearwater River Lower Mainstem,Clearwater,Independent,Extant,summer
+282,Steelhead (Snake River Basin DPS),STSNR,STSNRsuLCH,CRLOC-s,313,Lochsa River,Clearwater,Independent,Extant,summer
+283,Steelhead (Snake River Basin DPS),STSNR,STSNRsuLOL,CRLOL-s,314,Lolo Creek,Clearwater,Independent,Extant,summer
+291,Steelhead (Snake River Basin DPS),STSNR,STSNRsuSEL,CRSEL-s,322,Selway River,Clearwater,Independent,Extant,summer
+292,Steelhead (Snake River Basin DPS),STSNR,STSNRsuSFC,CRSFC-s,323,South Fork Clearwater River,Clearwater,Independent,Extant,summer
+275,Steelhead (Snake River Basin DPS),STSNR,STSNRsuGRL,GRLMT-s,305,Grande Ronde River Lower Mainstem,Grande Ronde,Independent,Extant,summer
+276,Steelhead (Snake River Basin DPS),STSNR,STSNRsuGRU,GRUMA-s,306,Grande Ronde River Upper Mainstem,Grande Ronde,Independent,Extant,summer
+279,Steelhead (Snake River Basin DPS),STSNR,STSNRsuJOS,GRJOS-s,310,Joseph Creek,Grande Ronde,Independent,Extant,summer
+295,Steelhead (Snake River Basin DPS),STSNR,STSNRsuWLW,GRWAL-s,326,Wallowa River,Grande Ronde,Independent,Extant,summer
+278,Steelhead (Snake River Basin DPS),STSNR,STSNRsuIMN,IRMAI-s,309,Imnaha River,Imnaha,Independent,Extant,summer
+270,Steelhead (Snake River Basin DPS),STSNR,STSNRsuASO,SNASO-s,300,Asotin Creek,Lower Snake,Independent,Extant,summer
+294,Steelhead (Snake River Basin DPS),STSNR,STSNRsuTUC,SNTUC-s,325,Tucannon River,Lower Snake,Independent,Extant,summer
+272,Steelhead (Snake River Basin DPS),STSNR,STSNRsuCHB,SRCHA-s,302,Chamberlain Creek,Salmon,Independent,Extant,summer
+274,Steelhead (Snake River Basin DPS),STSNR,STSNRsuEFS,SREFS-s,304,East Fork Salmon River,Salmon,Independent,Extant,summer
+280,Steelhead (Snake River Basin DPS),STSNR,STSNRsuLEM,SRLEM-s,311,Lemhi River,Salmon,Independent,Extant,summer
+281,Steelhead (Snake River Basin DPS),STSNR,STSNRsuLSR,SRLSR-s,312,Little Salmon River,Salmon,Independent,Extant,summer
+271,Steelhead (Snake River Basin DPS),STSNR,STSNRsuMSL,MFBIG-s,301,Middle Fork Salmon River Lower Mainstem,Salmon,Independent,Extant,summer
+284,Steelhead (Snake River Basin DPS),STSNR,STSNRsuMSU,MFUMA-s,315,Middle Fork Salmon River Upper Mainstem,Salmon,Independent,Extant,summer
+286,Steelhead (Snake River Basin DPS),STSNR,STSNRsuNFS,SRNFS-s,317,North Fork Salmon River,Salmon,Independent,Extant,summer
+287,Steelhead (Snake River Basin DPS),STSNR,STSNRsuPAH,SRPAH-s,318,Pahsimeroi River,Salmon,Independent,Extant,summer
+288,Steelhead (Snake River Basin DPS),STSNR,STSNRsuPAN,SRPAN-s,319,Panther Creek,Salmon,Independent,Extant,summer
+289,Steelhead (Snake River Basin DPS),STSNR,STSNRsuSUM,SRUMA-s,320,Salmon River Upper Mainstem,Salmon,Independent,Extant,summer
+290,Steelhead (Snake River Basin DPS),STSNR,STSNRsuSEC,SFSEC-s,321,Secesh River,Salmon,Independent,Extant,summer
+293,Steelhead (Snake River Basin DPS),STSNR,STSNRsuSFS,SFMAI-s,324,South Fork Salmon River,Salmon,Independent,Extant,summer
+260,Steelhead (Upper Columbia River DPS),STUCR,STUCRsuENT,UCENT-s,328,Entiat River,Wenatchee/Methow,Independent,Extant,summer
+261,Steelhead (Upper Columbia River DPS),STUCR,STUCRsuMET,UCMET-s,329,Methow River,Wenatchee/Methow,Independent,Extant,summer
+262,Steelhead (Upper Columbia River DPS),STUCR,STUCRsuOKA,UCOKA-s,330,Okanogan River,Wenatchee/Methow,Independent,Extant,summer
+263,Steelhead (Upper Columbia River DPS),STUCR,STUCRsuWEN,UCWEN-s,331,Wenatchee River,Wenatchee/Methow,Independent,Extant,summer
+170,Steelhead (Upper Willamette River DPS),STUWR,STUWRwiCLP,,332,Calapooia River,,Independent,Extant,winter
+171,Steelhead (Upper Willamette River DPS),STUWR,STUWRwiMOL,,333,Molalla River,,Independent,Extant,winter
+172,Steelhead (Upper Willamette River DPS),STUWR,STUWRwiNST,,334,North Santiam River,,Independent,Extant,winter
+173,Steelhead (Upper Willamette River DPS),STUWR,STUWRwiSST,,335,South Santiam River,,Independent,Extant,winter

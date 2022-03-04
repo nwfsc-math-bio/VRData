@@ -49,7 +49,7 @@
   
 
 <meta property="og:title" content="Middle Columbia River Steelhead DPS — Middle-Columbia-River-Steelhead-DPS" />
-<meta property="og:description" content="Spawner counts and fraction wild data." />
+<meta property="og:description" content="Spawner and fraction wild data. Species: Steelhead. Method: Survey" />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -147,7 +147,7 @@
     </div>
 
     <div class="ref-description">
-    <p>Spawner counts and fraction wild data.</p>
+    <p>Spawner and fraction wild data. Species: Steelhead. Method: Survey</p>
     </div>
 
 
@@ -155,35 +155,73 @@
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
     <p>A csv file.</p><dl>
+<dt>Citation</dt><dd><p>Data citation.</p></dd>
+<dt>Contributor</dt><dd><p>Data contributor.</p></dd>
 <dt>NMFS_POPID</dt><dd><p>NWFSC id for the population.</p></dd>
 <dt>ESU</dt><dd><p>ESU or DPS name.</p></dd>
-<dt>SPECIES</dt><dd><p>Species name.</p></dd>
-<dt>RUN_TIMING</dt><dd><p>Run timing (fall, winter, spring, etc). If missing, see the ESU/DPS name or may not be applicable for the species.</p></dd>
 <dt>MAJOR_POPULATION_GROUP</dt><dd><p>Major population group within the ESU or DPS.</p></dd>
 <dt>COMMON_POPULATION_NAME</dt><dd><p>Population name.</p></dd>
-<dt>YEAR</dt><dd><p>The year that the count was made.</p></dd>
-<dt>NUMBER_OF_SPAWNERS</dt><dd><p>Spawners count. -99 means missing count.</p></dd>
-<dt>FRACWILD</dt><dd><p>Fraction wild. -99 means missing information.</p></dd>
+<dt>SPECIES</dt><dd><p>Species name.</p></dd>
+<dt>RUN_TIMING</dt><dd><p>Run timing (fall, winter, spring, etc). If missing, see the ESU/DPS name or may not be applicable for the species.</p></dd>
+<dt>BROOD_YEAR</dt><dd><p>Integer in XXXX format. The year that the count was made. See details for ESU or DPS specific comments.</p></dd>
+<dt>NUMBER_OF_SPAWNERS</dt><dd><p>Total spawners or escapement count. -99 means missing count. May be integer or decimal.</p></dd>
+<dt>FRACWILD</dt><dd><p>Decimal between 0 and 1. Fraction wild or natural. -99 means missing information.</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
     
+<ul>
+<li><p>Klickitat River: Yakama Nation Fisheries</p></li>
+<li><p>Fifteenmile Creek: Yakama Nation Fisheries</p></li>
+<li><p>Deschutes River Westside: Oregon Department of Fish and Wildlife</p></li>
+<li><p>Deschutes River Eastside: Oregon Department of Fish and Wildlife</p></li>
+<li><p>Rock Creek: Yakama Nation Fisheries</p></li>
+<li><p>John Day River Lower Mainstem Tributaries: Oregon Department of Fish and Wildlife</p></li>
+<li><p>North Fork John Day River: Oregon Department of Fish and Wildlife</p></li>
+<li><p>Middle Fork John Day River: Oregon Department of Fish and Wildlife</p></li>
+<li><p>South Fork John Day River: Oregon Department of Fish and Wildlife</p></li>
+<li><p>John Day River Upper Mainstem: Oregon Department of Fish and Wildlife</p></li>
+<li><p>Satus Creek: Yakama Nation Fisheries</p></li>
+<li><p>Toppenish Creek: Yakama Nation Fisheries</p></li>
+<li><p>Naches River: Yakama Nation Fisheries</p></li>
+<li><p>Yakima River upper mainstem: Yakama Nation Fisheries</p></li>
+<li><p>Umatilla River: Oregon Department of Fish and Wildlife</p></li>
+<li><p>Walla Walla River: Oregon Department of Fish and Wildlife</p></li>
+<li><p>Touchet River: Washington Department of Fish and Wildlife</p></li>
+</ul>
 
-
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>Downloaded from the SPS Master Oracle 2013-2014 Database on
-January 28, 2016</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    
-
+    <p>Salmon Population Summaries (SPS) Database: https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps</p>
+<p>Original source:</p><ul>
+<li><p>Klickitat River: CAX05262020</p></li>
+<li><p>Fifteenmile Creek: CAX05262020</p></li>
+<li><p>Deschutes River Westside: CAX05262020</p></li>
+<li><p>Deschutes River Eastside: CAX05262020</p></li>
+<li><p>Rock Creek: CAX05262020</p></li>
+<li><p>John Day River Lower Mainstem Tributaries: CAX05262020</p></li>
+<li><p>North Fork John Day River: CAX05262020</p></li>
+<li><p>Middle Fork John Day River: CAX05262020</p></li>
+<li><p>South Fork John Day River: CAX05262020</p></li>
+<li><p>John Day River Upper Mainstem: CAX05262020</p></li>
+<li><p>Satus Creek: CAX07012020</p></li>
+<li><p>Satus Creek: CAX07012020 5yr avg FracWild 2017 &amp; 2018</p></li>
+<li><p>Toppenish Creek: CAX07012020</p></li>
+<li><p>Toppenish Creek: CAX07012020 5yr avg FracWild 2017 &amp; 2018</p></li>
+<li><p>Naches River: CAX07012020</p></li>
+<li><p>Naches River: CAX07012020 5yr avg FracWild 2017 &amp; 2018</p></li>
+<li><p>Yakima River upper mainstem: CAX07012020</p></li>
+<li><p>Yakima River upper mainstem: CAX07012020 5yr avg FracWild 2017 &amp; 2018</p></li>
+<li><p>Umatilla River: CAX05262020</p></li>
+<li><p>Walla Walla River: CAX05262020</p></li>
+<li><p>Touchet River: CAX05262020</p></li>
+</ul>
 
     <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
 
-    <p>Monica Diaz (NOAA/NWFSC)</p>
+    <p>Mari Williams (NOAA/NWFSC)</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'Middle-Columbia-River-Steelhead-DPS'</span><span class='op'>)</span>
@@ -192,7 +230,7 @@ January 28, 2016</p>
 <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>out</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>YEAR</span>, y<span class='op'>=</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>ggtitle</a></span><span class='op'>(</span><span class='st'>'Middle-Columbia-River-Steelhead-DPS'</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/facet_wrap.html'>facet_wrap</a></span><span class='op'>(</span><span class='op'>~</span><span class='va'>COMMON_POPULATION_NAME</span><span class='op'>)</span>
-</div><div class='img'><img src='Middle-Columbia-River-Steelhead-DPS-1.png' alt='' width='700' height='433' /></div></pre>
+</div><div class='output co'>#&gt; <span class='error'>Error in FUN(X[[i]], ...): object 'YEAR' not found</span></div><div class='img'><img src='Middle-Columbia-River-Steelhead-DPS-1.png' alt='' width='700' height='433' /></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

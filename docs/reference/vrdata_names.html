@@ -49,8 +49,7 @@
   
 
 <meta property="og:title" content="VRData names — vrdata_names" />
-<meta property="og:description" content="Allowed values for data columns.
-#'" />
+<meta property="og:description" content="Allowed values for data columns." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -148,65 +147,30 @@
     </div>
 
     <div class="ref-description">
-    <p>Allowed values for data columns.
-#'</p>
+    <p>Allowed values for data columns.</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A vector of names.
-#'</p><dl>
+    <p>A vector of names.</p><dl>
 <dt>esu_dps</dt><dd><p>Allowed ESU or DPS names.</p></dd>
-(species
-</dl><p>Allowed species names.
-(run_timing</p>
+<dt>species</dt><dd><p>Allowed species names.</p></dd>
+<dt>run_timing</dt><dd><p>Allowed run timings. May be blank.</p></dd>
+
+</dl>
+
     <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
 
     <p>Eli Holmes (NOAA)</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'vrdata_names'</span><span class='op'>)</span>
-<span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"ESU and DPS"</span>, <span class='va'>esu_dps</span><span class='op'>)</span>, sep<span class='op'>=</span><span class='st'>"\n"</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; ESU and DPS
-#&gt; Salmon, Chinook (Lower Columbia River ESU)
-#&gt; Salmon, Chinook (Puget Sound ESU)
-#&gt; Salmon, Chinook (Snake River fall-run ESU)
-#&gt; Salmon, Chinook (Snake River spring/summer-run ESU)
-#&gt; Salmon, Chinook (Upper Columbia River spring-run ESU)
-#&gt; Salmon, Chinook (Upper Willamette River ESU)
-#&gt; Salmon, chum (Columbia River ESU)
-#&gt; Salmon, chum (Hood Canal summer-run ESU)
-#&gt; Salmon, coho (Lower Columbia River ESU)
-#&gt; Salmon, coho (Oregon Coast ESU)
-#&gt; Salmon, sockeye (Ozette Lake ESU)
-#&gt; Steelhead (Lower Columbia River DPS)
-#&gt; Steelhead (Middle Columbia River DPS)
-#&gt; Steelhead (Puget Sound DPS)
-#&gt; Steelhead (Snake River Basin DPS)
-#&gt; Steelhead (Upper Columbia River DPS)
-#&gt; Steelhead (Upper Willamette River DPS)</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"\n"</span>, <span class='st'>"Species"</span>, <span class='va'>species</span><span class='op'>)</span>, sep<span class='op'>=</span><span class='st'>"\n"</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 
-#&gt; 
-#&gt; Species
-#&gt; Chinook
-#&gt; coho
-#&gt; sockeye
-#&gt; chum</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"\n"</span>, <span class='st'>"Run Timing"</span>, <span class='va'>run_timing</span><span class='op'>)</span>, sep<span class='op'>=</span><span class='st'>"\n"</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 
-#&gt; 
-#&gt; Run Timing
-#&gt; early
-#&gt; early and late
-#&gt; fall
-#&gt; late
-#&gt; late fall
-#&gt; spring
-#&gt; spring/summer
-#&gt; summer
-#&gt; summer and winter
-#&gt; winter</div></pre>
+</div><div class='output co'>#&gt; <span class='warning'>Warning: data set ‘vrdata_names’ not found</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"ESU and DPS"</span>, <span class='va'>esu_dps</span><span class='op'>)</span>, sep<span class='op'>=</span><span class='st'>"\n"</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='error'>Error in cat(c("ESU and DPS", esu_dps), sep = "\n"): object 'esu_dps' not found</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"\n"</span>, <span class='st'>"Species"</span>, <span class='va'>species</span><span class='op'>)</span>, sep<span class='op'>=</span><span class='st'>"\n"</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='error'>Error in cat(c("\n", "Species", species), sep = "\n"): object 'species' not found</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"\n"</span>, <span class='st'>"Run Timing"</span>, <span class='va'>run_timing</span><span class='op'>)</span>, sep<span class='op'>=</span><span class='st'>"\n"</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='error'>Error in cat(c("\n", "Run Timing", run_timing), sep = "\n"): object 'run_timing' not found</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

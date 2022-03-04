@@ -23,41 +23,38 @@ navbar:
       href: VRDocs.html
 
 articles:
-- title: Package internal data
-  contents:
-  - contains("vrdata_")
 - title: Chinook
   contents:
-  - contains("Chinook")
+  - matches("Chinook|chinook")
 - title: Coho
   contents:
-  - contains("Coho")
+  - matches("Coho|coho")
 - title: Chum
   contents:
-  - contains("Chum")
+  - matches("Chum|chum")
 - title: Steelhead
   contents:
-  - contains("Steelhead")
+  - matches("Steelhead|steelhead")
 - title: Sockeye
   contents:
-  - contains("Sockeye")
+  - matches("Sockeye|sockeye")
   
 reference:
 - title: Chinook
   contents:
-  - contains("Chinook")
+  - matches("Chinook|chinook")
 - title: Coho
   contents:
-  - contains("Coho")
+  - matches("Coho|coho")
 - title: Chum
   contents:
-  - contains("Chum")
+  - matches("Chum|chum")
 - title: Steelhead
   contents:
-  - contains("Steelhead")
+  - matches("Steelhead|steelhead")
 - title: Sockeye
   contents:
-  - contains("Sockeye")
+  - matches("Sockeye|sockeye")
 
 
 news:

@@ -1,23 +1,9 @@
-pandoc: 2.7.3
+pandoc: 2.11.2
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
-  Columbia-River-Chum-Salmon-ESU: Columbia-River-Chum-Salmon-ESU.html
-  Hood-Canal-Summer-run-Chum-Salmon-ESU: Hood-Canal-Summer-run-Chum-Salmon-ESU.html
-  Lower-Columbia-River-Chinook-Salmon-ESU: Lower-Columbia-River-Chinook-Salmon-ESU.html
-  Lower-Columbia-River-Coho-Salmon-ESU: Lower-Columbia-River-Coho-Salmon-ESU.html
-  Lower-Columbia-River-Steelhead-DPS: Lower-Columbia-River-Steelhead-DPS.html
-  Middle-Columbia-River-Steelhead-DPS: Middle-Columbia-River-Steelhead-DPS.html
-  Oregon-Coast-Coho-Salmon-ESU: Oregon-Coast-Coho-Salmon-ESU.html
-  Ozette-Lake-Sockeye-Salmon-ESU: Ozette-Lake-Sockeye-Salmon-ESU.html
-  Puget-Sound-Chinook-Salmon-ESU: Puget-Sound-Chinook-Salmon-ESU.html
-  Puget-Sound-Steelhead-DPS: Puget-Sound-Steelhead-DPS.html
-  Snake-River-Basin-Steelhead-DPS: Snake-River-Basin-Steelhead-DPS.html
-  Snake-River-Fall-run-Chinook-Salmon-ESU: Snake-River-Fall-run-Chinook-Salmon-ESU.html
-  Snake-River-Spring-Summer-run-Chinook-Salmon-ESU: Snake-River-Spring-Summer-run-Chinook-Salmon-ESU.html
-  Upper-Columbia-River-Spring-run-Chinook-Salmon-ESU: Upper-Columbia-River-Spring-run-Chinook-Salmon-ESU.html
-  Upper-Columbia-River-Steelhead-DPS: Upper-Columbia-River-Steelhead-DPS.html
-  Upper-Willamette-River-Chinook-Salmon-ESU: Upper-Willamette-River-Chinook-Salmon-ESU.html
-  Upper-Willamette-River-Steelhead-DPS: Upper-Willamette-River-Steelhead-DPS.html
-last_built: 2021-07-31T02:46Z
+  Salmon chum (Columbia River ESU): Salmon chum (Columbia River ESU).html
+  Salmon chum (Hood Canal summer-run ESU): Salmon chum (Hood Canal summer-run ESU).html
+  Steelhead (Middle Columbia River DPS): Steelhead (Middle Columbia River DPS).html
+last_built: 2022-03-04T04:17Z
 
