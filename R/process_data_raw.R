@@ -36,7 +36,7 @@ process_data_raw <- function() {
     if("series" %in% colnames(datar)){
       series <- unique(datar$series)
       if(length(series)!=1) stop(paste(fil, "data problem. Each file should have only one value in the Series column."))
-      series <- paste0("-", series)
+      series <- ifelse(series!="", paste0("-", series), "")
     }else{
       series <- ""
     }
