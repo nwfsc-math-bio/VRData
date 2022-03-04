@@ -1,5 +1,5 @@
-pandoc: 2.11.2
-pkgdown: 1.6.1
+pandoc: 2.7.3
+pkgdown: 2.0.2
 pkgdown_sha: ~
 articles:
   Salmon chum (Columbia River ESU)-CRchum2020: Salmon chum (Columbia River ESU)-CRchum2020.html
@@ -9,5 +9,5 @@ articles:
   Steelhead (Middle Columbia River DPS)-ICMC2021: Steelhead (Middle Columbia River
     DPS)-ICMC2021.html
   Steelhead (Puget Sound DPS): Steelhead (Puget Sound DPS).html
-last_built: 2022-03-04T19:39Z
+last_built: 2022-03-04T19:44Z
 
