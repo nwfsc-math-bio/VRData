@@ -24,7 +24,7 @@ key <- matrix(c(
 "FRACTION_WILD", "Decimal between 0 and 1. Fraction wild or natural. -99 means missing information.",
 "CITATION", "Data citation.",
 "SOURCE", "Data source.",
-"METHOD", "Method for the spawner count. Survey refers to a spawning ground survey of some type. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count.",
+"METHOD", "Method for the spawner count. Survey refers to a spawning ground survey; the count itself is an expansion. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count. Model  refers to the DABOM model that expands from PIT tag data. GSI is an expandsion based on the BOXCAR model, which uses GSI to allocate fish sampled at Lower Granite Dam.",
 "CONTRIBUTOR", "Data contributor.",
 "SERIES", "For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population."
 ),ncol=2, byrow = TRUE)
