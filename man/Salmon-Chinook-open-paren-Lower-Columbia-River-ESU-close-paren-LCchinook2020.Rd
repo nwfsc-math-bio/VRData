@@ -9,7 +9,7 @@
 A csv file.
 \describe{
 \item{Series}{For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.}
-\item{Method}{Method for the spawner count. Survey refers to a spawning ground survey of some type. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count.}
+\item{Method}{Method for the spawner count. Survey refers to a spawning ground survey; the count itself is an expansion. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count. Model  refers to the DABOM model that expands from PIT tag data. GSI is an expandsion based on the BOXCAR model, which uses GSI to allocate fish sampled at Lower Granite Dam.}
 \item{Citation}{Data citation.}
 \item{Contributor}{Data contributor.}
 \item{NMFS_POPID}{NWFSC id for the population.}
@@ -37,10 +37,10 @@ A csv file.
 \item Upper Cowlitz Fall (Tule) Chinook: Washington Department of Fish and Wildlife
 \item Kalama Fall (Tule) Chinook: Washington Department of Fish and Wildlife
 \item Lewis River Fall (Tule) Chinook: Washington Department of Fish and Wildlife
-\item Sandy River: Oregon Department of Fish and Wildlife
 \item Clackamas River: Oregon Department of Fish and Wildlife
 \item Washougal Fall (Tule) Chinook: Washington Department of Fish and Wildlife
 \item Lewis River Late Fall (Bright) Chinook: Washington Department of Fish and Wildlife
+\item Sandy River: Oregon Department of Fish and Wildlife
 \item Upper Cowlitz and Cispus Spring Chinook: Washington Department of Fish and Wildlife
 \item Kalama Spring Chinook: Washington Department of Fish and Wildlife
 \item North Fork Lewis Spring Chinook: Washington Department of Fish and Wildlife
@@ -52,8 +52,6 @@ A csv file.
 }
 \description{
 Spawner and fraction wild data. Species: Chinook salmon. Method: Survey
-
-Spawner and fraction wild data. Species: Chinook. Method: Survey
 }
 \examples{
 data('Salmon Chinook (Lower Columbia River ESU)-LCchinook2020')
@@ -76,5 +74,31 @@ ggplot(out, aes(x=BROOD_YEAR, y=FRACWILD)) +
 \references{
 Salmon Population Summaries (SPS) Database: \url{https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps}
 
-Original source: CAX05262020. Citations with the format CAXMMDDYYYY indicate that the data are from the Coordinated Assessments Partnership (CAP) database and were downloaded on on MM-DD-YYYY. \url{https://www.streamnet.org/home/data-maps/fish-hlis/}.
+Original source: Citations with the format CAXMMDDYYYY indicate that the data are from the Coordinated Assessments Partnership (CAP) database and were downloaded on on MM-DD-YYYY. \url{https://www.streamnet.org/home/data-maps/fish-hlis/}.
+\itemize{
+\item Grays/Chinook Fall (Tule) Chinook: CAX05262020
+\item Youngs Bay: CAX05262020
+\item Big Creek: CAX05262020
+\item Elochoman/Skamokawa Fall (Tule) Chinook: CAX05262020
+\item Clatskanie River: CAX05262020
+\item Mill/Abernathy/Germany Creeks Fall (Tule) Chinook: CAX05262020
+\item Lower Cowlitz Fall (Tule) Chinook: CAX05262020
+\item Coweeman Fall (Tule) Chinook: CAX05262020
+\item Toutle Fall (Tule) Chinook: CAX05262020
+\item Upper Cowlitz Fall (Tule) Chinook: CAX05262020
+\item Kalama Fall (Tule) Chinook: CAX05262020
+\item Lewis River Fall (Tule) Chinook: CAX05262020
+\item Clackamas River: CAX05262020
+\item Washougal Fall (Tule) Chinook: CAX05262020
+\item Lewis River Late Fall (Bright) Chinook: CAX05262020
+\item Sandy River: CAX05262020
+\item Sandy River: personal communication with Jamie Anthony, ODFW
+\item Upper Cowlitz and Cispus Spring Chinook: CAX05262020
+\item Kalama Spring Chinook: CAX05262020
+\item North Fork Lewis Spring Chinook: CAX05262020
+\item Lower Gorge (Columbia) Late Fall (Bright) Chinook: CAX05262020
+\item Upper Gorge (Columbia) Fall (Tule) Chinook: CAX05262020
+\item Big White Salmon River Fall (Tule) Chinook: CAX05262020
+\item Big White Salmon River Spring Chinook: CAX05262020
+}
 }

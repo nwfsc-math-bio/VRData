@@ -1,12 +1,16 @@
-pandoc: 2.7.3
-pkgdown: 2.0.2
+pandoc: 2.11.2
+pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   Salmon Chinook (Lower Columbia River ESU)-LCchinook2020: Salmon Chinook (Lower Columbia
     River ESU)-LCchinook2020.html
   Salmon Chinook (Puget Sound DPS): Salmon Chinook (Puget Sound DPS).html
+  Salmon Chinook (Snake River fall-run ESU)-ICSRFchinook2021: Salmon Chinook (Snake
+    River fall-run ESU)-ICSRFchinook2021.html
   Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookModel: Salmon Chinook
     (Snake River spring-summer-run ESU)-ICSRSSchinookModel.html
+  Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020: Salmon
+    Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020.html
   Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurveySBT2020: Salmon
     Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurveySBT2020.html
   Salmon Chinook (Upper Columbia River spring-run ESU)-ICUCchinook2020: Salmon Chinook
@@ -34,5 +38,5 @@ articles:
     River DPS)-ICUCsthdSurvey2020.html
   Steelhead (Upper Willamette River DPS)-UWsthd2020: Steelhead (Upper Willamette River
     DPS)-UWsthd2020.html
-last_built: 2022-03-04T20:13Z
+last_built: 2022-03-07T23:02Z
 

@@ -9,7 +9,7 @@
 A csv file.
 \describe{
 \item{Series}{For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.}
-\item{Method}{Method for the spawner count. Survey refers to a spawning ground survey of some type. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count.}
+\item{Method}{Method for the spawner count. Survey refers to a spawning ground survey; the count itself is an expansion. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count. Model  refers to the DABOM model that expands from PIT tag data. GSI is an expandsion based on the BOXCAR model, which uses GSI to allocate fish sampled at Lower Granite Dam.}
 \item{Citation}{Data citation.}
 \item{Contributor}{Data contributor.}
 \item{NMFS_POPID}{NWFSC id for the population.}

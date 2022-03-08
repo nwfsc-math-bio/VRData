@@ -7,12 +7,13 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-# To load data
+# Data
 
 ```{r}
-library(VRData)
-data('Steelhead (Snake River Basin DPS)-ICSRsthdModel')
+data('Steelhead (Snake River Basin DPS)-ICSRsthdModel', package='VRData')
 ```
+
+## [View raw data](../data/Steelhead (Snake River Basin DPS)-ICSRsthdModel.html) &#8212; [Download raw data](../data/Steelhead (Snake River Basin DPS)-ICSRsthdModel.csv)
 
 # Spawners plot
 
@@ -33,11 +34,5 @@ ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$FRACWILD)) +
    ggplot2::ggtitle('Fraction Wild') +
    ggplot2::ylim(0,1) +
    ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
-```
-
-# Raw data table
-
-```{r, echo=FALSE}
-knitr::kable(out)
 ```
 

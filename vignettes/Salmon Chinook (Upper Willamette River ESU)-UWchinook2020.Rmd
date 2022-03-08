@@ -7,12 +7,13 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-# To load data
+# Data
 
 ```{r}
-library(VRData)
-data('Salmon Chinook (Upper Willamette River ESU)-UWchinook2020')
+data('Salmon Chinook (Upper Willamette River ESU)-UWchinook2020', package='VRData')
 ```
+
+## [View raw data](../data/Salmon Chinook (Upper Willamette River ESU)-UWchinook2020.html) &#8212; [Download raw data](../data/Salmon Chinook (Upper Willamette River ESU)-UWchinook2020.csv)
 
 # Spawners plot
 
@@ -33,11 +34,5 @@ ggplot2::ggplot(out, ggplot2::aes(x=.data$BROOD_YEAR, y=.data$FRACWILD)) +
    ggplot2::ggtitle('Fraction Wild') +
    ggplot2::ylim(0,1) +
    ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
-```
-
-# Raw data table
-
-```{r, echo=FALSE}
-knitr::kable(out)
 ```
 
