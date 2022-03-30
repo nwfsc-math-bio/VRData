@@ -1,8 +1,8 @@
 ---
-title: Columbia-River-Chum-Salmon-ESU
+title: @title-Columbia-River-Chum-Salmon-ESU
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Columbia-River-Chum-Salmon-ESU}
+  %\VignetteIndexEntry{@title-Columbia-River-Chum-Salmon-ESU}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -11,7 +11,7 @@ vignette: >
 
 ```{r}
 library(VRData)
-data('Columbia-River-Chum-Salmon-ESU')
+data('@title-Columbia-River-Chum-Salmon-ESU')
 ```
 
 # Spawners plot

@@ -1,9 +1,9 @@
-#' Columbia River Chum Salmon ESU
+#' @title Columbia River Chum Salmon ESU
 #'
-#' @description Spawner counts and fraction wild data.
+#' @description Spawner counts and fraction wild data. More information.
 #'
 #' @details Downloaded from the SPS Master Oracle 2013-2014 Database on
-#' January 28, 2016
+#' January 28 2016
 #' 
 #' @source 
 #' 
@@ -15,24 +15,24 @@
 #' @format A csv file.
 #' \describe{
 #' \item{NMFS_POPID}{NWFSC id for the population.}
-#' \item{ESU}{ESU or DPS name.}
+#' \item{ESU}{ESU or DPS name. Constrained to [ESU_DPS_names()].}
 #' \item{SPECIES}{Species name.}
 #' \item{RUN_TIMING}{Run timing (fall, winter, spring, etc). If missing, see the ESU/DPS name or may not be applicable for the species.}
 #' \item{MAJOR_POPULATION_GROUP}{Major population group within the ESU or DPS.}
 #' \item{COMMON_POPULATION_NAME}{Population name.}
-#' \item{YEAR}{The year that the count was made.}
-#' \item{NUMBER_OF_SPAWNERS}{Spawners count. -99 means missing count.}
-#' \item{FRACWILD}{Fraction wild. -99 means missing information.}
+#' \item{YEAR}{Integer in XXXX format. The year that the count was made. See details for ESU or DPS specific comments.}
+#' \item{NUMBER_OF_SPAWNERS}{Total spawners or escapement count. -99 means missing count. May be integer or decimal.}
+#' \item{FRACWILD}{Decimal between 0 and 1. Fraction wild or natural. -99 means missing information.}
 #' }
 #' 
-#' @name Columbia-River-Chum-Salmon-ESU
+#' @name @title-Columbia-River-Chum-Salmon-ESU
 #' @docType data
 #' @examples
-#' data('Columbia-River-Chum-Salmon-ESU')
+#' data('@title-Columbia-River-Chum-Salmon-ESU')
 #' library(ggplot2)
 #' out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] <- NA
 #' ggplot(out, aes(x=YEAR, y=NUMBER_OF_SPAWNERS)) + geom_point(na.rm = TRUE) +
-#'   ggtitle('Columbia-River-Chum-Salmon-ESU') +
+#'   ggtitle('@title-Columbia-River-Chum-Salmon-ESU') +
 #'   facet_wrap(~COMMON_POPULATION_NAME)
 NULL
 
