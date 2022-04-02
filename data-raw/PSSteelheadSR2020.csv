@@ -1,4 +1,4 @@
-﻿NMFS_POPID,Species,MPG,ESU,RUN_TIMING,DISPLAY_ORDER,POP_NAME_LONG,COMMON_POPULATION_NAME,Pop_All_short_names_RUN_TIMING,PSChinook_Chum_Steelhead_RUN_TIMING,YEAR,VIABILITY_TYPE,NUMBER_OF_SPAWNERS,SPAWNER_NOTES,FRACWILD,HATCHERY_FRACTION,HATCHERY_FRACTION_NOTES,CATCH,AGE_1_RETURNS,AGE_2_RETURNS,AGE_3_RETURNS,AGE_4_RETURNS,AGE_5_RETURNS
+NMFS_POPID,Species,MPG,ESU,RUN_TIMING,DISPLAY_ORDER,POP_NAME_LONG,COMMON_POPULATION_NAME,Pop_All_short_names_RUN_TIMING,PSChinook_Chum_Steelhead_RUN_TIMING,YEAR,VIABILITY_TYPE,NUMBER_OF_SPAWNERS,SPAWNER_NOTES,FRACWILD,HATCHERY_FRACTION,HATCHERY_FRACTION_NOTES,CATCH,AGE_1_RETURNS,AGE_2_RETURNS,AGE_3_RETURNS,AGE_4_RETURNS,AGE_5_RETURNS
 285,Steelhead,Northern Cascades,Steelhead (Puget Sound DPS),,1,Samish River and Bellingham Bay Tributaries - winter Steelhead,Samish R./Bellingham Bay Tribs.,,WR,1979,,224,,1,,,-99,-99,-99,-99,-99,-99
 285,Steelhead,Northern Cascades,Steelhead (Puget Sound DPS),,1,Samish River and Bellingham Bay Tributaries - winter Steelhead,Samish R./Bellingham Bay Tribs.,,WR,1980,,80,,1,,,-99,-99,-99,-99,-99,-99
 285,Steelhead,Northern Cascades,Steelhead (Puget Sound DPS),,1,Samish River and Bellingham Bay Tributaries - winter Steelhead,Samish R./Bellingham Bay Tribs.,,WR,1981,,142,,1,,,-99,-99,-99,-99,-99,-99
@@ -354,7 +354,7 @@
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,1994,,2094,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,1995,,2486,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,1996,,2855,,1,,,-99,-99,-99,-99,-99,-99
-277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,1997,,2231.03,,1,,,-99,-99,-99,-99,-99,-99
+277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,1997,,2231.032895,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,1998,,2457,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,1999,,2965,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2000,,2264,,1,,,-99,-99,-99,-99,-99,-99
@@ -372,12 +372,11 @@
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2012,,435,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2013,,714,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2014,,1021,,1,,,-99,-99,-99,-99,-99,-99
-277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2015,,1659.12,,1,,,-99,-99,-99,-99,-99,-99
-277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2016,,2178.44,,1,,,-99,-99,-99,-99,-99,-99
+277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2015,,1659.124857,,1,,,-99,-99,-99,-99,-99,-99
+277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2016,,2178.435688,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2017,,1024,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2018,,962,,1,,,-99,-99,-99,-99,-99,-99
 277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2019,,972,,1,,,-99,-99,-99,-99,-99,-99
-277,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,11,Green River - winter Steelhead,Green R.,,WR,2019,,1001,,1,,,-99,-99,-99,-99,-99,-99
 299,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,12,White River - winter Steelhead,White R.,,WR,1983,,239,,1,,,-99,-99,-99,-99,-99,-99
 299,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,12,White River - winter Steelhead,White R.,,WR,1984,,794,,1,,,-99,-99,-99,-99,-99,-99
 299,Steelhead,South Central Cascades,Steelhead (Puget Sound DPS),,12,White River - winter Steelhead,White R.,,WR,1985,,855,,1,,,-99,-99,-99,-99,-99,-99
@@ -700,9 +699,9 @@
 295,Steelhead,Olympic,Steelhead (Puget Sound DPS),,20,Strait of Juan de Fuca Tributaries - winter Steelhead,Strait of Juan de Fuca Ind.,,WR,2016,,152,,1,,,-99,-99,-99,-99,-99,-99
 295,Steelhead,Olympic,Steelhead (Puget Sound DPS),,20,Strait of Juan de Fuca Tributaries - winter Steelhead,Strait of Juan de Fuca Ind.,,WR,2017,,32,,1,,,-99,-99,-99,-99,-99,-99
 295,Steelhead,Olympic,Steelhead (Puget Sound DPS),,20,Strait of Juan de Fuca Tributaries - winter Steelhead,Strait of Juan de Fuca Ind.,,WR,2018,,68,,1,,,-99,-99,-99,-99,-99,-99
-276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elhwa Steelhead,Elwha R.,,WR,2013,,385,,1,,,-99,-99,-99,-99,-99,-99
-276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elhwa Steelhead,Elwha R.,,WR,2014,,1200,,1,,,-99,-99,-99,-99,-99,-99
-276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elhwa Steelhead,Elwha R.,,WR,2015,,1450,,1,,,-99,-99,-99,-99,-99,-99
-276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elhwa Steelhead,Elwha R.,,WR,2016,,890,,1,,,-99,-99,-99,-99,-99,-99
-276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elhwa Steelhead,Elwha R.,,WR,2017,,1130,,1,,,-99,-99,-99,-99,-99,-99
-276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elhwa Steelhead,Elwha R.,,WR,2018,,1625,,1,,,-99,-99,-99,-99,-99,-99
+276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elwha Steelhead,Elwha R.,,WR,2013,,385,,0.75,,,-99,-99,-99,-99,-99,-99
+276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elwha Steelhead,Elwha R.,,WR,2014,,1200,,0.33,,,-99,-99,-99,-99,-99,-99
+276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elwha Steelhead,Elwha R.,,WR,2015,,1450,,0.13,,,-99,-99,-99,-99,-99,-99
+276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elwha Steelhead,Elwha R.,,WR,2016,,890,,0.36,,,-99,-99,-99,-99,-99,-99
+276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elwha Steelhead,Elwha R.,,WR,2017,,1130,,0.33,,,-99,-99,-99,-99,-99,-99
+276,Steelhead,Olympic,Steelhead (Puget Sound DPS),,21,Elwha Steelhead,Elwha R.,,WR,2018,,1625,,0.45,,,-99,-99,-99,-99,-99,-99
