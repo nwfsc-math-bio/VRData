@@ -61,4 +61,6 @@ news:
   releases:
   - text: "Version 1.0 2015 VR"
     href: https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0
+  - text: "Version 2.0 2020 VR"
+    href: https://github.com/nwfsc-math-bio/VRData/releases/tag/v2.0
 
