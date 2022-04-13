@@ -1,8 +1,17 @@
 # VRData
 
+# Version 2.2
+
+* Data updated to the the SPS upload file for the 2020 Viability Report.
+* Added raw data downloading and viewing.
+
+# Version 2.1
+
+* Fleshed out the contributor and citation sections for each Rd file.
+
 # Version 2.0
 
-Data from the 2020 Viability report. Removed the header info from the raw data files. This info is now coming from the columns of the raw data.
+Data from the 2020 Viability report. Removed the header info from the raw data files. This info is now being build from the columns of the raw data.
 
 # Version 1.0
 

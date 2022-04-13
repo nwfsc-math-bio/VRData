@@ -81,7 +81,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">VRData</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">2.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">2.2</span>
       </span>
     </div>
 
@@ -112,6 +112,9 @@
     <li class="dropdown-header">Releases</li>
     <li>
       <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0">Version 1.0 2015 VR</a>
+    </li>
+    <li>
+      <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v2.0">Version 2.0 2020 VR</a>
     </li>
     <li class="divider"></li>
     <li>
@@ -151,7 +154,8 @@
 <h2 class="hasAnchor">
 <a href="#new-data" class="anchor"></a>New data</h2>
 <ul>
-<li>Add new csv files to the <code>data-raw</code> folder with the Roxygen2 headers.</li>
+<li>Add new csv files to the <code>data-raw</code> folder.</li>
+<li>See the wiki for instructions on data format.</li>
 <li>Push to GitHub and the data will be automatically processed for the website via a GitHub Action.</li>
 </ul>
 </div>
@@ -177,6 +181,7 @@
 <h2 class="hasAnchor">
 <a href="#manual-workflow" class="anchor"></a>Manual workflow</h2>
 <ul>
+<li>Build the package (click ‘Install and Restart’ in the build tab)</li>
 <li>Add csv file to data-raw</li>
 <li>Run <code><a href="reference/process_data_raw.html">process_data_raw()</a></code>
 </li>
@@ -185,9 +190,10 @@
 </li>
 </ul>
 <pre><code><a href="https://nwfsc-math-bio.github.io/VRData">library(VRData)
+pkgdown::clean_site(pkg = ".") # clean up old site
+dir.create(file.path("docs", "data")) # recreate data dir
 process_data_raw()
 devtools::document(roclets = c('rd', 'collate', 'namespace'))
-system("R CMD INSTALL --no-multiarch --with-keep.source VRData")
 pkgdown::build_site()</a></code></pre>
 </div>
 </div>

@@ -8,23 +8,27 @@
 \format{
 A csv file.
 \describe{
-\item{Series}{For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.}
-\item{Method}{Method for the spawner count. Survey refers to a spawning ground survey; the count itself is an expansion. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count. Model  refers to the DABOM model that expands from PIT tag data. GSI is an expandsion based on the BOXCAR model, which uses GSI to allocate fish sampled at Lower Granite Dam.}
-\item{Citation}{Data citation.}
-\item{Contributor}{Data contributor.}
-\item{NMFS_POPID}{NWFSC id for the population.}
+\item{SERIES}{For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.}
 \item{ESU}{ESU or DPS name.}
-\item{MAJOR_POPULATION_GROUP}{Major population group within the ESU or DPS.}
-\item{COMMON_POPULATION_NAME}{Population name.}
 \item{SPECIES}{Species name.}
+\item{METHOD}{Method for the spawner count. Survey refers to a spawning ground survey; the count itself is an expansion. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count. Model  refers to the DABOM model that expands from PIT tag data. GSI is an expansion based on the BOXCAR model, which uses GSI to allocate fish sampled at Lower Granite Dam.}
+\item{MAJOR_POPULATION_GROUP}{Major population group within the ESU or DPS.}
+\item{NMFS_POPID}{NWFSC id for the population.}
+\item{POPULATION_NAME}{Long population name.}
+\item{COMMON_POPULATION_NAME}{Shorter population name used in Viability Report figures and tables.}
 \item{RUN_TIMING}{Run timing (fall, winter, spring, etc). If missing, see the ESU/DPS name or may not be applicable for the species.}
-\item{BROOD_YEAR}{Integer in XXXX format. The year that the count was made. See details for ESU or DPS specific comments.}
+\item{YEAR}{Integer in XXXX format. The year that the count was made. See details for ESU or DPS specific comments.}
 \item{NUMBER_OF_SPAWNERS}{Total spawners or escapement count. -99 means missing count. May be integer or decimal.}
 \item{FRACWILD}{Decimal between 0 and 1. Fraction wild or natural. -99 means missing information.}
+\item{CONTRIBUTOR}{Data contributor. Listed under Source below.}
+\item{COMPILER}{NWFSC staff who compiled the data file: Mari Williams}
+\item{CITATION}{Data citation. Listed under References below.}
 }
 }
 \source{
 \itemize{
+\item Johnson Creek: Nez Perce Tribe
+\item Secesh River: Nez Perce Tribe
 \item Tucannon River: Washington Department of Fish and Wildlife
 \item Wenaha River: Oregon Department of Fish and Wildlife
 \item Wallowa/Lostine Rivers: Oregon Department of Fish and Wildlife
@@ -33,8 +37,6 @@ A csv file.
 \item Grande Ronde Upper Mainstem: Oregon Department of Fish and Wildlife
 \item Imnaha River: Oregon Department of Fish and Wildlife
 \item South Fork Salmon River: Idaho Department of Fish and Game
-\item Secesh River: Nez Perce Tribe
-\item Johnson Creek: Nez Perce Tribe
 \item Chamberlain Creek: Idaho Department of Fish and Game
 \item Middle Fork Salmon River Lower Mainstem: Idaho Department of Fish and Game
 \item Big Creek: Idaho Department of Fish and Game
@@ -55,20 +57,20 @@ A csv file.
 }
 }
 \description{
-Spawner and fraction wild data. Species: Chinook salmon. Method: Survey
+Spawner and fraction wild data. Species: Chinook salmon. Method: Survey. \href{../data/Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020.html}{View raw data} or \href{../data/Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020.csv}{Download raw data}
 }
 \examples{
 data('Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020')
 library(ggplot2)
 out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] <- NA
-ggplot(out, aes(x=BROOD_YEAR, y=NUMBER_OF_SPAWNERS)) + 
+ggplot(out, aes(x=YEAR, y=NUMBER_OF_SPAWNERS)) + 
   geom_point(na.rm = TRUE) +
   ggtitle('Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020') +
   facet_wrap(~COMMON_POPULATION_NAME) +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1), strip.text.x = element_text(size = 6))
 
 out$FRACWILD[out$FRACWILD == -99] <- NA
-ggplot(out, aes(x=BROOD_YEAR, y=FRACWILD)) +
+ggplot(out, aes(x=YEAR, y=FRACWILD)) +
   geom_point(na.rm = TRUE) +
   ggtitle('Fraction Wild') +
   ylim(0,1) +
@@ -76,7 +78,38 @@ ggplot(out, aes(x=BROOD_YEAR, y=FRACWILD)) +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1), strip.text.x = element_text(size = 6))
 }
 \references{
+Ford, M.J., editor. 2022. Biological Viability Assessment Update for Pacific Salmon and Steelhead Listed Under the Endangered Species Act: Pacific Northwest. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-NWFSC-171. https://doi.org/10.25923/kq2n-ke70
+
 Salmon Population Summaries (SPS) Database: \url{https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps}
 
-Original source: CAX05262020. Citations with the format CAXMMDDYYYY indicate that the data are from the Coordinated Assessments Partnership (CAP) database and were downloaded on on MM-DD-YYYY. \url{https://www.streamnet.org/home/data-maps/fish-hlis/}.
+Original source:
+\itemize{
+\item Johnson Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1987-2018). Spawner abundance data. Nez Perce Tribe. Protocol and Methods available at https://www.monitoringresources.org/Document/Protocol/Details/2246. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Secesh River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1997-2018). Spawner abundance data. Nez Perce Tribe. Protocol and Methods available at https://www.monitoringresources.org/Document/Protocol/Details/2246. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Tucannon River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1954-2019). Spawner abundance data. Washington Department of Fish and Wildlife. Protocol and Methods available at https://fortress.wa.gov/dfw/score/score/. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Wenaha River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1949-2018). Spawner abundance data. Oregon Department of Fish and Wildlife. Protocol and Methods available at http://odfwrecoverytracker.org/metadata/. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Wallowa/Lostine Rivers: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1949-2018). Spawner abundance data. Oregon Department of Fish and Wildlife. Protocol and Methods available at http://odfwrecoverytracker.org/metadata/. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Minam River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1954-2018). Spawner abundance data. Oregon Department of Fish and Wildlife. Protocol and Methods available at http://odfwrecoverytracker.org/metadata/. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Catherine Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1953-2018). Spawner abundance data. Oregon Department of Fish and Wildlife. Protocol and Methods available at http://odfwrecoverytracker.org/metadata/. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Grande Ronde Upper Mainstem: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1953-2018). Spawner abundance data. Oregon Department of Fish and Wildlife. Protocol and Methods available at http://odfwrecoverytracker.org/metadata/. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Imnaha River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1949-2018). Spawner abundance data. Oregon Department of Fish and Wildlife. Protocol and Methods available at http://odfwrecoverytracker.org/metadata/. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item South Fork Salmon River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Chamberlain Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Middle Fork Salmon River Lower Mainstem: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Big Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Camas Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Loon Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Middle Fork Salmon River Upper Mainstem: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Sulphur Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Marsh Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Bear Valley Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item North Fork Salmon River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Lemhi River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Salmon River Lower Mainstem: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Pahsimeroi River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1980-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item East Fork Salmon River: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Yankee Fork: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Salmon River Upper Mainstem: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+\item Valley Creek: Snake River spring/summer Chinook Natural Origin Spawner Abundance Dataset (1957-2019). Spawner abundance data. Idaho Department of Fish and Game. Protocol and Methods available at https://www.monitoringmethods.org/Protocol/Details/159. Accessed from www.cax.streamnet.org vers May 26 2020 10:00PM by Mari Williams, NOAAF NWFSC/PSMFC.
+}
 }

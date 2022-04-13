@@ -49,7 +49,7 @@
   
 
 <meta property="og:title" content="Steelhead (Upper Columbia River DPS)-ICUCsthdModel — Steelhead (Upper Columbia River DPS)-ICUCsthdModel" />
-<meta property="og:description" content="Spawner and fraction wild data. Species: Steelhead. Method: Model" />
+<meta property="og:description" content="Spawner and fraction wild data. Species: Steelhead. Method: Model. View raw data or Download raw data" />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -82,7 +82,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">VRData</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">2.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">2.2</span>
       </span>
     </div>
 
@@ -113,6 +113,9 @@
     <li class="dropdown-header">Releases</li>
     <li>
       <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0">Version 1.0 2015 VR</a>
+    </li>
+    <li>
+      <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v2.0">Version 2.0 2020 VR</a>
     </li>
     <li class="divider"></li>
     <li>
@@ -147,7 +150,7 @@
     </div>
 
     <div class="ref-description">
-    <p>Spawner and fraction wild data. Species: Steelhead. Method: Model</p>
+    <p>Spawner and fraction wild data. Species: Steelhead. Method: Model. <a href='../data/Steelhead (Upper Columbia River DPS)-ICUCsthdModel.html'>View raw data</a> or <a href='../data/Steelhead (Upper Columbia River DPS)-ICUCsthdModel.csv'>Download raw data</a></p>
     </div>
 
 
@@ -155,42 +158,45 @@
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
     <p>A csv file.</p><dl>
-<dt>Series</dt><dd><p>For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.</p></dd>
-<dt>Method</dt><dd><p>Method for the spawner count. Survey refers to a spawning ground survey; the count itself is an expansion. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count. Model  refers to the DABOM model that expands from PIT tag data. GSI is an expandsion based on the BOXCAR model, which uses GSI to allocate fish sampled at Lower Granite Dam.</p></dd>
-<dt>Citation</dt><dd><p>Data citation.</p></dd>
-<dt>Contributor</dt><dd><p>Data contributor.</p></dd>
-<dt>NMFS_POPID</dt><dd><p>NWFSC id for the population.</p></dd>
+<dt>SERIES</dt><dd><p>For certain populations, there are multiple types of spawner count data. For example survey and model counts that are based on different methods. In this case, the 'Series' column gives a name for the dataset to distinguish it from other data sets of the same population.</p></dd>
 <dt>ESU</dt><dd><p>ESU or DPS name.</p></dd>
-<dt>MAJOR_POPULATION_GROUP</dt><dd><p>Major population group within the ESU or DPS.</p></dd>
-<dt>COMMON_POPULATION_NAME</dt><dd><p>Population name.</p></dd>
 <dt>SPECIES</dt><dd><p>Species name.</p></dd>
+<dt>METHOD</dt><dd><p>Method for the spawner count. Survey refers to a spawning ground survey; the count itself is an expansion. See the SPS (database link in sources below) for the details for the data. LadderCount is a weir or dam count. Model  refers to the DABOM model that expands from PIT tag data. GSI is an expansion based on the BOXCAR model, which uses GSI to allocate fish sampled at Lower Granite Dam.</p></dd>
+<dt>MAJOR_POPULATION_GROUP</dt><dd><p>Major population group within the ESU or DPS.</p></dd>
+<dt>NMFS_POPID</dt><dd><p>NWFSC id for the population.</p></dd>
+<dt>POPULATION_NAME</dt><dd><p>Long population name.</p></dd>
+<dt>COMMON_POPULATION_NAME</dt><dd><p>Shorter population name used in Viability Report figures and tables.</p></dd>
 <dt>RUN_TIMING</dt><dd><p>Run timing (fall, winter, spring, etc). If missing, see the ESU/DPS name or may not be applicable for the species.</p></dd>
-<dt>BROOD_YEAR</dt><dd><p>Integer in XXXX format. The year that the count was made. See details for ESU or DPS specific comments.</p></dd>
+<dt>YEAR</dt><dd><p>Integer in XXXX format. The year that the count was made. See details for ESU or DPS specific comments.</p></dd>
 <dt>NUMBER_OF_SPAWNERS</dt><dd><p>Total spawners or escapement count. -99 means missing count. May be integer or decimal.</p></dd>
 <dt>FRACWILD</dt><dd><p>Decimal between 0 and 1. Fraction wild or natural. -99 means missing information.</p></dd>
+<dt>CONTRIBUTOR</dt><dd><p>Data contributor. Listed under Source below.</p></dd>
+<dt>COMPILER</dt><dd><p>NWFSC staff who compiled the data file: Mari Williams</p></dd>
+<dt>CITATION</dt><dd><p>Data citation. Listed under References below.</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>CJ</p>
+    <p>Washington Department of Fish and Wildlife</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p>Salmon Population Summaries (SPS) Database: <a href='https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps'>https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps</a></p>
-<p>Original source: CJ.</p>
+    <p>Ford, M.J., editor. 2022. Biological Viability Assessment Update for Pacific Salmon and Steelhead Listed Under the Endangered Species Act: Pacific Northwest. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-NWFSC-171. https://doi.org/10.25923/kq2n-ke70</p>
+<p>Salmon Population Summaries (SPS) Database: <a href='https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps'>https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps</a></p>
+<p>Original source: Waterhouse, L., J. White, K. See, A. Murdoch, and B. X. Semmens. 2020. A Bayesian nested patch occupancy model to estimate steelhead movement and abundance. Ecological Applications 00(00): e02202. 10.1002/eap.2202.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>'Steelhead (Upper Columbia River DPS)-ICUCsthdModel'</span><span class='op'>)</span>
 <span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://ggplot2.tidyverse.org'>ggplot2</a></span><span class='op'>)</span>
 <span class='va'>out</span><span class='op'>$</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>[</span><span class='va'>out</span><span class='op'>$</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>==</span><span class='op'>-</span><span class='fl'>99</span><span class='op'>]</span> <span class='op'>&lt;-</span> <span class='cn'>NA</span>
-<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>out</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>BROOD_YEAR</span>, y<span class='op'>=</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> 
+<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>out</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>YEAR</span>, y<span class='op'>=</span><span class='va'>NUMBER_OF_SPAWNERS</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> 
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>ggtitle</a></span><span class='op'>(</span><span class='st'>'Steelhead (Upper Columbia River DPS)-ICUCsthdModel'</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/facet_wrap.html'>facet_wrap</a></span><span class='op'>(</span><span class='op'>~</span><span class='va'>COMMON_POPULATION_NAME</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/theme.html'>theme</a></span><span class='op'>(</span>axis.text.x <span class='op'>=</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/element.html'>element_text</a></span><span class='op'>(</span>angle <span class='op'>=</span> <span class='fl'>45</span>, vjust <span class='op'>=</span> <span class='fl'>1</span>, hjust<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span>
 </div><div class='img'><img src='Steelhead-open-paren-Upper-Columbia-River-DPS-close-paren-ICUCsthdModel-1.png' alt='' width='700' height='433' /></div><div class='input'>
 <span class='va'>out</span><span class='op'>$</span><span class='va'>FRACWILD</span><span class='op'>[</span><span class='va'>out</span><span class='op'>$</span><span class='va'>FRACWILD</span> <span class='op'>==</span> <span class='op'>-</span><span class='fl'>99</span><span class='op'>]</span> <span class='op'>&lt;-</span> <span class='cn'>NA</span>
-<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>out</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>BROOD_YEAR</span>, y<span class='op'>=</span><span class='va'>FRACWILD</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>out</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>YEAR</span>, y<span class='op'>=</span><span class='va'>FRACWILD</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>ggtitle</a></span><span class='op'>(</span><span class='st'>'Fraction Wild'</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/lims.html'>ylim</a></span><span class='op'>(</span><span class='fl'>0</span>,<span class='fl'>1</span><span class='op'>)</span> <span class='op'>+</span>
