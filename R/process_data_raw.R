@@ -12,18 +12,8 @@
 #' @export
 process_data_raw <- function() {
   
-  # Clean up prior data files and their R and vignette files
-  olddatafils <- list.files("data")
-  oldRfils <- list.files("R")
-  oldRfils <- oldRfils[!oldRfils %in% c("describe_text.R", "process_data_raw.R", "create_vignette.R")]
-  oldvignettes <- list.files("vignettes")
-  if(length(olddatafils)!=0) file.remove(file.path("data", olddatafils))
-  if(length(oldvignettes)!=0) file.remove(file.path("vignettes", oldvignettes))
-  if(length(oldRfils)!=0) file.remove(file.path("R", oldRfils))
-  olddatafils <- list.files(file.path("docs", "data"))
-  if(length(olddatafils)!=0) file.remove(file.path("docs", "data", olddatafils))
-  # css file for the raw data files
-  file.copy(file.path(here::here(), "inst", "extdata", "div.css"), file.path(here::here(), "docs", "data"))
+  # Clean up the data, R, vignettes and docs/data folders
+  clean_up()
   
   # Go through each data file in data-raw
   fils <- list.files("data-raw", pattern = "[.]csv")
@@ -89,7 +79,7 @@ process_data_raw <- function() {
     
     ## Create the citation section. If there is citation information, 
     ## then a section with info for each population be created.
-    citation <- "#' @references\n #' Ford, M.J., editor. 2022. Biological Viability Assessment Update for Pacific Salmon and Steelhead Listed Under the Endangered Species Act: Pacific Northwest. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-NWFSC-171. https://doi.org/10.25923/kq2n-ke70\n#'\n#'\n#' Salmon Population Summaries (SPS) Database: \\url{https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps}\n#' \n"
+    citation <- "#' @references\n #' Ford, M.J., et al. 2022. Biological Viability Assessment Update for Pacific Salmon and Steelhead Listed Under the Endangered Species Act: Pacific Northwest. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-NWFSC-171. https://doi.org/10.25923/kq2n-ke70\n#'\n#'\n#' Salmon Population Summaries (SPS) Database: \\url{https://www.fisheries.noaa.gov/resource/tool-app/salmon-population-summaries-sps}\n#' \n"
     if("citation" %in% colnames(datar)){
       citation <- paste0(citation, "#' Original source: ")
     } 

@@ -4,11 +4,10 @@ title: Viability Report Documents
 
 <!-- WRO Status Reviews  https://www.fisheries.noaa.gov/resources/all-publications?title=&region%5B1000001126%5D=1000001126&field_category_document_value%5Besa_five_review%5D=esa_five_review&field_category_document_value%5Besa_status_review%5D=esa_status_review&term_node_tid_depth%5B1000000031%5D=1000000031&field_species_vocab_target_id&sort_by=created&page=1 -->
 
-Ford, M. J., editor. 2022. Biological Viability Assessment Update for Pacific
+Ford, M. J. (editor), K. Barnas, L. Crozier,  M. Diaz, E. Holmes, D. Holzer,C. E. Jordan, M. Liermann, J. Myers, M. Rowse, L. Weitkamp, and M. Williams. 2022. Biological Viability Assessment Update for Pacific
 Salmon and Steelhead Listed Under the Endangered Species Act: Pacific
 Northwest. U.S. Department of Commerce, NOAA Technical Memorandum
-NMFS-NWFSC-171.
-https://doi.org/10.25923/kq2n-ke70
+NMFS-NWFSC-171. https://doi.org/10.25923/kq2n-ke70
 
 Ford, M. J., K. Barnas, T. Cooney, L. G. Crozier, M. Diaz, J. J. Hard, E. E. Holmes, D. M. Holzer, R. G. Kope, P. W. Lawson, M. Liermann, J. M. Myers, M. Rowse, D. J. Teel, D. M. Van Doornik, T. C. Wainwright, L. A. Weitkamp, M. Williams. 2015. Status Review Update for Pacific Salmon and Steelhead Listed under the Endangered Species Act: Pacific Northwest. National Marine Fisheries Service, Northwest Fisheries Science Center. [PDF](https://www.nwfsc.noaa.gov/assets/11/8623_03072016_124156_Ford-NWSalmonBioStatusReviewUpdate-Dec%2021-2015%20v2.pdf)
 
