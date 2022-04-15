@@ -16,7 +16,8 @@ Technical Memorandum NMFS-NWFSC-171.
 To install, install the **devtools** package (if needed) and then use:
 
     library(devtools)
-    devtools::install_github("nwfsc-math-bio/VRData")
+    devtools::install_github("nwfsc-math-bio/VRData@*release")
+    library(VRData)
 
 ------------------------------------------------------------------------
 
