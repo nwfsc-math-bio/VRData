@@ -37,8 +37,6 @@ Note, you can run `process_data_raw()` locally, but the GitHub repo is set up wi
 
 ```
 library(VRData)
-pkgdown::clean_site(pkg = ".") # clean up old site
-dir.create(file.path("docs", "data")) # recreate data dir
 process_data_raw()
 devtools::document(roclets = c('rd', 'collate', 'namespace'))
 pkgdown::build_site()
