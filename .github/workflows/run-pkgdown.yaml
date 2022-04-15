@@ -20,6 +20,9 @@ jobs:
       - name: Update documentation
         run: Rscript -e 'roxygen2::roxygenize()'
 
+      - name: Update Index.Rmd
+        run: Rscript -e 'knitr::knit("Index.Rmd")'
+
       - name: Build site
         run: Rscript -e 'pkgdown::build_site()'
 
