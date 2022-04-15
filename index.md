@@ -1,6 +1,6 @@
 <!-- index.md is generated from Index.Rmd. Please edit that file -->
 
-# VRData <img src="man/figures/logo.png" align="right" style="padding: 10px"/>
+# VRData <img src="man/figures/logohex.png" align="right" style="padding: 10px"/>
 
 This is a data package for the PNW spawner and fraction wild data used
 in the 5-year NWFSC PNW Salmonid Viability Reports.
