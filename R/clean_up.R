@@ -20,6 +20,7 @@ clean_up <- function(){
 
   # Clean the docs data folder
   olddatafils <- list.files(file.path("docs", "data"))
+  olddatafils <- olddatafils[!olddatafils %in% c("lib")]
   if(length(olddatafils)!=0) file.remove(file.path("docs", "data", olddatafils))
   
   # css file for the raw data files
