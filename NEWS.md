@@ -4,6 +4,7 @@
 
 * Data updated to the the SPS upload file for the 2020 Viability Report.
 * Added raw data downloading and viewing.
+* Misc clean-up: added citation for Viability Report 2022, changed logo to hex, change installation to release instead of main branch.
 
 # Version 2.1
 
