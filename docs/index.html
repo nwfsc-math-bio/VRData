@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>This is a data package for the spawner and fraction wild data used in the NWFSC PNW Salmonid Viability Reports. • VRData</title>
+<title>NWFSC PNW Salmonid Viability Reports Data Package • VRData</title>
 <!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
@@ -18,8 +18,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><link href="extra.css" rel="stylesheet">
-<meta property="og:title" content="This is a data package for the spawner and fraction wild data used in the NWFSC PNW Salmonid Viability Reports.">
-<meta property="og:description" content="NA">
+<meta property="og:title" content="NWFSC PNW Salmonid Viability Reports Data Package">
+<meta property="og:description" content="This R package has the spawner and fraction wild data used to make the common metrics tables and figures used in the PNW Salmonid Viability Reports. ">
 <meta property="og:image" content="/logo.png">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -27,6 +27,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -39,7 +41,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">VRData</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">2.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2.2</span>
       </span>
     </div>
 
@@ -69,13 +71,14 @@
   <ul class="dropdown-menu" role="menu">
 <li class="dropdown-header">Releases</li>
     <li>
-      <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0">Version 1.0 2015 VR</a>
+      <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0" class="external-link">Version 1.0 2015 VR</a>
     </li>
     <li>
-      <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v2.0">Version 2.0 2020 VR</a>
+      <a href="https://github.com/nwfsc-math-bio/VRData/releases/tag/v2.0" class="external-link">Version 2.0 2020 VR</a>
     </li>
     <li class="divider">
-    <li>
+    </li>
+<li>
       <a href="news/index.html">Changelog</a>
     </li>
   </ul>
@@ -83,7 +86,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/nwfsc-math-bio/VRData/">
+  <a href="https://github.com/nwfsc-math-bio/VRData/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -100,70 +103,79 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-
-<hr>
-<p>title: Index output: md_document: variant: gfm —</p>
-<!-- index.md is generated from Index.Rmd. Please edit that file -->
-<div id="vrdata-" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#vrdata-" class="anchor"></a>VRData <img src="reference/figures/logohex.png" align="right" style="padding: 10px" width="25%">
+<div class="section level1">
+<div class="page-header"><h1 id="vrdata-">VRData <img src="reference/figures/logohex.png" align="right" style="padding: 10px" width="25%"><a class="anchor" aria-label="anchor" href="#vrdata-"></a>
 </h1></div>
 <p>This is a data package for the PNW spawner and fraction wild data used in the 5-year NWFSC PNW Salmonid Viability Reports.</p>
-<p>Latest Report: Ford, M. J. (editor), K. Barnas, L. Crozier, M. Diaz, E. Holmes, D. Holzer,C. E. Jordan, M. Liermann, J. Myers, M. Rowse, L. Weitkamp, and M. Williams. 2022. Biological Viability Assessment Update for Pacific Salmon and Steelhead Listed Under the Endangered Species Act: Pacific Northwest. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-NWFSC-171. <a href="https://doi.org/10.25923/kq2n-ke70" class="uri">https://doi.org/10.25923/kq2n-ke70</a></p>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h2>
+<p>Latest Report: Ford, M. J. (editor), K. Barnas, L. Crozier, M. Diaz, E. Holmes, D. Holzer,C. E. Jordan, M. Liermann, J. Myers, M. Rowse, L. Weitkamp, and M. Williams. 2022. Biological Viability Assessment Update for Pacific Salmon and Steelhead Listed Under the Endangered Species Act: Pacific Northwest. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-NWFSC-171. <a href="https://doi.org/10.25923/kq2n-ke70" class="external-link uri">https://doi.org/10.25923/kq2n-ke70</a></p>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
 <p>To install, install the <strong>devtools</strong> package (if needed) and then use:</p>
-<pre><code><a href="https://devtools.r-lib.org/">library(devtools)
-devtools::install_github("nwfsc-math-bio/VRData@*release")
-library(VRData)</a></code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(devtools)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"nwfsc-math-bio/VRData@*release"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(VRData)</span></code></pre></div>
 <hr>
 </div>
-<div id="disclaimer" class="section level2">
-<h2 class="hasAnchor">
-<a href="#disclaimer" class="anchor"></a>Disclaimer</h2>
+<div class="section level2">
+<h2 id="disclaimer">Disclaimer<a class="anchor" aria-label="anchor" href="#disclaimer"></a>
+</h2>
 <p>The United States Department of Commerce (DOC) GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. DOC has relinquished control of the information and no longer has responsibility to protect the integrity, confidentiality, or availability of the information. Any claims against the Department of Commerce stemming from the use of its GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”</p>
 <hr>
-<p><img src="https://raw.githubusercontent.com/nmfs-general-modeling-tools/nmfspalette/main/man/figures/noaa-fisheries-rgb-2line-horizontal-small.png" height="75" alt="NOAA Fisheries"></p>
-<p><a href="https://www.commerce.gov/">U.S. Department of Commerce</a> | <a href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a> | <a href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></p>
+<p><img src="https://raw.githubusercontent.com/nmfs-general-modeling-tools/nmfspalette/main/man/figures/noaa-fisheries-rgb-2line-horizontal-small.png" style="height: 75px !important;" alt="NOAA Fisheries"></p>
+<p><a href="https://www.commerce.gov/" class="external-link">U.S. Department of Commerce</a> | <a href="https://www.noaa.gov" class="external-link">National Oceanographic and Atmospheric Administration</a> | <a href="https://www.fisheries.noaa.gov/" class="external-link">NOAA Fisheries</a></p>
 </div>
 </div>
-
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
-<h2>Links</h2>
+<h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Browse source code at <br><a href="https://github.com/nwfsc-math-bio/VRData/">https://​github.com/​nwfsc-math-bio/​VRData/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/nwfsc-math-bio/VRData/issues">https://​github.com/​nwfsc-math-bio/​VRData/​issues</a>
-</li>
+<li><a href="https://github.com/nwfsc-math-bio/VRData/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/nwfsc-math-bio/VRData/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
+
 <div class="license">
-<h2>License</h2>
+<h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.r-project.org/Licenses/GPL-2">GPL-2</a></li>
+<li><a href="https://www.r-project.org/Licenses/GPL-2" class="external-link">GPL-2</a></li>
 </ul>
 </div>
+
+
+<div class="citation">
+<h2 data-toc-skip>Citation</h2>
+<ul class="list-unstyled">
+<li><a href="authors.html#citation">Citing VRData</a></li>
+</ul>
+</div>
+
 <div class="developers">
-<h2>Developers</h2>
+<h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Holmes Elizabeth <br><small class="roles"> Author, maintainer </small>  </li>
+<li>Elizabeth Eli Holmes <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0001-9128-8393" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Mari Williams <br><small class="roles"> Author </small>  </li>
+<li>Katie Barnas <br><small class="roles"> Author </small>  </li>
+<li>Mindy Rowse <br><small class="roles"> Author </small>  </li>
 </ul>
 </div>
+
+
 
   </div>
 </div>
 
 
       <footer><div class="copyright">
-  <p>Developed by Holmes Elizabeth.</p>
+  <p></p>
+<p>Mathematical Biology Program, Northwest Fisheries Science Center, Seattle WA</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
 </div>
 
       </footer>
@@ -171,6 +183,8 @@ library(VRData)</a></code></pre>
 
   
 
+
+  
 
   </body>
 </html>
