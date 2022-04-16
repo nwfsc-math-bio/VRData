@@ -1,16 +1,24 @@
 <!-- index.md is generated from Index.Rmd. Please edit that file -->
 
-# VRData <img src="man/figures/logo.png" align="right" style="padding: 10px"/>
+# VRData <img src="man/figures/logohex.png" align="right" style="padding: 10px"/ width="25%">
 
 This is a data package for the PNW spawner and fraction wild data used
 in the 5-year NWFSC PNW Salmonid Viability Reports.
+
+Latest Report: Ford, M. J. (editor), K. Barnas, L. Crozier, M. Diaz, E.
+Holmes, D. Holzer,C. E. Jordan, M. Liermann, J. Myers, M. Rowse, L.
+Weitkamp, and M. Williams. 2022. Biological Viability Assessment Update
+for Pacific Salmon and Steelhead Listed Under the Endangered Species
+Act: Pacific Northwest. U.S. Department of Commerce, NOAA Technical
+Memorandum NMFS-NWFSC-171. <https://doi.org/10.25923/kq2n-ke70>
 
 ## Installation
 
 To install, install the **devtools** package (if needed) and then use:
 
     library(devtools)
-    devtools::install_github("nwfsc-math-bio/VRData")
+    devtools::install_github("nwfsc-math-bio/VRData@*release")
+    library(VRData)
 
 ------------------------------------------------------------------------
 
@@ -32,7 +40,7 @@ commercial product or activity by DOC or the United States Government.”
 
 ------------------------------------------------------------------------
 
-<img src="https://raw.githubusercontent.com/nmfs-general-modeling-tools/nmfspalette/main/man/figures/noaa-fisheries-rgb-2line-horizontal-small.png" height="75" alt="NOAA Fisheries">
+<img src="https://raw.githubusercontent.com/nmfs-general-modeling-tools/nmfspalette/main/man/figures/noaa-fisheries-rgb-2line-horizontal-small.png" style="height: 75px !important;" alt="NOAA Fisheries">
 
 [U.S. Department of Commerce](https://www.commerce.gov/) \| [National
 Oceanographic and Atmospheric Administration](https://www.noaa.gov) \|

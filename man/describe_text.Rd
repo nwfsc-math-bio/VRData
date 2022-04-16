@@ -4,7 +4,7 @@
 \alias{describe_text}
 \title{describe_text}
 \usage{
-describe_text(thecols)
+describe_text(thecols, compiler = "")
 }
 \arguments{
 \item{thecols}{the column names from the file}

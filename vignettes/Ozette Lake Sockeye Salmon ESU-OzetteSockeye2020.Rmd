@@ -1,0 +1,38 @@
+---
+title: Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Data
+
+```{r}
+data('Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020', package='VRData')
+```
+
+### [View raw data](../data/Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020.html) &#8212; [Download raw data](../data/Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020.csv)
+
+```{r, echo = FALSE}
+out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS == -99] <- NA
+ggplot2::ggplot(out, ggplot2::aes(x=.data$YEAR, y=.data$NUMBER_OF_SPAWNERS)) +
+   ggplot2::geom_point(na.rm = TRUE) +
+   ggplot2::ggtitle('Spawner Counts') +
+   ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
+```
+
+```{r, echo = FALSE}
+out$FRACWILD[out$FRACWILD == -99] <- NA
+ggplot2::ggplot(out, ggplot2::aes(x=.data$YEAR, y=.data$FRACWILD)) +
+   ggplot2::geom_point(na.rm = TRUE) +
+   ggplot2::ggtitle('Fraction Wild') +
+   ggplot2::ylim(0,1) +
+   ggplot2::facet_wrap(~COMMON_POPULATION_NAME)
+```
+
+# Common Metrics
+
+
+
