@@ -10,6 +10,7 @@
 #' 
 #' @keywords internal
 #' @export
+#' @importFrom dplyr %>%
 process_data_raw <- function() {
   
   # Clean up the data, R, vignettes and docs/data folders
@@ -143,9 +144,9 @@ process_data_raw <- function() {
     }
     ## Create an html table
     x = out %>%
-      mutate_all( ~paste0("<div>", ., "</div>")) %>%
+      dplyr::mutate_all( ~paste0("<div>", ., "</div>")) %>%
       kableExtra::kbl() %>%
-      row_spec(0, background = "yellow") %>%
+      kableExtra::row_spec(0, background = "yellow") %>%
       kableExtra::kable_styling(
         bootstrap_options = c("striped"),
         full_width = FALSE,
