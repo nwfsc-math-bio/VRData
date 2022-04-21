@@ -12,6 +12,7 @@
 #' @export
 #' @importFrom dplyr %>%
 process_data_raw <- function() {
+  library(dplyr, include.only = '%>%')
   
   # Clean up the data, R, vignettes and docs/data folders
   clean_up()
