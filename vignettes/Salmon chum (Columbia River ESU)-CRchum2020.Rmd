@@ -1,15 +1,8 @@
 ---
-<<<<<<< HEAD:vignettes/@title-Columbia-River-Chum-Salmon-ESU.Rmd
-title: @title-Columbia-River-Chum-Salmon-ESU
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{@title-Columbia-River-Chum-Salmon-ESU}
-=======
 title: Salmon chum (Columbia River ESU)-CRchum2020
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Salmon chum (Columbia River ESU)-CRchum2020}
->>>>>>> v2020:vignettes/Salmon chum (Columbia River ESU)-CRchum2020.Rmd
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -17,12 +10,7 @@ vignette: >
 # Data
 
 ```{r}
-<<<<<<< HEAD:vignettes/@title-Columbia-River-Chum-Salmon-ESU.Rmd
-library(VRData)
-data('@title-Columbia-River-Chum-Salmon-ESU')
-=======
 data('Salmon chum (Columbia River ESU)-CRchum2020', package='VRData')
->>>>>>> v2020:vignettes/Salmon chum (Columbia River ESU)-CRchum2020.Rmd
 ```
 
 ### [View raw data](../data/Salmon chum (Columbia River ESU)-CRchum2020.html) &#8212; [Download raw data](../data/Salmon chum (Columbia River ESU)-CRchum2020.csv)
