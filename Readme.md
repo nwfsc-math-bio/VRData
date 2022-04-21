@@ -4,7 +4,8 @@
 
 ## New data
 
-* Add new csv files to the `data-raw` folder with the Roxygen2 headers. 
+* Add new csv files to the `data-raw` folder.
+* See the wiki for instructions on data format.
 * Push to GitHub and the data will be automatically processed for the website via a GitHub Action.
 
 # The GitHub Action
@@ -28,6 +29,7 @@ Note, you can run `process_data_raw()` locally, but the GitHub repo is set up wi
 
 ## Manual workflow
 
+* Build the package (click 'Install and Restart' in the build tab)
 * Add csv file to data-raw
 * Run `process_data_raw()`
 * Build the documentation, then build package
@@ -37,7 +39,6 @@ Note, you can run `process_data_raw()` locally, but the GitHub repo is set up wi
 library(VRData)
 process_data_raw()
 devtools::document(roclets = c('rd', 'collate', 'namespace'))
-system("R CMD INSTALL --no-multiarch --with-keep.source VRData")
 pkgdown::build_site()
 ```
 

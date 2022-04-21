@@ -7,7 +7,15 @@
 process_data_raw()
 }
 \description{
-Process's the Roxygen header on the csv files in data-raw into R files for each data set into
-data folder and R folder
+Process a data file in data-raw and create an documentation R file
+in the R directory with an Roxygen header. This also creates files
+in docs/data so that user can download the raw data.
+}
+\details{
+\enumerate{
+\item Delete all files in R dir except the R files need to process data files
+\item Delete all data in data dir
+\item Delete all vignettes in vignettes dir
+}
 }
 \keyword{internal}

@@ -1,0 +1,24 @@
+ /*
+ * If I fixed the width, this would hide the really long lines
+ * But kbl() is setting the width in the <th> and I can't change.
+ */
+ 
+ div {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*
+ * higher z-index brings element to front
+ * auto width cancels the overflow
+ */
+div:hover {
+  z-index: 1;
+  white-space: normal;
+  width: auto;
+  background-color: #FFFFCC;
+}

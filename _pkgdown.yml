@@ -23,45 +23,51 @@ navbar:
       href: VRDocs.html
 
 articles:
-- title: Package internal data
-  contents:
-  - contains("vrdata_")
 - title: Chinook
   contents:
-  - contains("Chinook")
+  - matches("Chinook|chinook")
 - title: Coho
   contents:
-  - contains("Coho")
+  - matches("Coho|coho")
 - title: Chum
   contents:
-  - contains("Chum")
+  - matches("Chum|chum")
 - title: Steelhead
   contents:
-  - contains("Steelhead")
+  - matches("Steelhead|steelhead")
 - title: Sockeye
   contents:
-  - contains("Sockeye")
+  - matches("Sockeye|sockeye")
   
 reference:
 - title: Chinook
   contents:
-  - contains("Chinook")
+  - matches("Chinook|chinook")
 - title: Coho
   contents:
-  - contains("Coho")
+  - matches("Coho|coho")
 - title: Chum
   contents:
-  - contains("Chum")
+  - matches("Chum|chum")
 - title: Steelhead
   contents:
-  - contains("Steelhead")
+  - matches("Steelhead|steelhead")
 - title: Sockeye
   contents:
-  - contains("Sockeye")
+  - matches("Sockeye|sockeye")
 
 
 news:
   releases:
   - text: "Version 1.0 2015 VR"
     href: https://github.com/nwfsc-math-bio/VRData/releases/tag/v1.0
+  - text: "Version 2.0 2020 VR"
+    href: https://github.com/nwfsc-math-bio/VRData/releases/tag/v2.0
 
+# custom footer for rmarkdown ecosystem
+footer:
+  structure:
+    left: [info]
+    right: built_with
+  components:
+      info: Mathematical Biology Program, Northwest Fisheries Science Center, Seattle WA
