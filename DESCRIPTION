@@ -4,7 +4,7 @@ Title: NWFSC PNW Salmonid Viability Reports Data Package
 Description: This R package has the spawner and fraction wild data used to make the common metrics tables and figures used in the PNW Salmonid Viability Reports. 
 Version: 2.2
 Date: 2022-04-18
-Imports: stringr, dplyr, kableExtra
+Imports: here, stringr, dplyr, kableExtra, rmarkdown
 Suggests: 
     rmarkdown,
     knitr
