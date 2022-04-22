@@ -1,41 +1,28 @@
-pandoc: 2.11.2
+pandoc: 2.7.3
 pkgdown: 2.0.2
 pkgdown_sha: ~
 articles:
-  Hood Canal-HCchum2020: Hood Canal-HCchum2020.html
-  Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020: Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020.html
-  Puget Sound-PSchinook2020: Puget Sound-PSchinook2020.html
-  Salmon Chinook (Lower Columbia River ESU)-LCchinook2020: Salmon Chinook (Lower Columbia
-    River ESU)-LCchinook2020.html
-  Salmon Chinook (Snake River fall-run ESU)-ICSRFchinook2021: Salmon Chinook (Snake
-    River fall-run ESU)-ICSRFchinook2021.html
-  Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookModel: Salmon Chinook
-    (Snake River spring-summer-run ESU)-ICSRSSchinookModel.html
-  Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020: Salmon
-    Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020.html
-  Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurveySBT2020: Salmon
-    Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurveySBT2020.html
-  Salmon Chinook (Upper Columbia River spring-run ESU)-ICUCchinook2020: Salmon Chinook
-    (Upper Columbia River spring-run ESU)-ICUCchinook2020.html
-  Salmon Chinook (Upper Willamette River ESU)-UWchinook2020: Salmon Chinook (Upper
-    Willamette River ESU)-UWchinook2020.html
-  Salmon chum (Columbia River ESU)-CRchum2020: Salmon chum (Columbia River ESU)-CRchum2020.html
-  Salmon coho (Lower Columbia River ESU)-LCcoho2020: Salmon coho (Lower Columbia River
-    ESU)-LCcoho2020.html
-  Salmon coho (Oregon Coast ESU)-OCcoho2020: Salmon coho (Oregon Coast ESU)-OCcoho2020.html
-  Steelhead (Lower Columbia River DPS)-LCsthd2020: Steelhead (Lower Columbia River
-    DPS)-LCsthd2020.html
-  Steelhead (Middle Columbia River DPS)-ICMC2021: Steelhead (Middle Columbia River
-    DPS)-ICMC2021.html
-  Steelhead (Puget Sound DPS)-PSsteelhead2020: Steelhead (Puget Sound DPS)-PSsteelhead2020.html
-  Steelhead (Snake River Basin DPS)-ICSRsthdGSI: Steelhead (Snake River Basin DPS)-ICSRsthdGSI.html
-  Steelhead (Snake River Basin DPS)-ICSRsthdModel: Steelhead (Snake River Basin DPS)-ICSRsthdModel.html
-  Steelhead (Snake River Basin DPS)-ICSRsthdSurvey: Steelhead (Snake River Basin DPS)-ICSRsthdSurvey.html
-  Steelhead (Upper Columbia River DPS)-ICUCsthdModel: Steelhead (Upper Columbia River
-    DPS)-ICUCsthdModel.html
-  Steelhead (Upper Columbia River DPS)-ICUCsthdSurvey2020: Steelhead (Upper Columbia
-    River DPS)-ICUCsthdSurvey2020.html
-  Steelhead (Upper Willamette River DPS)-UWsthd2020: Steelhead (Upper Willamette River
-    DPS)-UWsthd2020.html
-last_built: 2022-04-16T02:20Z
+  Hood-Canal-HCchum2020: Hood-Canal-HCchum2020.html
+  Ozette-Lake-Sockeye-Salmon-ESU-OzetteSockeye2020: Ozette-Lake-Sockeye-Salmon-ESU-OzetteSockeye2020.html
+  Puget-Sound-PSchinook2020: Puget-Sound-PSchinook2020.html
+  Salmon-Chinook-Lower-Columbia-River-ESU-LCchinook2020: Salmon-Chinook-Lower-Columbia-River-ESU-LCchinook2020.html
+  Salmon-Chinook-Snake-River-fall-run-ESU-ICSRFchinook2021: Salmon-Chinook-Snake-River-fall-run-ESU-ICSRFchinook2021.html
+  Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookModel: Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookModel.html
+  Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurvey2020: Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurvey2020.html
+  Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurveySBT2020: Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurveySBT2020.html
+  Salmon-Chinook-Upper-Columbia-River-spring-run-ESU-ICUCchinook2020: Salmon-Chinook-Upper-Columbia-River-spring-run-ESU-ICUCchinook2020.html
+  Salmon-Chinook-Upper-Willamette-River-ESU-UWchinook2020: Salmon-Chinook-Upper-Willamette-River-ESU-UWchinook2020.html
+  Salmon-chum-Columbia-River-ESU-CRchum2020: Salmon-chum-Columbia-River-ESU-CRchum2020.html
+  Salmon-coho-Lower-Columbia-River-ESU-LCcoho2020: Salmon-coho-Lower-Columbia-River-ESU-LCcoho2020.html
+  Salmon-coho-Oregon-Coast-ESU-OCcoho2020: Salmon-coho-Oregon-Coast-ESU-OCcoho2020.html
+  Steelhead-Lower-Columbia-River-DPS-LCsthd2020: Steelhead-Lower-Columbia-River-DPS-LCsthd2020.html
+  Steelhead-Middle-Columbia-River-DPS-ICMC2021: Steelhead-Middle-Columbia-River-DPS-ICMC2021.html
+  Steelhead-Puget-Sound-DPS-PSsteelhead2020: Steelhead-Puget-Sound-DPS-PSsteelhead2020.html
+  Steelhead-Snake-River-Basin-DPS-ICSRsthdGSI: Steelhead-Snake-River-Basin-DPS-ICSRsthdGSI.html
+  Steelhead-Snake-River-Basin-DPS-ICSRsthdModel: Steelhead-Snake-River-Basin-DPS-ICSRsthdModel.html
+  Steelhead-Snake-River-Basin-DPS-ICSRsthdSurvey: Steelhead-Snake-River-Basin-DPS-ICSRsthdSurvey.html
+  Steelhead-Upper-Columbia-River-DPS-ICUCsthdModel: Steelhead-Upper-Columbia-River-DPS-ICUCsthdModel.html
+  Steelhead-Upper-Columbia-River-DPS-ICUCsthdSurvey2020: Steelhead-Upper-Columbia-River-DPS-ICUCsthdSurvey2020.html
+  Steelhead-Upper-Willamette-River-DPS-UWsthd2020: Steelhead-Upper-Willamette-River-DPS-UWsthd2020.html
+last_built: 2022-04-22T01:06Z
 

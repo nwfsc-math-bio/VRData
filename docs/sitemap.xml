@@ -19,10 +19,19 @@
     <loc>/articles/Hood Canal-HCchum2020.html</loc>
   </url>
   <url>
+    <loc>/articles/Hood-Canal-HCchum2020.html</loc>
+  </url>
+  <url>
     <loc>/articles/Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020.html</loc>
   </url>
   <url>
+    <loc>/articles/Ozette-Lake-Sockeye-Salmon-ESU-OzetteSockeye2020.html</loc>
+  </url>
+  <url>
     <loc>/articles/Puget Sound-PSchinook2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Puget-Sound-PSchinook2020.html</loc>
   </url>
   <url>
     <loc>/articles/Salmon Chinook (Lower Columbia River ESU)-LCchinook2020.html</loc>
@@ -55,6 +64,36 @@
     <loc>/articles/Salmon coho (Oregon Coast ESU)-OCcoho2020.html</loc>
   </url>
   <url>
+    <loc>/articles/Salmon-Chinook-Lower-Columbia-River-ESU-LCchinook2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-Chinook-Snake-River-fall-run-ESU-ICSRFchinook2021.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookModel.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurvey2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurveySBT2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-Chinook-Upper-Columbia-River-spring-run-ESU-ICUCchinook2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-Chinook-Upper-Willamette-River-ESU-UWchinook2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-chum-Columbia-River-ESU-CRchum2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-coho-Lower-Columbia-River-ESU-LCcoho2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Salmon-coho-Oregon-Coast-ESU-OCcoho2020.html</loc>
+  </url>
+  <url>
     <loc>/articles/Steelhead (Lower Columbia River DPS)-LCsthd2020.html</loc>
   </url>
   <url>
@@ -82,76 +121,103 @@
     <loc>/articles/Steelhead (Upper Willamette River DPS)-UWsthd2020.html</loc>
   </url>
   <url>
+    <loc>/articles/Steelhead-Lower-Columbia-River-DPS-LCsthd2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Middle-Columbia-River-DPS-ICMC2021.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Puget-Sound-DPS-PSsteelhead2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Snake-River-Basin-DPS-ICSRsthdGSI.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Snake-River-Basin-DPS-ICSRsthdModel.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Snake-River-Basin-DPS-ICSRsthdSurvey.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Upper-Columbia-River-DPS-ICUCsthdModel.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Upper-Columbia-River-DPS-ICUCsthdSurvey2020.html</loc>
+  </url>
+  <url>
+    <loc>/articles/Steelhead-Upper-Willamette-River-DPS-UWsthd2020.html</loc>
+  </url>
+  <url>
     <loc>/articles/index.html</loc>
   </url>
   <url>
     <loc>/authors.html</loc>
   </url>
   <url>
-    <loc>/data/Hood Canal-HCchum2020.html</loc>
+    <loc>/data/Hood-Canal-HCchum2020.html</loc>
   </url>
   <url>
-    <loc>/data/Ozette Lake Sockeye Salmon ESU-OzetteSockeye2020.html</loc>
+    <loc>/data/Ozette-Lake-Sockeye-Salmon-ESU-OzetteSockeye2020.html</loc>
   </url>
   <url>
-    <loc>/data/Puget Sound-PSchinook2020.html</loc>
+    <loc>/data/Puget-Sound-PSchinook2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon Chinook (Lower Columbia River ESU)-LCchinook2020.html</loc>
+    <loc>/data/Salmon-Chinook-Lower-Columbia-River-ESU-LCchinook2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon Chinook (Snake River fall-run ESU)-ICSRFchinook2021.html</loc>
+    <loc>/data/Salmon-Chinook-Snake-River-fall-run-ESU-ICSRFchinook2021.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookModel.html</loc>
+    <loc>/data/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookModel.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurvey2020.html</loc>
+    <loc>/data/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurvey2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon Chinook (Snake River spring-summer-run ESU)-ICSRSSchinookSurveySBT2020.html</loc>
+    <loc>/data/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurveySBT2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon Chinook (Upper Columbia River spring-run ESU)-ICUCchinook2020.html</loc>
+    <loc>/data/Salmon-Chinook-Upper-Columbia-River-spring-run-ESU-ICUCchinook2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon Chinook (Upper Willamette River ESU)-UWchinook2020.html</loc>
+    <loc>/data/Salmon-Chinook-Upper-Willamette-River-ESU-UWchinook2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon chum (Columbia River ESU)-CRchum2020.html</loc>
+    <loc>/data/Salmon-chum-Columbia-River-ESU-CRchum2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon coho (Lower Columbia River ESU)-LCcoho2020.html</loc>
+    <loc>/data/Salmon-coho-Lower-Columbia-River-ESU-LCcoho2020.html</loc>
   </url>
   <url>
-    <loc>/data/Salmon coho (Oregon Coast ESU)-OCcoho2020.html</loc>
+    <loc>/data/Salmon-coho-Oregon-Coast-ESU-OCcoho2020.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Lower Columbia River DPS)-LCsthd2020.html</loc>
+    <loc>/data/Steelhead-Lower-Columbia-River-DPS-LCsthd2020.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Middle Columbia River DPS)-ICMC2021.html</loc>
+    <loc>/data/Steelhead-Middle-Columbia-River-DPS-ICMC2021.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Puget Sound DPS)-PSsteelhead2020.html</loc>
+    <loc>/data/Steelhead-Puget-Sound-DPS-PSsteelhead2020.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Snake River Basin DPS)-ICSRsthdGSI.html</loc>
+    <loc>/data/Steelhead-Snake-River-Basin-DPS-ICSRsthdGSI.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Snake River Basin DPS)-ICSRsthdModel.html</loc>
+    <loc>/data/Steelhead-Snake-River-Basin-DPS-ICSRsthdModel.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Snake River Basin DPS)-ICSRsthdSurvey.html</loc>
+    <loc>/data/Steelhead-Snake-River-Basin-DPS-ICSRsthdSurvey.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Upper Columbia River DPS)-ICUCsthdModel.html</loc>
+    <loc>/data/Steelhead-Upper-Columbia-River-DPS-ICUCsthdModel.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Upper Columbia River DPS)-ICUCsthdSurvey2020.html</loc>
+    <loc>/data/Steelhead-Upper-Columbia-River-DPS-ICUCsthdSurvey2020.html</loc>
   </url>
   <url>
-    <loc>/data/Steelhead (Upper Willamette River DPS)-UWsthd2020.html</loc>
+    <loc>/data/Steelhead-Upper-Willamette-River-DPS-UWsthd2020.html</loc>
   </url>
   <url>
     <loc>/index.html</loc>
@@ -167,6 +233,27 @@
   </url>
   <url>
     <loc>/reference/Puget-Sound-PSchinook2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-Chinook-Lower-Columbia-River-ESU-LCchinook2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-Chinook-Snake-River-fall-run-ESU-ICSRFchinook2021.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookModel.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurvey2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-Chinook-Snake-River-spring-summer-run-ESU-ICSRSSchinookSurveySBT2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-Chinook-Upper-Columbia-River-spring-run-ESU-ICUCchinook2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-Chinook-Upper-Willamette-River-ESU-UWchinook2020.html</loc>
   </url>
   <url>
     <loc>/reference/Salmon-Chinook-open-paren-Lower-Columbia-River-ESU-close-paren-LCchinook2020.html</loc>
@@ -190,13 +277,49 @@
     <loc>/reference/Salmon-Chinook-open-paren-Upper-Willamette-River-ESU-close-paren-UWchinook2020.html</loc>
   </url>
   <url>
+    <loc>/reference/Salmon-chum-Columbia-River-ESU-CRchum2020.html</loc>
+  </url>
+  <url>
     <loc>/reference/Salmon-chum-open-paren-Columbia-River-ESU-close-paren-CRchum2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-coho-Lower-Columbia-River-ESU-LCcoho2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Salmon-coho-Oregon-Coast-ESU-OCcoho2020.html</loc>
   </url>
   <url>
     <loc>/reference/Salmon-coho-open-paren-Lower-Columbia-River-ESU-close-paren-LCcoho2020.html</loc>
   </url>
   <url>
     <loc>/reference/Salmon-coho-open-paren-Oregon-Coast-ESU-close-paren-OCcoho2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Lower-Columbia-River-DPS-LCsthd2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Middle-Columbia-River-DPS-ICMC2021.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Puget-Sound-DPS-PSsteelhead2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Snake-River-Basin-DPS-ICSRsthdGSI.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Snake-River-Basin-DPS-ICSRsthdModel.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Snake-River-Basin-DPS-ICSRsthdSurvey.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Upper-Columbia-River-DPS-ICUCsthdModel.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Upper-Columbia-River-DPS-ICUCsthdSurvey2020.html</loc>
+  </url>
+  <url>
+    <loc>/reference/Steelhead-Upper-Willamette-River-DPS-UWsthd2020.html</loc>
   </url>
   <url>
     <loc>/reference/Steelhead-open-paren-Lower-Columbia-River-DPS-close-paren-LCsthd2020.html</loc>
@@ -236,6 +359,9 @@
   </url>
   <url>
     <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/out.html</loc>
   </url>
   <url>
     <loc>/reference/process_data_raw.html</loc>
