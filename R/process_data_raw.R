@@ -13,8 +13,8 @@
 #' @importFrom dplyr %>%
 #' @importFrom rlang .data
 process_data_raw <- function() {
-  requireNamespace("dplyr", include.only = '%>%')
-  requireNamespace("rlang", include.only = '.data')
+#  requireNamespace("dplyr", include.only = '%>%')
+#  requireNamespace("rlang", include.only = '.data')
   
   # Clean up the data, R, vignettes and docs/data folders
   clean_up()

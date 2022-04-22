@@ -16,13 +16,11 @@ jobs:
       - name: Install packages
         run: Rscript -e 'install.packages(c("stringr", "here", "dplyr", "kableExtra", "rmarkdown", "rlang"))'
 
+      - name: Install package
+        run: R CMD INSTALL .
+
       - name: Process data-raw
-        run: |
-          source("R/describe_text.R")
-          source("R/create_vignette.R")
-          source("R/clean_up.R")
-          source("R/process_data_raw.R")
-          process_data_raw()
+        run: process_data_raw()
         shell: Rscript {0}
 
 
