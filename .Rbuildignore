@@ -4,5 +4,8 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
-^inst\extdata$
+inst/extdata$
 ^Readme.md$
+Disclaimer.md
+index.Rmd
+index.md

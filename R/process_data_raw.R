@@ -11,8 +11,10 @@
 #' @keywords internal
 #' @export
 #' @importFrom dplyr %>%
+#' @importFrom rlang .data
 process_data_raw <- function() {
-  library(dplyr, include.only = '%>%')
+  requireNamespace("dplyr", include.only = '%>%')
+  requireNamespace("rlang", include.only = '.data')
   
   # Clean up the data, R, vignettes and docs/data folders
   clean_up()
@@ -27,10 +29,10 @@ process_data_raw <- function() {
     # Can have a header to it marked with #'
     thetext <- readLines(filpath, warn = FALSE)
     isheader <- stringr::str_sub(thetext, 1, 2) == "#'"
-    thecols <- read.csv(text=thetext[min(which(!isheader))])
+    thecols <- utils::read.csv(text=thetext[min(which(!isheader))])
     thecols <- colnames(thecols)
     headr <- thetext[isheader]
-    datar <- read.csv(text=thetext[!isheader])
+    datar <- utils::read.csv(text=thetext[!isheader])
     colnames(datar) <- tolower(colnames(datar))
     
     # Error checking
@@ -46,7 +48,14 @@ process_data_raw <- function() {
     
     # Create parts needed for the R file Roxygen2 header
     # dataname <- stringr::str_replace_all(stringr::str_sub(headr[1], 4), " ","-")
-    dataname <- paste0(stringr::str_replace_all(ESU, ",", ""), series, collapse = "-")
+    esuname <- ESU %>% 
+      stringr::str_replace_all(",", "") %>% 
+      stringr::str_replace_all("[(]", "-") %>%
+      stringr::str_replace_all("[)]", "") %>%
+      stringr::str_replace_all(" -", "-") %>%
+      stringr::str_squish() %>%
+      stringr::str_replace_all(" ", "-")
+    dataname <- paste0(esuname, series, collapse = "-")
     dataname <- stringr::str_replace_all(dataname, "/", "-")
     yearname <- ifelse(any(colnames(datar)=="brood_year"), "BROOD_YEAR", "YEAR")
     
@@ -64,7 +73,7 @@ process_data_raw <- function() {
                     "#'   ggtitle('", dataname, "') +\n",
                     "#'   facet_wrap(~COMMON_POPULATION_NAME) +\n",
                     "#'   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)",
-                    ifelse(dplyr::n_distinct(datar$common_population_name)>10, ", strip.text.x = element_text(size = 6))\n", ")\n"),                    "#' \n",
+                    ifelse(dplyr::n_distinct(datar$common_population_name)>10, ", \n#'    strip.text.x = element_text(size = 6))\n", ")\n"),                    "#' \n",
                     "#' out$FRACWILD[out$FRACWILD == -99] <- NA\n",
                     "#' ggplot(out, aes(x=", yearname, ", y=FRACWILD)) +\n",
                     "#'   geom_point(na.rm = TRUE) +\n",
@@ -72,7 +81,7 @@ process_data_raw <- function() {
                     "#'   ylim(0,1) +\n",
                     "#'   facet_wrap(~COMMON_POPULATION_NAME) +\n",
                     "#'   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)",
-                    ifelse(dplyr::n_distinct(datar$common_population_name)>10, ", strip.text.x = element_text(size = 6))\n", ")\n"),
+                    ifelse(dplyr::n_distinct(datar$common_population_name)>10, ", \n#'    strip.text.x = element_text(size = 6))\n", ")\n"),
                     "NULL\n"
     )
     
@@ -105,15 +114,15 @@ process_data_raw <- function() {
     }
     for(i in unique(datar$population_name)){
       if(("contributor" %in% colnames(datar)) && length(unique(datar$contributor))>1){
-        contributor <- c(contributor, paste0("#' * ",i,": ", unique(subset(datar, population_name==i)$contributor)))
+        contributor <- c(contributor, paste0("#' * ",i,": ", unique(subset(datar, datar$population_name==i)$contributor)))
       }
       if(("citation" %in% colnames(datar)) && length(unique(datar$citation))>1){
-        citation <- c(citation, paste0("#' * ",i,": ", unique(subset(datar, population_name==i)$citation)))
+        citation <- c(citation, paste0("#' * ",i,": ", unique(subset(datar, datar$population_name==i)$citation)))
       }
       
       ## Same for method
       if(("method" %in% colnames(datar)) && length(unique(datar$method))>1){
-        meth <- c(meth, paste0("\n#' * ",i,": ", unique(subset(datar, population_name==i)$method)))
+        meth <- c(meth, paste0("\n#' * ",i,": ", unique(subset(datar, datar$population_name==i)$method)))
       }
     }
     
@@ -132,16 +141,16 @@ process_data_raw <- function() {
     create_vignette(dataname, yearname)
     
     # Make the data files
-    out <- read.csv(filpath, skip=sum(isheader))
+    out <- utils::read.csv(filpath, skip=sum(isheader))
     save(out, file=file.path("data", paste0(dataname, ".rda")))
     
     # Save html of data
     ## First clean up the data by removing the AGE and CATCH columns
     if(any(stringr::str_detect(colnames(out), "AGE_"))){
-      out <- out %>% dplyr::select(-starts_with("AGE_"))
+      out <- out %>% dplyr::select(-dplyr::starts_with("AGE_"))
     }
     if("CATCH" %in% colnames(out)){
-      out <- out %>% dplyr::select(-CATCH)
+      out <- out %>% dplyr::select(-.data$CATCH)
     }
     ## Create an html table
     x = out %>%
@@ -166,7 +175,7 @@ process_data_raw <- function() {
     
     # Write the data to a csv file for the user to download
     ## Store in data dir for website for easy download.
-    write.csv(out, row.names=FALSE, file.path("docs", "data", paste0(dataname, ".csv")))
+    utils::write.csv(out, row.names=FALSE, file.path("docs", "data", paste0(dataname, ".csv")))
     
   }
 }

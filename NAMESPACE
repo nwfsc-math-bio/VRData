@@ -3,3 +3,4 @@
 export(create_vignette)
 export(process_data_raw)
 importFrom(dplyr,"%>%")
+importFrom(rlang,.data)

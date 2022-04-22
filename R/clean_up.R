@@ -11,7 +11,7 @@ clean_up <- function(){
 
   # Clean the R folder
   oldRfils <- list.files("R")
-  oldRfils <- oldRfils[!oldRfils %in% c("describe_text.R", "process_data_raw.R", "create_vignette.R", "clean_up.R")]
+  oldRfils <- oldRfils[!oldRfils %in% c("describe_text.R", "process_data_raw.R", "create_vignette.R", "clean_up.R", "data_out.R")]
   if(length(oldRfils)!=0) file.remove(file.path("R", oldRfils))
   
   # Clean the vignettes folder
@@ -24,5 +24,5 @@ clean_up <- function(){
   if(length(olddatafils)!=0) file.remove(file.path("docs", "data", olddatafils))
   
   # css file for the raw data files
-  file.copy(file.path(here::here(), "inst", "extdata", "div.css"), file.path(here::here(), "docs", "data"))
+  file.copy(file.path(here::here(), "pkgdown", "div.css"), file.path(here::here(), "docs", "data"))
 }

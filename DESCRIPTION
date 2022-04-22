@@ -2,12 +2,14 @@ Package: VRData
 Type: Package
 Title: NWFSC PNW Salmonid Viability Reports Data Package
 Description: This R package has the spawner and fraction wild data used to make the common metrics tables and figures used in the PNW Salmonid Viability Reports. 
-Version: 2.2
-Date: 2022-04-18
-Imports: here, stringr, dplyr, kableExtra, rmarkdown
+Version: 2.3
+Date: 2022-04-21
+Depends: R (>= 3.5.0)
+Imports: here, stringr, dplyr, kableExtra, utils, rlang
 Suggests: 
     rmarkdown,
-    knitr
+    knitr,
+    ggplot2
 Authors@R: c(
      person(family = "Holmes", 
             given = "Elizabeth Eli",
@@ -28,7 +30,7 @@ Authors@R: c(
 URL: https://nwfsc-math-bio.github.io/VRData, https://github.com/nwfsc-math-bio/VRData
 BugReports: https://github.com/nwfsc-math-bio/VRData/issues
 Maintainer: Elizabeth Holmes - NOAA Federal <eli.holmes@noaa.gov>
-License: GPL-2
+License: file LICENSE
 LazyData: false
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
