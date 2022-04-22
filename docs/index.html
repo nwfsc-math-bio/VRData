@@ -111,10 +111,22 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>To install, install the <strong>devtools</strong> package (if needed) and then use:</p>
+<p>Install the <strong>devtools</strong> package (if needed) and then use:</p>
 <pre><code><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://devtools.r-lib.org/" class="external-link">devtools</a></span><span class="op">)</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"nwfsc-math-bio/VRData@*release"</span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://nwfsc-math-bio.github.io/VRData" class="external-link">VRData</a></span><span class="op">)</span></code></pre>
+</div>
+<div class="section level2">
+<h2 id="to-use">To use<a class="anchor" aria-label="anchor" href="#to-use"></a>
+</h2>
+<p>To use the data in R, see the examples under the <code>Data info</code> tab. For example to make a plot of the spawners, you could use</p>
+<pre><code>data('Puget Sound-PSchinook2020')
+library(ggplot2)
+out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] &lt;- NA
+ggplot(out, aes(x=YEAR, y=NUMBER_OF_SPAWNERS)) + 
+  geom_point(na.rm = TRUE) +
+  ggtitle('Puget Sound-PSchinook2020') +
+  facet_wrap(~COMMON_POPULATION_NAME))</code></pre>
 <hr>
 </div>
 <div class="section level2">

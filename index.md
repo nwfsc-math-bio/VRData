@@ -18,12 +18,25 @@ NMFS-NWFSC-171. https://doi.org/10.25923/kq2n-ke70
 
 ## Installation
 
-To install, install the **devtools** package (if needed) and then use:
+Install the **devtools** package (if needed) and then use:
 ```
 library(devtools)
 devtools::install_github("nwfsc-math-bio/VRData@*release")
 library(VRData)
 ```
+
+## To use
+
+To use the data in R, see the examples under the `Data info` tab. For example to make a plot of the spawners, you could use
+```
+data('Puget Sound-PSchinook2020')
+library(ggplot2)
+out$NUMBER_OF_SPAWNERS[out$NUMBER_OF_SPAWNERS==-99] <- NA
+ggplot(out, aes(x=YEAR, y=NUMBER_OF_SPAWNERS)) + 
+  geom_point(na.rm = TRUE) +
+  ggtitle('Puget Sound-PSchinook2020') +
+  facet_wrap(~COMMON_POPULATION_NAME))
+```      
 
 ****
 
