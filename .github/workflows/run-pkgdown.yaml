@@ -2,6 +2,7 @@ on:
   push:
     paths:
       - 'R/**'
+      - 'Index.Rmd'
 name: update-pkgdown-site
 
 jobs:
